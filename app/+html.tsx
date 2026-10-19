@@ -11,7 +11,13 @@ export default function Root({ children }: { children: ReactNode }) {
       <head>
         <meta charSet="utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover"
+        />
+        {/* Match mobile-web browser chrome to the dark shell. */}
+        <meta name="theme-color" content="#0D0C11" />
+        <meta name="color-scheme" content="dark" />
 
         {/*
           Disable body scrolling on web. This makes ScrollView components work closer to how they do on native.
@@ -19,8 +25,9 @@ export default function Root({ children }: { children: ReactNode }) {
         */}
         <ScrollViewStyleReset />
 
-        {/* Using raw CSS styles as an escape-hatch to ensure the background color never flickers in dark-mode. */}
-        <style dangerouslySetInnerHTML={{ __html: responsiveBackground }} />
+        {/* Pin the document background to the app's dark surface so a slow
+            first paint never flashes white, in any colour scheme. */}
+        <style dangerouslySetInnerHTML={{ __html: pageBackground }} />
         {/* Add any additional <head> elements that you want globally available on web... */}
       </head>
       <body>{children}</body>
@@ -28,12 +35,10 @@ export default function Root({ children }: { children: ReactNode }) {
   );
 }
 
-const responsiveBackground = `
-body {
-  background-color: #fff;
+const pageBackground = `
+html {
+  color-scheme: dark;
 }
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #000;
-  }
+body {
+  background-color: #0D0C11;
 }`;

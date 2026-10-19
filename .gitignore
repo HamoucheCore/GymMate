@@ -39,3 +39,6 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# large local media archive — the sourced library lives under assets/exercises/
+Gym-media.zip
