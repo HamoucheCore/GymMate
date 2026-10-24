@@ -114,3 +114,35 @@ export function formatDateLabel(iso: string, now: Date = new Date()): string {
   const month = MONTHS[date.getMonth()] ?? '';
   return `${day} ${date.getDate()} ${month}`.trim();
 }
+
+/**
+ * Whole number with `,` thousands separators, grouped by hand.
+ *
+ * Not `toLocaleString`/`Intl`: Hermes builds and web targets are not guaranteed
+ * to ship the same locale data, and a calorie figure must read identically on
+ * every device. `format.ts` stays a leaf module — no imports, no Intl.
+ */
+function groupedInteger(value: number): string {
+  const rounded = Math.round(value);
+  const sign = rounded < 0 ? '-' : '';
+  const digits = `${Math.abs(rounded)}`;
+  let out = '';
+  for (let i = 0; i < digits.length; i += 1) {
+    // A separator goes before every group of three counted from the right.
+    if (i > 0 && (digits.length - i) % 3 === 0) out += ',';
+    out += digits.charAt(i);
+  }
+  return `${sign}${out}`;
+}
+
+/** `1925` -> `'1,925 kcal'`; non-finite -> `'—'`. */
+export function formatKcal(kcal: number): string {
+  if (!Number.isFinite(kcal)) return '—';
+  return `${groupedInteger(kcal)} kcal`;
+}
+
+/** `150` -> `'150 g'`; non-finite -> `'—'`. */
+export function formatGrams(grams: number): string {
+  if (!Number.isFinite(grams)) return '—';
+  return `${groupedInteger(grams)} g`;
+}

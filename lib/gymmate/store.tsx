@@ -4,6 +4,8 @@
  * - Zero seed/mock data. A brand-new install is `profile: null` + empty arrays.
  * - Everything is persisted to AsyncStorage under `gymmate/v1` after hydration.
  * - All reducer cases are immutable; collections are newest-first.
+ * - Meals are dated with the same local `YYYY-MM-DD` as workout logs, so
+ *   "today" means the same day for training and nutrition.
  * - A failed read or corrupt blob is preserved under `gymmate/v1.corrupt` and
  *   sets `persistable: false`, so a bad read can never overwrite good data.
  *
@@ -20,6 +22,14 @@ import {
   type Dispatch,
   type ReactNode,
 } from 'react';
+
+import {
+  isMealSlot,
+  MEAL_LIMITS,
+  sumNutrition,
+  type MealSlot,
+  type NutritionTotals,
+} from '@/lib/gymmate/nutrition';
 
 /* ------------------------------------------------------------------ types */
 
@@ -87,6 +97,23 @@ export interface BodyEntry {
   date: string; // ISO date
 }
 
+/**
+ * One logged meal. Calories and the three macros are stored per entry (rather
+ * than derived from a food database) because the tracker is a fast manual log —
+ * the user types what they ate, and the totals are a plain sum.
+ */
+export interface MealLog {
+  id: string;
+  date: string; // local 'YYYY-MM-DD' (same convention as WorkoutLog.date)
+  slot: MealSlot;
+  name: string;
+  calories: number;
+  protein: number;
+  carbs: number;
+  fat: number;
+  createdAt: string; // ISO timestamp
+}
+
 export interface GymState {
   hydrated: boolean;
   /**
@@ -100,6 +127,7 @@ export interface GymState {
   logs: WorkoutLog[];
   cardioRuns: CardioRun[];
   bodyweights: BodyEntry[];
+  meals: MealLog[];
 }
 
 /** The slice of state that is written to disk. */
@@ -109,6 +137,7 @@ export interface PersistedState {
   logs: WorkoutLog[];
   cardioRuns: CardioRun[];
   bodyweights: BodyEntry[];
+  meals: MealLog[];
 }
 
 /* ----------------------------------------------------------------- actions */
@@ -124,6 +153,8 @@ export type GymAction =
   | { type: 'REMOVE_RUN'; id: string }
   | { type: 'ADD_WEIGHT'; entry: BodyEntry }
   | { type: 'REMOVE_WEIGHT'; id: string }
+  | { type: 'ADD_MEAL'; meal: MealLog }
+  | { type: 'REMOVE_MEAL'; id: string }
   | { type: 'RESET_ALL' };
 
 /* ----------------------------------------------------------------- helpers */
@@ -167,6 +198,7 @@ function createEmptyState(hydrated: boolean): GymState {
     logs: [],
     cardioRuns: [],
     bodyweights: [],
+    meals: [],
   };
 }
 
@@ -274,6 +306,26 @@ export function goalProgress(profile: Profile | null, entries: BodyEntry[]): num
   return clamp01(moved / span);
 }
 
+/**
+ * Meals for one local date, newest first (by createdAt, then insertion order).
+ *
+ * `Array.prototype.sort` is stable, and the reducer already prepends, so equal
+ * timestamps keep their insertion order instead of reshuffling on every render.
+ */
+export function mealsForDate(meals: readonly MealLog[], date: string): MealLog[] {
+  return meals
+    .filter((meal) => meal.date === date)
+    .sort((a, b) => {
+      if (a.createdAt === b.createdAt) return 0;
+      return a.createdAt < b.createdAt ? 1 : -1;
+    });
+}
+
+/** Summed calories/macros for one local date. */
+export function nutritionTotalsForDate(meals: readonly MealLog[], date: string): NutritionTotals {
+  return sumNutrition(mealsForDate(meals, date));
+}
+
 /* ------------------------------------------------------- persistence utils */
 
 const STORAGE_KEY = 'gymmate/v1';
@@ -287,6 +339,27 @@ function isRecord(value: unknown): value is Record<string, unknown> {
 
 function isUnknownArray(value: unknown): value is unknown[] {
   return Array.isArray(value);
+}
+
+/**
+ * A real local calendar date in `YYYY-MM-DD` form.
+ *
+ * The shape check alone is not enough: `2026-02-31` or `2026-13-40` matches the
+ * pattern but would roll over silently and leave a meal that can never be
+ * displayed for any real day, so the parts are rebuilt through `Date` and must
+ * round-trip unchanged before the string is trusted as a day key.
+ */
+function isISODate(value: unknown): value is string {
+  if (typeof value !== 'string') return false;
+  const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(value);
+  if (!match) return false;
+  const year = Number(match[1] ?? '');
+  const month = Number(match[2] ?? '');
+  const day = Number(match[3] ?? '');
+  const date = new Date(year, month - 1, day);
+  return (
+    date.getFullYear() === year && date.getMonth() === month - 1 && date.getDate() === day
+  );
 }
 
 function coerceScheduledExercise(value: unknown): ScheduledExercise | null {
@@ -390,6 +463,46 @@ function coerceWeight(value: unknown): BodyEntry | null {
   return { id, kg, date };
 }
 
+/** Finite number clamped to `0..ceiling`, or `null` when it isn't a number. */
+function coerceAmount(value: unknown, ceiling: number): number | null {
+  if (typeof value !== 'number' || !Number.isFinite(value)) return null;
+  return Math.min(Math.max(value, 0), ceiling);
+}
+
+/**
+ * A meal is user-typed free text, so this is stricter than `coerceRun`: an
+ * unknown slot or an unplaceable date drops the entry entirely, because a meal
+ * that cannot be shown in a section or under a real day would be invisible but
+ * still count towards the totals — silently wrong numbers are worse than a lost
+ * row. The amounts use the same `MEAL_LIMITS` the form validates against, so the
+ * parser accepts exactly what the form can produce; a value beyond those bounds
+ * is clamped rather than dropped, because the row is still real food.
+ */
+function coerceMeal(value: unknown): MealLog | null {
+  if (!isRecord(value)) return null;
+  const { id, date, slot, name, calories, protein, carbs, fat, createdAt } = value;
+  if (typeof id !== 'string' || !isISODate(date)) return null;
+  if (typeof createdAt !== 'string' || Number.isNaN(Date.parse(createdAt))) return null;
+  if (typeof name !== 'string' || name.trim().length === 0) return null;
+  if (!isMealSlot(slot)) return null;
+  const kcal = coerceAmount(calories, MEAL_LIMITS.calories.max);
+  const proteinG = coerceAmount(protein, MEAL_LIMITS.macros.max);
+  const carbsG = coerceAmount(carbs, MEAL_LIMITS.macros.max);
+  const fatG = coerceAmount(fat, MEAL_LIMITS.macros.max);
+  if (kcal === null || proteinG === null || carbsG === null || fatG === null) return null;
+  return {
+    id,
+    date,
+    slot,
+    name: name.trim(),
+    calories: kcal,
+    protein: proteinG,
+    carbs: carbsG,
+    fat: fatG,
+    createdAt,
+  };
+}
+
 /** The result of reading a persisted blob: parsed state, or an explicit failure. */
 type ParseResult = { ok: true; state: Partial<GymState> } | { ok: false };
 
@@ -413,6 +526,7 @@ function parsePersisted(raw: string): ParseResult {
   const logs: WorkoutLog[] = [];
   const cardioRuns: CardioRun[] = [];
   const bodyweights: BodyEntry[] = [];
+  const meals: MealLog[] = [];
 
   if (isUnknownArray(parsed.logs)) {
     for (const raw of parsed.logs) {
@@ -432,6 +546,22 @@ function parsePersisted(raw: string): ParseResult {
       if (entry) bodyweights.push(entry);
     }
   }
+  // `meals` is the newest collection: a blob written before nutrition existed
+  // has no key at all. That is not corruption — it hydrates as `[]` with `ok`
+  // still true, so an upgrade never freezes the app into read-only mode (which
+  // is what a failed parse would do) and keeps writing the new field back.
+  if (isUnknownArray(parsed.meals)) {
+    // A duplicate id would collide as a React key and let one Delete remove two
+    // rows; the second copy is already ambiguous, so it is skipped rather than
+    // re-keyed. Nothing is regenerated — ids stay exactly as written.
+    const seenMealIds = new Set<string>();
+    for (const raw of parsed.meals) {
+      const meal = coerceMeal(raw);
+      if (!meal || seenMealIds.has(meal.id)) continue;
+      seenMealIds.add(meal.id);
+      meals.push(meal);
+    }
+  }
 
   return {
     ok: true,
@@ -441,6 +571,7 @@ function parsePersisted(raw: string): ParseResult {
       logs,
       cardioRuns,
       bodyweights,
+      meals,
     },
   };
 }
@@ -458,6 +589,7 @@ function serialize(state: GymState): string {
     logs: state.logs,
     cardioRuns: state.cardioRuns,
     bodyweights: state.bodyweights,
+    meals: state.meals,
   };
   return JSON.stringify(payload);
 }
@@ -509,6 +641,12 @@ export function gymReducer(state: GymState, action: GymAction): GymState {
 
     case 'REMOVE_WEIGHT':
       return { ...state, bodyweights: state.bodyweights.filter((entry) => entry.id !== action.id) };
+
+    case 'ADD_MEAL':
+      return { ...state, meals: [action.meal, ...state.meals] };
+
+    case 'REMOVE_MEAL':
+      return { ...state, meals: state.meals.filter((meal) => meal.id !== action.id) };
 
     case 'RESET_ALL':
       return createEmptyState(true);
@@ -581,6 +719,7 @@ export function GymMateProvider({ children }: { children: ReactNode }) {
     state.logs,
     state.cardioRuns,
     state.bodyweights,
+    state.meals,
   ]);
 
   const value = useMemo(() => ({ state, dispatch }), [state]);

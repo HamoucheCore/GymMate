@@ -28,19 +28,22 @@ import {
   Card,
 } from '@/components/gymmate';
 import { dayTitle } from '@/components/gymmate/plan';
+import { TodayNutritionCard } from '@/components/gymmate/nutrition';
 import { GoalTile } from '@/components/gymmate/today/GoalTile';
 import { LoggedTodayCard } from '@/components/gymmate/today/LoggedTodayCard';
 import { WeekVolume } from '@/components/gymmate/today/WeekVolume';
 import { WorkoutSheet, type DraftSet, type SessionDraft } from '@/components/gymmate/today/WorkoutSheet';
 import { GymMateTheme as T, MAX_CONTENT_WIDTH } from '@/constants/GymMateTheme';
 import { findExerciseByName } from '@/lib/gymmate/data';
-import { formatKg, formatKm, formatSets, formatSigned, joinParts } from '@/lib/gymmate/format';
+import { formatKcal, formatKg, formatKm, formatSets, formatSigned, joinParts } from '@/lib/gymmate/format';
+import { calorieProgress, nutritionTargetFor } from '@/lib/gymmate/nutrition';
 import {
   WEEKDAYS,
   WEEKDAY_KEYS,
   goalProgress,
   latestWeight,
   makeId,
+  nutritionTotalsForDate,
   startOfWeekISO,
   streakFromLogs,
   todayISO,
@@ -301,6 +304,14 @@ export default function TodayScreen() {
   const progress = goalProgress(state.profile, state.bodyweights);
   const cardioKm = weeklyCardioKm(state.cardioRuns);
 
+  /* -------------------------------------------------------------- nutrition */
+
+  const nutrition = useMemo(() => nutritionTotalsForDate(state.meals, iso), [state.meals, iso]);
+  const nutritionTarget = nutritionTargetFor(state.profile, latest);
+  const nutritionPercent = nutritionTarget
+    ? Math.round(calorieProgress(nutrition.calories, nutritionTarget.calories) * 100)
+    : null;
+
   const muscles = Array.from(
     new Set(
       day.exercises
@@ -450,6 +461,27 @@ export default function TodayScreen() {
               style={s.section}
             />
           )}
+
+          <SectionTitle
+            title="Nutrition"
+            subtitle={
+              nutritionTarget
+                ? `${formatKcal(nutrition.calories)} of ${formatKcal(nutritionTarget.calories)}`
+                : 'No targets yet'
+            }
+            action={
+              nutritionPercent === null ? undefined : (
+                <Pill label={`${nutritionPercent}%`} tone="accent" />
+              )
+            }
+            style={s.section}
+          />
+          <TodayNutritionCard
+            totals={nutrition}
+            target={nutritionTarget}
+            goal={state.profile?.goal ?? 'lose'}
+            onOpen={() => router.push('/nutrition')}
+          />
 
           <SectionTitle title="This week" subtitle={weekSectionSubtitle} style={s.section} />
           <WeekVolume

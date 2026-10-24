@@ -18,13 +18,17 @@ import {
   ArrowUp,
   CalendarDays,
   Check,
+  Droplet,
+  Drumstick,
   Dumbbell,
   Flame,
   Minus,
   Plus,
+  Salad,
   TrendingDown,
   TrendingUp,
   User,
+  Wheat,
   X,
   type LucideIcon,
   type LucideProps,
@@ -47,6 +51,12 @@ export const Icons = {
   tabCardio: Flame,
   tabProgress: TrendingUp,
   tabYou: User,
+  /* Nutrition — food, energy and the three macros. */
+  nutrition: Salad,
+  calories: Flame,
+  protein: Drumstick,
+  carbs: Wheat,
+  fat: Droplet,
 } as const satisfies Record<string, LucideIcon>;
 
 /** Any valid key of the semantic icon registry. */

@@ -55,6 +55,7 @@ function RootLayoutNav() {
               name="onboarding"
               options={{ headerShown: false, gestureEnabled: false }}
             />
+            <Stack.Screen name="nutrition" options={{ headerShown: false }} />
           </Stack>
         </RouteGate>
       </GymMateProvider>

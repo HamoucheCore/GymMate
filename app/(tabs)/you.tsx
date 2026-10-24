@@ -5,6 +5,7 @@ import { GymMateTheme as T, MAX_CONTENT_WIDTH } from '@/constants/GymMateTheme';
 import {
   Card,
   EmptyState,
+  GhostButton,
   Pill,
   PrimaryButton,
   ScreenHeader,
@@ -12,8 +13,15 @@ import {
   StatTile,
 } from '@/components/gymmate';
 import { ConfirmAction, goalLabel, memberSinceLabel } from '@/components/gymmate/profile';
-import { formatKm } from '@/lib/gymmate/format';
-import { logsThisWeek, streakFromLogs, useGym, weeklyCardioKm } from '@/lib/gymmate/store';
+import { formatGrams, formatKcal, formatKm } from '@/lib/gymmate/format';
+import {
+  logsThisWeek,
+  nutritionTotalsForDate,
+  streakFromLogs,
+  todayISO,
+  useGym,
+  weeklyCardioKm,
+} from '@/lib/gymmate/store';
 
 /**
  * `/onboarding` is a real route in the root stack, so typed routes resolve both
@@ -34,7 +42,13 @@ export default function YouScreen() {
   const initial = profile ? profile.name.trim().charAt(0).toUpperCase() || '?' : '?';
   const gain = profile?.goal === 'gain';
   const canReset =
-    profile !== null || state.logs.length > 0 || state.cardioRuns.length > 0 || state.bodyweights.length > 0;
+    profile !== null ||
+    state.logs.length > 0 ||
+    state.cardioRuns.length > 0 ||
+    state.bodyweights.length > 0 ||
+    state.meals.length > 0;
+  // Cheap enough to recompute every render; no memo for a today-only sum.
+  const totals = nutritionTotalsForDate(state.meals, todayISO());
 
   function resetEverything() {
     dispatch({ type: 'RESET_ALL' });
@@ -102,6 +116,17 @@ export default function YouScreen() {
             <StatTile label="All time" value={`${workouts}`} hint="workouts logged" />
           </View>
 
+          <SectionTitle title="Nutrition" subtitle="Today's calories and macros" />
+          <Card style={styles.block}>
+            <Text style={styles.cardTitle}>Today at a glance</Text>
+            <Text style={styles.cardSub}>{`${formatKcal(totals.calories)} · P ${formatGrams(totals.protein)} · C ${formatGrams(totals.carbs)} · F ${formatGrams(totals.fat)}`}</Text>
+            <GhostButton
+              label="Open nutrition tracker"
+              onPress={() => router.push('/nutrition')}
+              style={styles.nutritionCta}
+            />
+          </Card>
+
           <Card style={styles.block}>
             <Text style={styles.cardTitle}>Your data</Text>
             <Text style={styles.cardSub}>
@@ -112,7 +137,7 @@ export default function YouScreen() {
               <ConfirmAction
                 label="Reset everything"
                 title="Reset everything?"
-                message="This erases your profile, weekly schedule, workout logs, runs and weigh-ins from this device. It cannot be undone."
+                message="This erases your profile, weekly schedule, workout logs, runs, weigh-ins and meals from this device. It cannot be undone."
                 confirmLabel="Erase everything"
                 cancelLabel="Keep it"
                 onConfirm={resetEverything}
@@ -163,6 +188,7 @@ const gridRow: ViewStyle = { flexDirection: 'row', gap: 10, marginBottom: 10 };
 const cardTitle: TextStyle = { color: T.ink, fontSize: 16, fontWeight: '800' };
 const cardSub: TextStyle = { color: T.muted, fontSize: 12, marginTop: 6, lineHeight: 18 };
 const confirm: ViewStyle = { marginTop: 14 };
+const nutritionCta: ViewStyle = { marginTop: 14 };
 const note: TextStyle = { color: T.muted, fontSize: 12, textAlign: 'center', marginTop: 6 };
 const credit: TextStyle = { color: T.muted, fontSize: 11, textAlign: 'center', marginTop: 12 };
 
@@ -184,6 +210,7 @@ const styles = StyleSheet.create({
   cardTitle,
   cardSub,
   confirm,
+  nutritionCta,
   note,
   credit,
 });
