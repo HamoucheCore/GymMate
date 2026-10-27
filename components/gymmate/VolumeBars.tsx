@@ -6,8 +6,8 @@ export interface VolumeBarsProps {
   values: number[];
   /** One label per bar, e.g. the Mon..Sun initials. */
   labels: string[];
-  /** Bar to render in accent. Defaults to the real current weekday. */
-  highlightIndex?: number;
+  /** Bar to render in accent — the caller's real current weekday, Monday = 0. */
+  highlightIndex: number;
   /**
    * One real sentence describing the chart (e.g. per-day kilometres). Announced
    * in place of the ambiguous single-letter labels, which are hidden from
@@ -20,18 +20,16 @@ export interface VolumeBarsProps {
 const HEIGHT = 146;
 const PLOT_PADDING = 40;
 
-function currentWeekdayIndex(): number {
-  return (new Date().getDay() + 6) % 7; // Monday = 0
-}
-
 function clampPercent(value: number): number {
   if (!Number.isFinite(value)) return 0;
   return Math.min(100, Math.max(0, value));
 }
 
-/** Weekly volume chart: one bar per day, today highlighted. */
+/**
+ * Weekly volume chart: one bar per day, with the caller's current day
+ * highlighted. Presentational only — it never reads the clock itself.
+ */
 export function VolumeBars({ values, labels, highlightIndex, summary, style }: VolumeBarsProps) {
-  const active = highlightIndex ?? currentWeekdayIndex();
   const plotHeight = Math.max(24, HEIGHT - PLOT_PADDING);
   const described = summary !== undefined;
 
@@ -44,7 +42,7 @@ export function VolumeBars({ values, labels, highlightIndex, summary, style }: V
       {values.map((value, i) => {
         const percent = clampPercent(value);
         const barHeight = Math.max(6, (percent / 100) * plotHeight);
-        const isActive = i === active;
+        const isActive = i === highlightIndex;
         return (
           <View key={`${labels[i] ?? 'd'}-${i}`} style={s.col}>
             <View

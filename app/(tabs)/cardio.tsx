@@ -23,7 +23,14 @@ import {
   VolumeBars,
 } from '@/components/gymmate';
 import { EntryRow } from '@/components/gymmate/profile';
-import { formatDateLabel, formatKm, formatMinutes, formatPace } from '@/lib/gymmate/format';
+import { parseISODate, weekdayIndex } from '@/lib/gymmate/date';
+import {
+  formatDateLabel,
+  formatKm,
+  formatMinutes,
+  formatPace,
+  parseDecimalInput,
+} from '@/lib/gymmate/format';
 import {
   WEEKDAYS,
   makeId,
@@ -41,7 +48,10 @@ const MAX_MIN = 300;
 
 /** Kilometres run on each weekday of the current week, Monday → Sunday. */
 function kmByDayThisWeek(runs: CardioRun[]): number[] {
-  const monday = new Date(`${startOfWeekISO()}T00:00:00`);
+  const monday = parseISODate(startOfWeekISO());
+  // A real Monday always parses; the guard only keeps the return shape a chart
+  // can render without inventing a "today".
+  if (!monday) return Array.from({ length: 7 }, () => 0);
   const days = Array.from({ length: 7 }, (_, offset) => {
     const day = new Date(monday);
     day.setDate(monday.getDate() + offset);
@@ -54,11 +64,6 @@ function kmByDayThisWeek(runs: CardioRun[]): number[] {
     if (index >= 0) km[index] = (km[index] ?? 0) + run.km;
   }
   return km;
-}
-
-/** Comma-tolerant parse — decimal-pad keyboards emit ',' in some locales. */
-function toNumber(value: string): number {
-  return Number(value.trim().replace(',', '.'));
 }
 
 export default function CardioScreen() {
@@ -86,12 +91,12 @@ export default function CardioScreen() {
 
   const weekMax = Math.max(...weekKm);
   const latest = runs[0] ?? null;
-  const pace = formatPace(toNumber(km), toNumber(minutes));
+  const pace = formatPace(parseDecimalInput(km), parseDecimalInput(minutes));
   const paceReady = pace !== '—';
 
   function saveRun() {
-    const parsedKm = toNumber(km);
-    const parsedMin = toNumber(minutes);
+    const parsedKm = parseDecimalInput(km);
+    const parsedMin = parseDecimalInput(minutes);
     const valid =
       Number.isFinite(parsedKm) &&
       Number.isFinite(parsedMin) &&
@@ -210,6 +215,7 @@ export default function CardioScreen() {
                   <VolumeBars
                     values={weekKm.map((day) => (day / weekMax) * 100)}
                     labels={weekLabels}
+                    highlightIndex={weekdayIndex()}
                     summary={weekSummary}
                   />
                 </>

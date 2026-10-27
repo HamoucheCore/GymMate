@@ -35,7 +35,16 @@ import { WeekVolume } from '@/components/gymmate/today/WeekVolume';
 import { WorkoutSheet, type DraftSet, type SessionDraft } from '@/components/gymmate/today/WorkoutSheet';
 import { GymMateTheme as T, MAX_CONTENT_WIDTH } from '@/constants/GymMateTheme';
 import { findExerciseByName } from '@/lib/gymmate/data';
-import { formatKcal, formatKg, formatKm, formatSets, formatSigned, joinParts } from '@/lib/gymmate/format';
+import { weekdayIndexFromISO } from '@/lib/gymmate/date';
+import {
+  formatKcal,
+  formatKg,
+  formatKm,
+  formatSets,
+  formatSigned,
+  joinParts,
+  plural,
+} from '@/lib/gymmate/format';
 import { calorieProgress, nutritionTargetFor } from '@/lib/gymmate/nutrition';
 import {
   WEEKDAYS,
@@ -74,19 +83,6 @@ function timeOfDay(now: Date): 'morning' | 'afternoon' | 'evening' {
 
 function labelFor(key: WeekdayKey): string {
   return WEEKDAYS.find((day) => day.key === key)?.label ?? '';
-}
-
-function plural(count: number, one: string, many: string): string {
-  return count === 1 ? one : many;
-}
-
-/** Monday = 0 for a local `YYYY-MM-DD` string. `-1` when unparseable. */
-function weekdayIndexFromISO(iso: string): number {
-  const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso);
-  if (!match) return -1;
-  const date = new Date(Number(match[1]), Number(match[2]) - 1, Number(match[3]));
-  if (Number.isNaN(date.getTime())) return -1;
-  return (date.getDay() + 6) % 7;
 }
 
 /** Latest load actually recorded per exercise name. Empty until the user logs. */

@@ -23,6 +23,7 @@ import {
   type ReactNode,
 } from 'react';
 
+import { isISODate, startOfWeekISO, todayISO, WEEKDAY_KEYS, type WeekdayKey } from './date';
 import {
   isMealSlot,
   MEAL_LIMITS,
@@ -33,7 +34,9 @@ import {
 
 /* ------------------------------------------------------------------ types */
 
-export type WeekdayKey = 'mon' | 'tue' | 'wed' | 'thu' | 'fri' | 'sat' | 'sun';
+// The calendar primitives live in the leaf `date.ts`; re-exported here so the
+// long-standing `@/lib/gymmate/store` surface keeps working unchanged.
+export type { WeekdayKey } from './date';
 export type Goal = 'lose' | 'gain';
 
 export interface Profile {
@@ -159,17 +162,7 @@ export type GymAction =
 
 /* ----------------------------------------------------------------- helpers */
 
-export const WEEKDAYS: { key: WeekdayKey; label: string; short: string }[] = [
-  { key: 'mon', label: 'Monday', short: 'Mon' },
-  { key: 'tue', label: 'Tuesday', short: 'Tue' },
-  { key: 'wed', label: 'Wednesday', short: 'Wed' },
-  { key: 'thu', label: 'Thursday', short: 'Thu' },
-  { key: 'fri', label: 'Friday', short: 'Fri' },
-  { key: 'sat', label: 'Saturday', short: 'Sat' },
-  { key: 'sun', label: 'Sunday', short: 'Sun' },
-];
-
-export const WEEKDAY_KEYS: WeekdayKey[] = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'];
+export { WEEKDAYS, WEEKDAY_KEYS, todayISO, todayKey, startOfWeekISO } from './date';
 
 export function makeEmptySchedule(): Schedule {
   const restDay = (key: WeekdayKey): ScheduleDay => ({
@@ -200,28 +193,6 @@ function createEmptyState(hydrated: boolean): GymState {
     bodyweights: [],
     meals: [],
   };
-}
-
-/** Local (not UTC) date as `YYYY-MM-DD`. */
-export function todayISO(now: Date = new Date()): string {
-  const y = now.getFullYear();
-  const m = `${now.getMonth() + 1}`.padStart(2, '0');
-  const d = `${now.getDate()}`.padStart(2, '0');
-  return `${y}-${m}-${d}`;
-}
-
-/** Real local weekday of "now". */
-export function todayKey(now: Date = new Date()): WeekdayKey {
-  const map: WeekdayKey[] = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
-  return map[now.getDay()] ?? 'mon';
-}
-
-/** Monday of the week containing `now`, as a local `YYYY-MM-DD`. */
-export function startOfWeekISO(now: Date = new Date()): string {
-  const d = new Date(now.getFullYear(), now.getMonth(), now.getDate());
-  const offset = (d.getDay() + 6) % 7; // Monday = 0
-  d.setDate(d.getDate() - offset);
-  return todayISO(d);
 }
 
 /** Stable-ish unique id. No crypto dependency (works in Expo Go + web). */
@@ -339,27 +310,6 @@ function isRecord(value: unknown): value is Record<string, unknown> {
 
 function isUnknownArray(value: unknown): value is unknown[] {
   return Array.isArray(value);
-}
-
-/**
- * A real local calendar date in `YYYY-MM-DD` form.
- *
- * The shape check alone is not enough: `2026-02-31` or `2026-13-40` matches the
- * pattern but would roll over silently and leave a meal that can never be
- * displayed for any real day, so the parts are rebuilt through `Date` and must
- * round-trip unchanged before the string is trusted as a day key.
- */
-function isISODate(value: unknown): value is string {
-  if (typeof value !== 'string') return false;
-  const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(value);
-  if (!match) return false;
-  const year = Number(match[1] ?? '');
-  const month = Number(match[2] ?? '');
-  const day = Number(match[3] ?? '');
-  const date = new Date(year, month - 1, day);
-  return (
-    date.getFullYear() === year && date.getMonth() === month - 1 && date.getDate() === day
-  );
 }
 
 function coerceScheduledExercise(value: unknown): ScheduledExercise | null {

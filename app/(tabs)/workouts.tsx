@@ -10,6 +10,7 @@ import {
 } from '@/components/gymmate';
 import { DayEditor, ExerciseList, ExercisePicker, WeekOverview } from '@/components/gymmate/plan';
 import { LIBRARY, findExerciseByName, type LibraryExercise } from '@/lib/gymmate/data';
+import { plural } from '@/lib/gymmate/format';
 import {
   WEEKDAYS,
   WEEKDAY_KEYS,
@@ -35,10 +36,6 @@ function isRestLabel(focus: string): boolean {
 function focusForType(rest: boolean, focus: string): string {
   if (!rest) return isRestLabel(focus) ? '' : focus;
   return focus.trim().length > 0 ? focus : 'Rest';
-}
-
-function plural(count: number, singular: string, pluralForm: string): string {
-  return count === 1 ? singular : pluralForm;
 }
 
 /**

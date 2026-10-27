@@ -31,6 +31,7 @@ import {
   StepTransition,
 } from '@/components/gymmate/onboarding';
 import { GymMateTheme as T } from '@/constants/GymMateTheme';
+import { round1 } from '@/lib/gymmate/format';
 import { useGym, type Goal } from '@/lib/gymmate/store';
 
 type StepId = 'welcome' | 'name' | 'body' | 'goal' | 'summary';
@@ -41,10 +42,6 @@ const EDIT_STEPS: StepId[] = ['name', 'body', 'goal', 'summary'];
 
 const WEIGHT_MIN = 30;
 const WEIGHT_MAX = 250;
-
-function round1(n: number): number {
-  return Math.round(n * 10) / 10;
-}
 
 /**
  * Nudge a target onto the correct side of the start weight for the chosen goal

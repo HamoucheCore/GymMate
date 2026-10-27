@@ -20,7 +20,7 @@ import {
   type Muscle,
 } from '@/lib/gymmate/data';
 import { useDebounce } from '@/hooks/useDebounce';
-import { joinParts } from '@/lib/gymmate/format';
+import { joinParts, plural } from '@/lib/gymmate/format';
 
 export interface ExercisePickerProps {
   /** Names already planned for the day, so they can be marked. */
@@ -58,10 +58,6 @@ const PAGE_SIZE = 20;
  * user reaches the rest a page at a time via "Show more".
  */
 const ALL_VIEW_CAP = 60;
-
-function plural(count: number, one: string, many: string): string {
-  return count === 1 ? one : many;
-}
 
 /**
  * A real library browser over the catalog. Picking a muscle shows that group

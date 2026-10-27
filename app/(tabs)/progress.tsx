@@ -14,7 +14,12 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { GymMateTheme as T, MAX_CONTENT_WIDTH } from '@/constants/GymMateTheme';
 import { Card, EmptyState, Pill, PrimaryButton, ScreenHeader, SectionTitle } from '@/components/gymmate';
 import { EntryRow, GoalProgress, WeightTrend, goalLabel } from '@/components/gymmate/profile';
-import { formatDateLabel, formatKg, formatSigned } from '@/lib/gymmate/format';
+import {
+  formatDateLabel,
+  formatKg,
+  formatSigned,
+  parseDecimalInput,
+} from '@/lib/gymmate/format';
 import {
   goalProgress,
   latestWeight,
@@ -27,11 +32,6 @@ import {
 const MIN_KG = 30;
 const MAX_KG = 250;
 const TREND_LIMIT = 10;
-
-/** Comma-tolerant parse — decimal-pad keyboards emit ',' in some locales. */
-function toNumber(value: string): number {
-  return Number(value.trim().replace(',', '.'));
-}
 
 export default function ProgressScreen() {
   const { state, dispatch } = useGym();
@@ -52,7 +52,7 @@ export default function ProgressScreen() {
   const gain = profile?.goal === 'gain';
 
   function addWeight() {
-    const parsed = toNumber(weight);
+    const parsed = parseDecimalInput(weight);
     if (!Number.isFinite(parsed) || parsed < MIN_KG || parsed > MAX_KG) {
       setError(`Enter a bodyweight between ${MIN_KG} and ${MAX_KG} kg.`);
       return;

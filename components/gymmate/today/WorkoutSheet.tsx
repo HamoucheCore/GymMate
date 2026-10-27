@@ -29,7 +29,7 @@ import {
 } from '@/components/gymmate';
 import { GymMateTheme as T, SHEET_MAX_WIDTH } from '@/constants/GymMateTheme';
 import { findExerciseByName } from '@/lib/gymmate/data';
-import { formatKg, joinParts } from '@/lib/gymmate/format';
+import { formatKg, joinParts, plural } from '@/lib/gymmate/format';
 import type { ScheduledExercise } from '@/lib/gymmate/store';
 
 export interface DraftSet {
@@ -63,10 +63,6 @@ function formatClock(seconds: number): string {
   const m = `${Math.floor(seconds / 60)}`.padStart(2, '0');
   const s = `${seconds % 60}`.padStart(2, '0');
   return `${m}:${s}`;
-}
-
-function plural(count: number, one: string, many: string): string {
-  return count === 1 ? one : many;
 }
 
 export function WorkoutSheet({

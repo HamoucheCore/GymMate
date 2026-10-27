@@ -8,6 +8,7 @@
 import { StyleSheet, Text, View, type TextStyle, type ViewStyle } from 'react-native';
 import { Card, GhostButton, Icons, ICON_SIZE, ICON_STROKE, Pill } from '@/components/gymmate';
 import { GymMateTheme as T } from '@/constants/GymMateTheme';
+import { plural } from '@/lib/gymmate/format';
 import type { WorkoutLog } from '@/lib/gymmate/store';
 
 export interface LoggedTodayCardProps {
@@ -26,10 +27,6 @@ function clockTime(iso: string): string {
   const h = `${date.getHours()}`.padStart(2, '0');
   const m = `${date.getMinutes()}`.padStart(2, '0');
   return `${h}:${m}`;
-}
-
-function plural(count: number, one: string, many: string): string {
-  return count === 1 ? one : many;
 }
 
 export function LoggedTodayCard({ logs, onLogAnother }: LoggedTodayCardProps) {

@@ -1,7 +1,12 @@
 /**
- * Pure display formatters. No React, no hooks, no state — safe anywhere.
- * Every helper tolerates junk input and returns a string, never throws.
+ * Pure display formatters. No React, no hooks, no state, no `Intl` — safe
+ * anywhere. Every helper tolerates junk input and returns a string, never
+ * throws.
+ *
+ * The only import is the calendar primitives from `./date` (a leaf module), so
+ * date keys are parsed in exactly one place.
  */
+import { parseISODate, toISODate } from './date';
 
 /** Round to 1 decimal place without float dust. */
 export function round1(n: number): number {
@@ -74,22 +79,14 @@ export function joinParts(
     .join(separator);
 }
 
-function parseISODate(iso: string): Date | null {
-  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso);
-  if (!m) return null;
-  const year = Number(m[1] ?? '');
-  const month = Number(m[2] ?? '');
-  const day = Number(m[3] ?? '');
-  if (!year || !month || !day) return null;
-  const d = new Date(year, month - 1, day);
-  return Number.isNaN(d.getTime()) ? null : d;
+/** `1` -> `'exercise'`, `0` -> `'exercises'`. One plural rule for every screen. */
+export function plural(count: number, singular: string, pluralForm: string): string {
+  return count === 1 ? singular : pluralForm;
 }
 
-function toISO(d: Date): string {
-  const y = d.getFullYear();
-  const m = `${d.getMonth() + 1}`.padStart(2, '0');
-  const day = `${d.getDate()}`.padStart(2, '0');
-  return `${y}-${m}-${day}`;
+/** Comma-tolerant parse — decimal-pad keyboards emit ',' in some locales. */
+export function parseDecimalInput(value: string): number {
+  return Number(value.trim().replace(',', '.'));
 }
 
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
@@ -103,12 +100,12 @@ export function formatDateLabel(iso: string, now: Date = new Date()): string {
   const date = parseISODate(iso);
   if (!date) return iso;
   const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
-  const target = toISO(date);
-  if (target === toISO(today)) return 'Today';
+  const target = toISODate(date);
+  if (target === toISODate(today)) return 'Today';
 
   const yesterday = new Date(today);
   yesterday.setDate(yesterday.getDate() - 1);
-  if (target === toISO(yesterday)) return 'Yesterday';
+  if (target === toISODate(yesterday)) return 'Yesterday';
 
   const day = DAYS[date.getDay()] ?? '';
   const month = MONTHS[date.getMonth()] ?? '';
@@ -120,7 +117,7 @@ export function formatDateLabel(iso: string, now: Date = new Date()): string {
  *
  * Not `toLocaleString`/`Intl`: Hermes builds and web targets are not guaranteed
  * to ship the same locale data, and a calorie figure must read identically on
- * every device. `format.ts` stays a leaf module — no imports, no Intl.
+ * every device. The module's only import is `./date`; there is no Intl.
  */
 function groupedInteger(value: number): string {
   const rounded = Math.round(value);
