@@ -41,7 +41,7 @@ Expo ships breaking changes every SDK release. Before touching any Expo/EAS/RN A
 - **Naming**: `PascalCase.tsx` components, `useX.ts` hooks, `camelCase` utils. Verb-noun functions, descriptive names, no `any`.
 - **A11y**: interactive rows are `Pressable` with roles (`tab`, `checkbox`, `button`), 44px+ targets, visible focus on web. Charts expose one real `summary` string instead of ambiguous bar labels.
 - **Exercise media licence**: metadata comes from `yuhonas/free-exercise-db` (Unlicense); the bundled WebP stills/animations are © Gym visual — https://gymvisual.com/ and must stay ≤180×180 with the credit line visible. Keep `© Gym visual — https://gymvisual.com/` in the exercise detail sheet and `app/(tabs)/you.tsx`.
-- **Commits**: single `main` branch, one `Initial commit` so far — no detectable message convention yet.
+- **Commits**: single `main` branch; history follows Conventional Commits (`type(scope): imperative summary`, lowercase type and scope) using `feat`, `perf`, `chore` and `docs`. The body explains *why* and cites measured numbers (bytes, %, dB) whenever the change was quantitative.
 
 ## Navigation & EAS
 
