@@ -11,28 +11,28 @@
  *   a hex value.
  * - Never use an emoji or a bare Unicode glyph (`✓`, `✕`, `↑`, …) as an icon;
  *   render `<Icons.someName color={T.…} size={ICON_SIZE.md} />` instead.
+ * - Icons are imported per-module (`lucide-react-native/icons/<kebab>`), never
+ *   from the package barrel: Metro does not tree-shake, so a barrel import ships
+ *   all ~1.9k icons (~1.7 MB) when only 17 are used.
  */
-import {
-  ArrowDown,
-  ArrowLeft,
-  ArrowUp,
-  CalendarDays,
-  Check,
-  Droplet,
-  Drumstick,
-  Dumbbell,
-  Flame,
-  Minus,
-  Plus,
-  Salad,
-  TrendingDown,
-  TrendingUp,
-  User,
-  Wheat,
-  X,
-  type LucideIcon,
-  type LucideProps,
-} from 'lucide-react-native';
+import ArrowDown from 'lucide-react-native/icons/arrow-down';
+import ArrowLeft from 'lucide-react-native/icons/arrow-left';
+import ArrowUp from 'lucide-react-native/icons/arrow-up';
+import CalendarDays from 'lucide-react-native/icons/calendar-days';
+import Check from 'lucide-react-native/icons/check';
+import Droplet from 'lucide-react-native/icons/droplet';
+import Drumstick from 'lucide-react-native/icons/drumstick';
+import Dumbbell from 'lucide-react-native/icons/dumbbell';
+import Flame from 'lucide-react-native/icons/flame';
+import Minus from 'lucide-react-native/icons/minus';
+import Plus from 'lucide-react-native/icons/plus';
+import Salad from 'lucide-react-native/icons/salad';
+import TrendingDown from 'lucide-react-native/icons/trending-down';
+import TrendingUp from 'lucide-react-native/icons/trending-up';
+import User from 'lucide-react-native/icons/user';
+import Wheat from 'lucide-react-native/icons/wheat';
+import X from 'lucide-react-native/icons/x';
+import type { LucideIcon, LucideProps } from 'lucide-react-native';
 
 /** Semantic icon map: use these keys, never raw lucide component names. */
 export const Icons = {
