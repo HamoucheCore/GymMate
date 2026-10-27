@@ -2,19 +2,24 @@
  * Nutrition domain — pure maths for the meal log, no React and no storage.
  *
  * This module is imported by `store.tsx` (for `sumNutrition`) and by screens.
- * It only takes *types* from the store, never a runtime import, so there is no
- * `store -> nutrition -> store` cycle at module-evaluation time. Keep it that
- * way: importing a value from `store.tsx` here would break hydration order.
+ * Its types come from `types.ts`, never from `store.tsx`, so the type graph
+ * stays one-directional (`types` → `nutrition`) and there is no cycle at
+ * module-evaluation time. Keep it that way: importing a value from `store.tsx`
+ * here would break hydration order.
  *
  * Everything is deterministic (no `Date`, no `Math.random`), so a rendered
  * target can be unit-checked by hand — see the 75 kg worked example below.
  */
-import type { Goal, MealLog, Profile } from '@/lib/gymmate/store';
+import type { Goal, MealLog, MealSlot, Profile } from './types';
 
 /* ------------------------------------------------------------------ types */
 
-/** Where a meal sits in the day. Stored, so the order here is display order. */
-export type MealSlot = 'breakfast' | 'lunch' | 'dinner' | 'snack';
+/**
+ * Where a meal sits in the day. Stored, so the order here is display order.
+ * Defined with the persisted meal shape in `types.ts` — re-exported here
+ * because the nutrition screens and helpers speak in slots.
+ */
+export type { MealSlot };
 
 /** A plain calorie/macro sum — also the shape of a daily target. */
 export interface NutritionTotals {
