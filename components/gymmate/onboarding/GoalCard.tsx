@@ -42,7 +42,11 @@ export function GoalCard({ goal, title, caption, selected, onPress }: GoalCardPr
 
   useEffect(() => {
     // Reduced motion still applies the selection state, just without the tween.
-    selection.value = reduced ? (selected ? 1 : 0) : withTiming(selected ? 1 : 0, { duration: 220 });
+    selection.value = reduced
+      ? selected
+        ? 1
+        : 0
+      : withTiming(selected ? 1 : 0, { duration: 220 });
   }, [selected, selection, reduced]);
 
   const cardStyle = useAnimatedStyle(() => ({
@@ -70,7 +74,10 @@ export function GoalCard({ goal, title, caption, selected, onPress }: GoalCardPr
         press.value = reduced ? 0 : withSpring(0, { damping: 18, stiffness: 260 });
       }}>
       <Animated.View style={[s.card, cardStyle]}>
-        <Animated.View pointerEvents="none" style={[s.wash, { backgroundColor: tint }, washStyle]} />
+        <Animated.View
+          pointerEvents="none"
+          style={[s.wash, { backgroundColor: tint }, washStyle]}
+        />
         <Animated.View style={[s.badge, badgeStyle]}>
           <BadgeIcon size={ICON_SIZE.md} strokeWidth={ICON_STROKE} animatedProps={glyphStyle} />
         </Animated.View>

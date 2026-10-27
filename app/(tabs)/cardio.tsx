@@ -73,8 +73,7 @@ export default function CardioScreen() {
   const [error, setError] = useState<string | null>(null);
 
   const runs = useMemo(
-    () =>
-      [...state.cardioRuns].sort((a, b) => (a.date === b.date ? 0 : a.date < b.date ? 1 : -1)),
+    () => [...state.cardioRuns].sort((a, b) => (a.date === b.date ? 0 : a.date < b.date ? 1 : -1)),
     [state.cardioRuns],
   );
   const weekKm = useMemo(() => kmByDayThisWeek(state.cardioRuns), [state.cardioRuns]);
@@ -211,7 +210,10 @@ export default function CardioScreen() {
 
               {weekMax > 0 ? (
                 <>
-                  <SectionTitle title="This week" subtitle="Kilometres per day · Monday to Sunday" />
+                  <SectionTitle
+                    title="This week"
+                    subtitle="Kilometres per day · Monday to Sunday"
+                  />
                   <VolumeBars
                     values={weekKm.map((day) => (day / weekMax) * 100)}
                     labels={weekLabels}

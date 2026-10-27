@@ -27,12 +27,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { GhostButton } from '@/components/gymmate/GhostButton';
 import { PrimaryButton } from '@/components/gymmate/PrimaryButton';
 import { GymMateTheme as T, SHEET_MAX_WIDTH } from '@/constants/GymMateTheme';
-import {
-  MEAL_LIMITS,
-  MEAL_NAME_MAX,
-  MEAL_SLOTS,
-  type MealSlot,
-} from '@/lib/gymmate/nutrition';
+import { MEAL_LIMITS, MEAL_NAME_MAX, MEAL_SLOTS, type MealSlot } from '@/lib/gymmate/nutrition';
 
 export interface MealDraft {
   name: string;
@@ -295,10 +290,7 @@ export function AddMealSheet({ visible, dateLabel, onClose, onSubmit }: AddMealS
               </View>
 
               {error !== null ? (
-                <Text
-                  accessibilityRole="alert"
-                  accessibilityLiveRegion="polite"
-                  style={s.error}>
+                <Text accessibilityRole="alert" accessibilityLiveRegion="polite" style={s.error}>
                   {error}
                 </Text>
               ) : null}

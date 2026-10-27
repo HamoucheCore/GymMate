@@ -1,4 +1,11 @@
-import { StyleSheet, Text, View, type StyleProp, type TextStyle, type ViewStyle } from 'react-native';
+import {
+  StyleSheet,
+  Text,
+  View,
+  type StyleProp,
+  type TextStyle,
+  type ViewStyle,
+} from 'react-native';
 import { GymMateTheme as T } from '@/constants/GymMateTheme';
 import { PrimaryButton } from '@/components/gymmate/PrimaryButton';
 

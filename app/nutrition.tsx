@@ -107,14 +107,10 @@ export default function NutritionScreen() {
     // above flips it at local midnight, and that state change — not a stray
     // re-render — is what re-runs this and slides the seven-day window along.
     const days = lastSevenDays(new Date());
-    const caloriesPerDay = days.map(
-      (day) => nutritionTotalsForDate(state.meals, day.iso).calories,
-    );
+    const caloriesPerDay = days.map((day) => nutritionTotalsForDate(state.meals, day.iso).calories);
     const weekTotal = caloriesPerDay.reduce((sum, calories) => sum + calories, 0);
     const values = caloriesPerDay.map((calories) =>
-      targetCalories === null
-        ? 0
-        : Math.min(100, Math.round((calories / targetCalories) * 100)),
+      targetCalories === null ? 0 : Math.min(100, Math.round((calories / targetCalories) * 100)),
     );
     let overDays = 0;
     if (targetCalories !== null) {

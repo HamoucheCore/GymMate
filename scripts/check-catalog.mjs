@@ -90,7 +90,8 @@ for (const entry of entries) {
   if (!entry.name) fail(`entry ${entry.id} has no name`);
   else {
     const key = entry.name.trim().toLowerCase();
-    if (seenNames.has(key)) fail(`duplicate display name: "${entry.name}" (${seenNames.get(key)} & ${entry.id})`);
+    if (seenNames.has(key))
+      fail(`duplicate display name: "${entry.name}" (${seenNames.get(key)} & ${entry.id})`);
     else seenNames.set(key, entry.id);
   }
 
@@ -100,14 +101,17 @@ for (const entry of entries) {
 
   if (!entry.imageUrl) fail(`missing imageUrl on ${entry.id} (${entry.name})`);
 
-  if (entry.featured && !entry.gifUrl) fail(`featured entry ${entry.id} (${entry.name}) has no gifUrl`);
-  if (!entry.featured && entry.gifUrl) fail(`non-featured entry ${entry.id} (${entry.name}) has a gifUrl`);
+  if (entry.featured && !entry.gifUrl)
+    fail(`featured entry ${entry.id} (${entry.name}) has no gifUrl`);
+  if (!entry.featured && entry.gifUrl)
+    fail(`non-featured entry ${entry.id} (${entry.name}) has a gifUrl`);
 
   if (!entry.featured) {
     if (entry.hasLevel) fail(`non-featured ${entry.id} (${entry.name}) carries level`);
     if (entry.hasMechanic) fail(`non-featured ${entry.id} (${entry.name}) carries mechanic`);
     if (entry.hasCategory) fail(`non-featured ${entry.id} (${entry.name}) carries category`);
-    if (!entry.instructionsEmpty) fail(`non-featured ${entry.id} (${entry.name}) carries instructions`);
+    if (!entry.instructionsEmpty)
+      fail(`non-featured ${entry.id} (${entry.name}) carries instructions`);
   }
 }
 
@@ -139,13 +143,18 @@ for (const { key, dir } of mediaDirs) {
     continue;
   }
   for (const file of files) {
-    if (!referenced.has(file)) fail(`orphan file not referenced by the catalog: ${path.relative(root, path.join(dir, file))}`);
+    if (!referenced.has(file))
+      fail(
+        `orphan file not referenced by the catalog: ${path.relative(root, path.join(dir, file))}`,
+      );
   }
 }
 
 // ----------------------------------------------------------------- report ---
 if (failures.length > 0) {
-  console.error(`check-catalog: FAILED with ${failures.length} problem${failures.length === 1 ? '' : 's'}:`);
+  console.error(
+    `check-catalog: FAILED with ${failures.length} problem${failures.length === 1 ? '' : 's'}:`,
+  );
   for (const message of failures) console.error(`  - ${message}`);
   process.exit(1);
 }

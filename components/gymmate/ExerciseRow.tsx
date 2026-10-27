@@ -54,7 +54,11 @@ export function ExerciseRow({
       accessibilityLabel={name}
       accessibilityHint={done ? 'Tap to unmark' : 'Tap to mark as done'}
       onPress={onToggle}
-      style={({ pressed }) => [s.check, done ? s.checkDone : null, pressed ? s.checkPressed : null]}>
+      style={({ pressed }) => [
+        s.check,
+        done ? s.checkDone : null,
+        pressed ? s.checkPressed : null,
+      ]}>
       <Icons.check
         color={done ? T.accentInk : T.muted}
         size={ICON_SIZE.md}

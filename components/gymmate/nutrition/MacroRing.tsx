@@ -101,10 +101,7 @@ export function MacroRing({
           </Svg>
         </View>
 
-        <View
-          style={s.center}
-          accessible={false}
-          importantForAccessibility="no-hide-descendants">
+        <View style={s.center} accessible={false} importantForAccessibility="no-hide-descendants">
           <Text
             accessible={false}
             style={valueStyle}

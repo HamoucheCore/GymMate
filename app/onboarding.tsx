@@ -159,7 +159,13 @@ export default function OnboardingScreen() {
   }, [finish, goNext, step]);
 
   const ctaLabel =
-    step === 'summary' ? (isEdit ? 'Save changes' : "Let's go") : step === 'welcome' ? 'Get started' : 'Continue';
+    step === 'summary'
+      ? isEdit
+        ? 'Save changes'
+        : "Let's go"
+      : step === 'welcome'
+        ? 'Get started'
+        : 'Continue';
 
   const showHeader = step !== 'welcome';
 
@@ -185,7 +191,9 @@ export default function OnboardingScreen() {
             <Text style={s.stepTitle} accessibilityRole="header">
               What should I call you?
             </Text>
-            <Text style={s.stepLead}>A first name is plenty. It only greets you on your Today screen.</Text>
+            <Text style={s.stepLead}>
+              A first name is plenty. It only greets you on your Today screen.
+            </Text>
             <OnboardingInput
               label="Your name"
               value={name}
@@ -239,7 +247,9 @@ export default function OnboardingScreen() {
             <Text style={s.stepTitle} accessibilityRole="header">
               What are you here for?
             </Text>
-            <Text style={s.stepLead}>This sets the tone for your progress. You can switch later.</Text>
+            <Text style={s.stepLead}>
+              This sets the tone for your progress. You can switch later.
+            </Text>
             <View style={s.goalList} accessibilityRole="radiogroup" accessibilityLabel="Your goal">
               <GoalCard
                 goal="lose"
@@ -284,7 +294,9 @@ export default function OnboardingScreen() {
                 last
               />
             </Card>
-            {!isEdit ? <Text style={s.closing}>Small steps, kept calm. Let&apos;s begin.</Text> : null}
+            {!isEdit ? (
+              <Text style={s.closing}>Small steps, kept calm. Let&apos;s begin.</Text>
+            ) : null}
           </View>
         );
     }
@@ -326,7 +338,10 @@ export default function OnboardingScreen() {
             keyboardDismissMode={Platform.OS === 'ios' ? 'interactive' : 'on-drag'}
             showsVerticalScrollIndicator={false}>
             <Pressable accessible={false} style={s.pressWrap} onPress={Keyboard.dismiss}>
-              <StepTransition key={step} direction={direction} style={step === 'welcome' ? s.flex : undefined}>
+              <StepTransition
+                key={step}
+                direction={direction}
+                style={step === 'welcome' ? s.flex : undefined}>
                 {renderStep()}
               </StepTransition>
             </Pressable>
@@ -365,7 +380,11 @@ const orbBottom: ViewStyle = {
   opacity: 0.05,
 };
 const header: ViewStyle = { paddingHorizontal: 20, paddingTop: 4, gap: 12 };
-const headerRow: ViewStyle = { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' };
+const headerRow: ViewStyle = {
+  flexDirection: 'row',
+  alignItems: 'center',
+  justifyContent: 'space-between',
+};
 const backBtn: ViewStyle = {
   width: 44,
   height: 44,
@@ -384,7 +403,12 @@ const stepCount: TextStyle = {
   fontFamily: T.fontMonoMedium,
 };
 const progress: ViewStyle = { marginBottom: 4 };
-const scrollContent: ViewStyle = { flexGrow: 1, paddingHorizontal: 20, paddingTop: 12, paddingBottom: 24 };
+const scrollContent: ViewStyle = {
+  flexGrow: 1,
+  paddingHorizontal: 20,
+  paddingTop: 12,
+  paddingBottom: 24,
+};
 const pressWrap: ViewStyle = { flex: 1 };
 const welcome: ViewStyle = {
   flex: 1,
@@ -408,7 +432,13 @@ const stepTitle: TextStyle = { fontSize: 30, fontWeight: '800', color: T.ink, le
 const stepLead: TextStyle = { fontSize: 15, color: T.muted, lineHeight: 22, marginTop: 8 };
 const cardDivider: ViewStyle = { height: 1, backgroundColor: T.line, marginVertical: 14 };
 const goalList: ViewStyle = { gap: 12, marginTop: 18 };
-const aim: ViewStyle = { borderWidth: 1, borderRadius: 20, padding: 18, backgroundColor: T.surface, gap: 2 };
+const aim: ViewStyle = {
+  borderWidth: 1,
+  borderRadius: 20,
+  padding: 18,
+  backgroundColor: T.surface,
+  gap: 2,
+};
 const aimLabel: TextStyle = { fontSize: 12, color: T.muted, letterSpacing: 0.3 };
 const aimValue: TextStyle = { fontSize: 34, fontFamily: T.fontMonoBold, letterSpacing: -0.6 };
 const aimSub: TextStyle = { fontSize: 13, color: T.muted, marginTop: 2 };

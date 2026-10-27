@@ -25,14 +25,7 @@ export interface EntryRowProps {
  * The delete button carries its own descriptive accessibility label because
  * "Delete" alone is meaningless when read out of context.
  */
-export function EntryRow({
-  title,
-  subtitle,
-  value,
-  deleteLabel,
-  onDelete,
-  style,
-}: EntryRowProps) {
+export function EntryRow({ title, subtitle, value, deleteLabel, onDelete, style }: EntryRowProps) {
   return (
     <View style={[s.row, style]}>
       <View style={s.body}>
@@ -44,7 +37,11 @@ export function EntryRow({
         </Text>
       </View>
 
-      {value ? <Text style={s.value} numberOfLines={1}>{value}</Text> : null}
+      {value ? (
+        <Text style={s.value} numberOfLines={1}>
+          {value}
+        </Text>
+      ) : null}
 
       <Pressable
         accessibilityRole="button"

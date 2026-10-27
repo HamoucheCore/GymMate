@@ -5,7 +5,14 @@
  * context the bars cannot carry themselves. Every number comes from the
  * caller's real log aggregation.
  */
-import { StyleSheet, Text, View, type StyleProp, type TextStyle, type ViewStyle } from 'react-native';
+import {
+  StyleSheet,
+  Text,
+  View,
+  type StyleProp,
+  type TextStyle,
+  type ViewStyle,
+} from 'react-native';
 import { VolumeBars } from '@/components/gymmate';
 import { GymMateTheme as T } from '@/constants/GymMateTheme';
 

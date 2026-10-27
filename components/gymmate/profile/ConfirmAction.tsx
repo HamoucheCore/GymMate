@@ -110,4 +110,13 @@ const confirm: ViewStyle = {
 const confirmPressed: ViewStyle = { opacity: 0.75 };
 const confirmText: TextStyle = { fontSize: 14, fontWeight: '800', color: T.danger };
 
-const s = StyleSheet.create({ panel, title, message, actions, cancel, confirm, confirmPressed, confirmText });
+const s = StyleSheet.create({
+  panel,
+  title,
+  message,
+  actions,
+  cancel,
+  confirm,
+  confirmPressed,
+  confirmText,
+});

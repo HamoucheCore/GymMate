@@ -7,7 +7,14 @@
  * The caption is derived from `remainingCalories`, which distinguishes "no
  * target" (null) from a real "0 left today".
  */
-import { StyleSheet, Text, View, type StyleProp, type TextStyle, type ViewStyle } from 'react-native';
+import {
+  StyleSheet,
+  Text,
+  View,
+  type StyleProp,
+  type TextStyle,
+  type ViewStyle,
+} from 'react-native';
 import { MacroBar } from '@/components/gymmate/nutrition/MacroBar';
 import { MacroRing } from '@/components/gymmate/nutrition/MacroRing';
 import { GymMateTheme as T } from '@/constants/GymMateTheme';
@@ -66,12 +73,7 @@ export function NutritionOverview({ totals, target, goal, style }: NutritionOver
           value={totals.carbs}
           target={target ? target.carbs : null}
         />
-        <MacroBar
-          label="Fat"
-          icon="fat"
-          value={totals.fat}
-          target={target ? target.fat : null}
-        />
+        <MacroBar label="Fat" icon="fat" value={totals.fat} target={target ? target.fat : null} />
       </View>
 
       <Text style={s.helper} numberOfLines={2}>

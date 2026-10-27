@@ -1,5 +1,12 @@
 import { useFonts } from 'expo-font';
-import { DarkTheme, Stack, ThemeProvider, useGlobalSearchParams, useRouter, useSegments } from 'expo-router';
+import {
+  DarkTheme,
+  Stack,
+  ThemeProvider,
+  useGlobalSearchParams,
+  useRouter,
+  useSegments,
+} from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
 import { StatusBar } from 'expo-status-bar';
 import { useEffect, type ReactNode } from 'react';

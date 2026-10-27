@@ -24,9 +24,30 @@ export function PlateMark({ size = 128, style }: PlateMarkProps) {
       accessibilityElementsHidden
       importantForAccessibility="no-hide-descendants"
       style={[s.disc, { width: size, height: size, borderRadius: size / 2 }, style]}>
-      <View style={[s.layer, s.bevel, { width: bevel, height: bevel, borderRadius: bevel / 2 }, centered(bevel)]} />
-      <View style={[s.layer, s.ring, { width: ring, height: ring, borderRadius: ring / 2 }, centered(ring)]} />
-      <View style={[s.layer, s.hole, { width: hole, height: hole, borderRadius: hole / 2 }, centered(hole)]} />
+      <View
+        style={[
+          s.layer,
+          s.bevel,
+          { width: bevel, height: bevel, borderRadius: bevel / 2 },
+          centered(bevel),
+        ]}
+      />
+      <View
+        style={[
+          s.layer,
+          s.ring,
+          { width: ring, height: ring, borderRadius: ring / 2 },
+          centered(ring),
+        ]}
+      />
+      <View
+        style={[
+          s.layer,
+          s.hole,
+          { width: hole, height: hole, borderRadius: hole / 2 },
+          centered(hole),
+        ]}
+      />
     </View>
   );
 }

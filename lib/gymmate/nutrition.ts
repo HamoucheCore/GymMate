@@ -64,9 +64,7 @@ export const MEAL_LIMITS: {
 
 /** Narrow an unknown (a persisted blob, a route param) to a real slot. */
 export function isMealSlot(value: unknown): value is MealSlot {
-  return (
-    value === 'breakfast' || value === 'lunch' || value === 'dinner' || value === 'snack'
-  );
+  return value === 'breakfast' || value === 'lunch' || value === 'dinner' || value === 'snack';
 }
 
 /** `'snack'` -> `'Snack'`. Falls back to the raw key only if the union widens. */
@@ -143,9 +141,7 @@ export function nutritionTargetFor(
   if (!profile) return null;
 
   const weight =
-    weightKg !== null && Number.isFinite(weightKg) && weightKg > 0
-      ? weightKg
-      : profile.startWeight;
+    weightKg !== null && Number.isFinite(weightKg) && weightKg > 0 ? weightKg : profile.startWeight;
   // A nonsense start weight would produce nonsense targets; refuse cleanly.
   if (!Number.isFinite(weight) || weight <= 0) return null;
 

@@ -115,21 +115,11 @@ export function ExerciseList({
                     accessibilityHint="Opens the exercise details"
                     onPress={() => onPreview(exercise)}
                     style={({ pressed }) => [s.figure, pressed ? s.figurePressed : null]}>
-                    <ExerciseVisual
-                      exercise={library}
-                      size={48}
-                      rounded={14}
-                      decorative
-                    />
+                    <ExerciseVisual exercise={library} size={48} rounded={14} decorative />
                   </Pressable>
                 ) : (
                   <View style={s.figure}>
-                    <ExerciseVisual
-                      exercise={library}
-                      size={48}
-                      rounded={14}
-                      decorative
-                    />
+                    <ExerciseVisual exercise={library} size={48} rounded={14} decorative />
                   </View>
                 )
               ) : (

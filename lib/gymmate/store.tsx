@@ -79,9 +79,7 @@ function gymReducer(state: GymState, action: GymAction): GymState {
 
     case 'UPDATE_PROFILE':
       // No profile yet -> nothing to patch. Use COMPLETE_ONBOARDING for that.
-      return state.profile
-        ? { ...state, profile: { ...state.profile, ...action.patch } }
-        : state;
+      return state.profile ? { ...state, profile: { ...state.profile, ...action.patch } } : state;
 
     case 'SET_DAY':
       return {

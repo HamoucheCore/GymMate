@@ -32,7 +32,11 @@ import { TodayNutritionCard } from '@/components/gymmate/nutrition';
 import { GoalTile } from '@/components/gymmate/today/GoalTile';
 import { LoggedTodayCard } from '@/components/gymmate/today/LoggedTodayCard';
 import { WeekVolume } from '@/components/gymmate/today/WeekVolume';
-import { WorkoutSheet, type DraftSet, type SessionDraft } from '@/components/gymmate/today/WorkoutSheet';
+import {
+  WorkoutSheet,
+  type DraftSet,
+  type SessionDraft,
+} from '@/components/gymmate/today/WorkoutSheet';
 import { GymMateTheme as T, MAX_CONTENT_WIDTH } from '@/constants/GymMateTheme';
 import { findExerciseByName } from '@/lib/gymmate/data';
 import { weekdayIndexFromISO } from '@/lib/gymmate/date';
@@ -91,7 +95,9 @@ function rememberedWeights(logs: WorkoutLog[]): Record<string, number> {
   for (const log of logs) {
     for (const exercise of log.exercises) {
       if (exercise.name in found) continue;
-      const loads = exercise.sets.map((set) => set.kg).filter((kg) => Number.isFinite(kg) && kg > 0);
+      const loads = exercise.sets
+        .map((set) => set.kg)
+        .filter((kg) => Number.isFinite(kg) && kg > 0);
       if (loads.length > 0) found[exercise.name] = Math.max(...loads);
     }
   }
@@ -157,9 +163,10 @@ export default function TodayScreen() {
   const [draftState, setDraftState] = useState<{ dayKey: WeekdayKey; sets: SessionDraft } | null>(
     null,
   );
-  const draft = draftState && draftState.dayKey === key
-    ? draftState.sets
-    : buildDraft(day.exercises, remembered);
+  const draft =
+    draftState && draftState.dayKey === key
+      ? draftState.sets
+      : buildDraft(day.exercises, remembered);
 
   function writeSets(exerciseId: string, sets: DraftSet[]) {
     setDraftState({ dayKey: key, sets: { ...draft, [exerciseId]: sets } });
@@ -190,7 +197,10 @@ export default function TodayScreen() {
     const sets = draft[exercise.id] ?? [];
     const complete = sets.length > 0 && sets.every((set) => set.logged);
     if (complete) {
-      writeSets(exercise.id, sets.map((set) => ({ ...set, logged: false })));
+      writeSets(
+        exercise.id,
+        sets.map((set) => ({ ...set, logged: false })),
+      );
       return;
     }
     openSheet(exercise.id);
@@ -312,9 +322,7 @@ export default function TodayScreen() {
     new Set(
       day.exercises
         .map((exercise) => exercise.muscle)
-        .filter(
-          (muscle): muscle is string => typeof muscle === 'string' && muscle.length > 0,
-        ),
+        .filter((muscle): muscle is string => typeof muscle === 'string' && muscle.length > 0),
     ),
   );
 
@@ -338,9 +346,7 @@ export default function TodayScreen() {
       }
       style={s.streak}>
       {streak > 0 ? <View style={s.streakDot} accessible={false} /> : null}
-      <Text style={s.streakText}>
-        {streak > 0 ? `${streak}-day streak` : 'No streak yet'}
-      </Text>
+      <Text style={s.streakText}>{streak > 0 ? `${streak}-day streak` : 'No streak yet'}</Text>
     </View>
   );
 
@@ -393,7 +399,9 @@ export default function TodayScreen() {
                 {muscles.length > 0 ? <Text style={s.focusSub}>{muscles.join(' · ')}</Text> : null}
 
                 <View style={s.pills}>
-                  <Pill label={`${day.exercises.length} ${plural(day.exercises.length, 'exercise', 'exercises')}`} />
+                  <Pill
+                    label={`${day.exercises.length} ${plural(day.exercises.length, 'exercise', 'exercises')}`}
+                  />
                   <Pill label={`${totals.planned} ${plural(totals.planned, 'set', 'sets')}`} />
                   {totals.logged > 0 ? (
                     <Pill label={`${totals.logged} logged`} tone="accent" />
@@ -423,7 +431,11 @@ export default function TodayScreen() {
                   return (
                     <ExerciseRow
                       key={exercise.id}
-                      load={load !== undefined ? formatKg(load) : formatSets(exercise.sets, exercise.reps)}
+                      load={
+                        load !== undefined
+                          ? formatKg(load)
+                          : formatSets(exercise.sets, exercise.reps)
+                      }
                       name={exercise.name}
                       detail={joinParts([
                         exercise.muscle,

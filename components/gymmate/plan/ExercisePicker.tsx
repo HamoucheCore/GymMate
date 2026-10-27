@@ -83,9 +83,7 @@ export function ExercisePicker({
     const matched = searchLibrary(debouncedQuery, source);
     // Featured lifts lead (Array#sort is stable, so ties keep catalog order):
     // they are the curated, animated subset and the most likely picks.
-    return [...matched].sort(
-      (a, b) => Number(b.featured === true) - Number(a.featured === true),
-    );
+    return [...matched].sort((a, b) => Number(b.featured === true) - Number(a.featured === true));
   }, [debouncedQuery, filter]);
 
   // A new search or muscle group is a new list: start it back at one page.

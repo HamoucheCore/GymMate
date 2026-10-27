@@ -119,7 +119,10 @@ export default function YouScreen() {
           <SectionTitle title="Nutrition" subtitle="Today's calories and macros" />
           <Card style={styles.block}>
             <Text style={styles.cardTitle}>Today at a glance</Text>
-            <Text style={styles.cardSub}>{`${formatKcal(totals.calories)} · P ${formatGrams(totals.protein)} · C ${formatGrams(totals.carbs)} · F ${formatGrams(totals.fat)}`}</Text>
+            <Text
+              style={
+                styles.cardSub
+              }>{`${formatKcal(totals.calories)} · P ${formatGrams(totals.protein)} · C ${formatGrams(totals.carbs)} · F ${formatGrams(totals.fat)}`}</Text>
             <GhostButton
               label="Open nutrition tracker"
               onPress={() => router.push('/nutrition')}
@@ -182,7 +185,12 @@ const pills: ViewStyle = {
   gap: 8,
   marginTop: 8,
 };
-const meta: TextStyle = { fontSize: 12, color: T.muted, marginTop: 8, fontFamily: T.fontMonoMedium };
+const meta: TextStyle = {
+  fontSize: 12,
+  color: T.muted,
+  marginTop: 8,
+  fontFamily: T.fontMonoMedium,
+};
 const edit: ViewStyle = { marginTop: 16 };
 const gridRow: ViewStyle = { flexDirection: 'row', gap: 10, marginBottom: 10 };
 const cardTitle: TextStyle = { color: T.ink, fontSize: 16, fontWeight: '800' };

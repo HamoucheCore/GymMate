@@ -125,7 +125,10 @@ try {
 // ---------------------------------------------------------------- source ---
 let sourceFiles;
 try {
-  sourceFiles = fs.readdirSync(SRC_DIR).filter((file) => file.toLowerCase().endsWith('.jpg')).sort();
+  sourceFiles = fs
+    .readdirSync(SRC_DIR)
+    .filter((file) => file.toLowerCase().endsWith('.jpg'))
+    .sort();
 } catch {
   console.error(`optimize-stills: cannot read ${path.relative(root, SRC_DIR)}`);
   process.exit(1);
@@ -146,7 +149,9 @@ fs.mkdirSync(outDir, { recursive: true });
 const resolvedOut = path.resolve(outDir);
 const outIsSource = fs.readdirSync(resolvedOut).some((file) => file.toLowerCase().endsWith('.jpg'));
 if (outIsSource) {
-  console.error(`optimize-stills: "${resolvedOut}" already holds .jpg files — pick a clean staging directory.`);
+  console.error(
+    `optimize-stills: "${resolvedOut}" already holds .jpg files — pick a clean staging directory.`,
+  );
   process.exit(1);
 }
 
@@ -202,14 +207,23 @@ if (failures > 0) {
 }
 
 // --------------------------------------------------------------- coverage ---
-const outputs = fs.readdirSync(resolvedOut).filter((file) => file.toLowerCase().endsWith('.webp')).sort();
-const expectedOutputs = sourceFiles.map((file) => `${file.slice(0, -path.extname(file).length)}.webp`).sort();
+const outputs = fs
+  .readdirSync(resolvedOut)
+  .filter((file) => file.toLowerCase().endsWith('.webp'))
+  .sort();
+const expectedOutputs = sourceFiles
+  .map((file) => `${file.slice(0, -path.extname(file).length)}.webp`)
+  .sort();
 const missing = expectedOutputs.filter((name) => !outputs.includes(name));
 const extra = outputs.filter((name) => !expectedOutputs.includes(name));
 if (missing.length > 0 || extra.length > 0) {
-  if (missing.length > 0) console.error(`  missing: ${missing.slice(0, 5).join(', ')}${missing.length > 5 ? ' …' : ''}`);
-  if (extra.length > 0) console.error(`  extra:   ${extra.slice(0, 5).join(', ')}${extra.length > 5 ? ' …' : ''}`);
-  console.error(`optimize-stills: FAILED — ${outputs.length} outputs for ${expectedOutputs.length} inputs, not 1:1.`);
+  if (missing.length > 0)
+    console.error(`  missing: ${missing.slice(0, 5).join(', ')}${missing.length > 5 ? ' …' : ''}`);
+  if (extra.length > 0)
+    console.error(`  extra:   ${extra.slice(0, 5).join(', ')}${extra.length > 5 ? ' …' : ''}`);
+  console.error(
+    `optimize-stills: FAILED — ${outputs.length} outputs for ${expectedOutputs.length} inputs, not 1:1.`,
+  );
   process.exit(1);
 }
 
@@ -226,11 +240,17 @@ console.log(`  output total: ${outTotal} bytes (${kb(outTotal)} KB)`);
 console.log(`  delta:        -${srcTotal - outTotal} bytes`);
 console.log(`  saving:       ${(100 - (outTotal / srcTotal) * 100).toFixed(2)}%`);
 console.log(`  average:      ${(outTotal / rows.length / 1024).toFixed(3)} KB per still`);
-console.log(`  min / max:    ${smallest.out} B (${smallest.id}.webp) / ${largest.out} B (${largest.id}.webp)`);
+console.log(
+  `  min / max:    ${smallest.out} B (${smallest.id}.webp) / ${largest.out} B (${largest.id}.webp)`,
+);
 
 // ---------------------------------------------------------- psnr sample ---
 const rawRgb = async (file) => {
-  const { data, info } = await sharp(file).toColourspace('srgb').removeAlpha().raw().toBuffer({ resolveWithObject: true });
+  const { data, info } = await sharp(file)
+    .toColourspace('srgb')
+    .removeAlpha()
+    .raw()
+    .toBuffer({ resolveWithObject: true });
   if (info.channels !== 3 || info.width !== STILL_EDGE || info.height !== STILL_EDGE) {
     throw new Error(`${path.basename(file)} did not decode to ${STILL_EDGE}x${STILL_EDGE}x3`);
   }
@@ -262,7 +282,10 @@ if (verify) {
   const sample = stratifiedSample();
   const scores = [];
   for (const id of sample) {
-    const db = psnr(await rawRgb(path.join(SRC_DIR, `${id}.jpg`)), await rawRgb(path.join(resolvedOut, `${id}.webp`)));
+    const db = psnr(
+      await rawRgb(path.join(SRC_DIR, `${id}.jpg`)),
+      await rawRgb(path.join(resolvedOut, `${id}.webp`)),
+    );
     scores.push({ id, db });
   }
   scores.sort((a, b) => a.db - b.db);
@@ -272,13 +295,17 @@ if (verify) {
   const under38 = scores.filter((score) => score.db < 38).length;
   const under34 = scores.filter((score) => score.db < 34).length;
 
-  console.log(`\n  PSNR (${scores.length}-file stratified sample: 5 smallest + 5 largest source + even spread by id)`);
+  console.log(
+    `\n  PSNR (${scores.length}-file stratified sample: 5 smallest + 5 largest source + even spread by id)`,
+  );
   console.log(`    average:      ${average.toFixed(3)} dB (${Math.round(average * 1000)} mdB)`);
   console.log(`    worst:        ${worst.db.toFixed(3)} dB — ${worst.id}`);
   console.log(`    under 38 dB:  ${under38}`);
   console.log(`    under 34 dB:  ${under34}`);
   if (average < 38 || worst.db < 34) {
-    console.error('optimize-stills: quality gate FAILED — lower --quality is not the fix; re-check the source stills.');
+    console.error(
+      'optimize-stills: quality gate FAILED — lower --quality is not the fix; re-check the source stills.',
+    );
     process.exit(1);
   }
 }

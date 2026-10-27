@@ -114,7 +114,9 @@ const resolveExpoCli = () => {
   ];
   const found = candidates.find((candidate) => fs.existsSync(candidate));
   if (!found) {
-    console.error('size-report: cannot find the Expo CLI in node_modules (run `pnpm install` first)');
+    console.error(
+      'size-report: cannot find the Expo CLI in node_modules (run `pnpm install` first)',
+    );
     process.exit(1);
   }
   return found;
@@ -129,7 +131,15 @@ const exportPlatform = (platform, outDir) => {
   }
   fs.mkdirSync(outDir, { recursive: true });
 
-  const args = [resolveExpoCli(), 'export', '--platform', platform, '--output-dir', outDir, '--clear'];
+  const args = [
+    resolveExpoCli(),
+    'export',
+    '--platform',
+    platform,
+    '--output-dir',
+    outDir,
+    '--clear',
+  ];
   console.log(`\n$ node ${relativeTo(root, args[0])} ${args.slice(1).join(' ')}`);
 
   const result = spawnSync(process.execPath, args, {
@@ -143,7 +153,9 @@ const exportPlatform = (platform, outDir) => {
     process.exit(1);
   }
   if (result.status !== 0) {
-    console.error(`size-report: expo export --platform ${platform} exited with code ${result.status}`);
+    console.error(
+      `size-report: expo export --platform ${platform} exited with code ${result.status}`,
+    );
     process.exit(1);
   }
 };
@@ -191,13 +203,17 @@ const printReport = (result) => {
 
   console.log(`\n== ${result.platform} ==`);
   console.log(`  output dir:    ${result.outDir}`);
-  console.log(`  entry bundle:  ${formatSize(sumBytes(result.entryFiles))} across ${result.entryFiles.length} file(s)`);
+  console.log(
+    `  entry bundle:  ${formatSize(sumBytes(result.entryFiles))} across ${result.entryFiles.length} file(s)`,
+  );
   for (const [label, bytes] of rows) {
     const suffix = label === 'assets' ? ` across ${result.assetCount} file(s)` : '';
     console.log(`  ${padEnd(label + ':', width + 1)} ${formatSize(bytes)}${suffix}`);
   }
   if (result.sourceMapBytes > 0) {
-    console.log(`  source maps:   ${formatSize(result.sourceMapBytes)} (build output, not shipped)`);
+    console.log(
+      `  source maps:   ${formatSize(result.sourceMapBytes)} (build output, not shipped)`,
+    );
   }
   console.log('  (all figures are uncompressed disk bytes)');
 
@@ -217,7 +233,8 @@ const METRICS = [
   ['totalBytes', 'export total'],
 ];
 
-const isUnset = (value) => value === null || value === undefined || !Number.isFinite(Number(value)) || Number(value) === 0;
+const isUnset = (value) =>
+  value === null || value === undefined || !Number.isFinite(Number(value)) || Number(value) === 0;
 
 const readBudget = () => {
   if (!fs.existsSync(BUDGET_PATH)) return null;
@@ -248,9 +265,13 @@ const checkBudget = (result) => {
         `${result.platform} ${label}: ${formatSize(measured)} exceeds the budget of ` +
           `${formatBytes(Number(limit))} bytes ${allowedPct} (limit ${formatBytes(Math.floor(allowed))} bytes)`,
       );
-      console.log(`  budget ${padEnd(label + ':', 12)} FAIL ${formatSize(measured)} > ${formatBytes(Number(limit))} bytes ${allowedPct}`);
+      console.log(
+        `  budget ${padEnd(label + ':', 12)} FAIL ${formatSize(measured)} > ${formatBytes(Number(limit))} bytes ${allowedPct}`,
+      );
     } else {
-      console.log(`  budget ${padEnd(label + ':', 12)} ok   ${formatSize(measured)} <= ${formatBytes(Number(limit))} bytes ${allowedPct}`);
+      console.log(
+        `  budget ${padEnd(label + ':', 12)} ok   ${formatSize(measured)} <= ${formatBytes(Number(limit))} bytes ${allowedPct}`,
+      );
     }
   }
 };
@@ -266,8 +287,16 @@ const writeBudget = (results) => {
     const measured = results.get(platform);
     const fallback = previous.platforms?.[platform] ?? {};
     next.platforms[platform] = measured
-      ? { jsBytes: measured.jsBytes, assetBytes: measured.assetBytes, totalBytes: measured.totalBytes }
-      : { jsBytes: fallback.jsBytes ?? 0, assetBytes: fallback.assetBytes ?? 0, totalBytes: fallback.totalBytes ?? 0 };
+      ? {
+          jsBytes: measured.jsBytes,
+          assetBytes: measured.assetBytes,
+          totalBytes: measured.totalBytes,
+        }
+      : {
+          jsBytes: fallback.jsBytes ?? 0,
+          assetBytes: fallback.assetBytes ?? 0,
+          totalBytes: fallback.totalBytes ?? 0,
+        };
   }
   fs.writeFileSync(BUDGET_PATH, `${JSON.stringify(next, null, 2)}\n`);
   console.log(`\nsize-report: wrote ${relativeTo(root, BUDGET_PATH)} from this run`);
@@ -289,11 +318,15 @@ if (options.writeBudget) writeBudget(results);
 if (failures.length > 0) {
   console.error(`\nsize-report: FAILED - ${failures.length} measurement(s) over budget:`);
   for (const message of failures) console.error(`  - ${message}`);
-  console.error('If the growth is intentional, re-baseline with `pnpm size:report -- --write-budget`.');
+  console.error(
+    'If the growth is intentional, re-baseline with `pnpm size:report -- --write-budget`.',
+  );
   process.exit(1);
 }
 
 const summary = [...results.values()]
   .map((result) => `${result.platform} ${formatMb(result.totalBytes)}`)
   .join(', ');
-console.log(`\nsize-report: OK - ${summary} (uncompressed disk bytes)${budget ? '' : ' [no size-budget.json, nothing to compare]'}`);
+console.log(
+  `\nsize-report: OK - ${summary} (uncompressed disk bytes)${budget ? '' : ' [no size-budget.json, nothing to compare]'}`,
+);

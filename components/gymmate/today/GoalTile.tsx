@@ -35,7 +35,9 @@ export function GoalTile({ profile, progress, latest }: GoalTileProps) {
       <View
         accessible
         accessibilityLabel={`Goal: ${gaining ? 'gain' : 'lose'}. ${
-          hasWeight ? `${percent} percent of the way to ${formatKg(profile.targetWeight)}.` : 'No weight logged yet.'
+          hasWeight
+            ? `${percent} percent of the way to ${formatKg(profile.targetWeight)}.`
+            : 'No weight logged yet.'
         }`}
         style={s.top}>
         <Text style={s.label}>{gaining ? 'Goal · Gain' : 'Goal · Lose'}</Text>

@@ -107,7 +107,7 @@ export function ExerciseDetailSheet({
 
   const primary = shown ? muscleList(shown.primaryMuscles) : '';
   const secondary = shown ? muscleList(shown.secondaryMuscles) : '';
-  const media = shown ? shown.gifUrl ?? shown.imageUrl : null;
+  const media = shown ? (shown.gifUrl ?? shown.imageUrl) : null;
   const dismissLabel = shown ? `Close ${shown.name} details` : 'Close exercise details';
 
   return (
@@ -147,7 +147,11 @@ export function ExerciseDetailSheet({
                     />
                   ) : (
                     <View style={s.heroPlaceholder}>
-                      <Icons.exercise color={T.muted} size={ICON_SIZE.lg} strokeWidth={ICON_STROKE} />
+                      <Icons.exercise
+                        color={T.muted}
+                        size={ICON_SIZE.lg}
+                        strokeWidth={ICON_STROKE}
+                      />
                     </View>
                   )}
                 </View>
@@ -167,9 +171,7 @@ export function ExerciseDetailSheet({
               {primary.length > 0 || secondary.length > 0 ? (
                 <View style={s.muscles}>
                   {primary.length > 0 ? <MuscleRow label="Primary" value={primary} /> : null}
-                  {secondary.length > 0 ? (
-                    <MuscleRow label="Assisting" value={secondary} />
-                  ) : null}
+                  {secondary.length > 0 ? <MuscleRow label="Assisting" value={secondary} /> : null}
                 </View>
               ) : null}
 

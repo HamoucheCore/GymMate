@@ -70,7 +70,11 @@ export function NumberStepper({
           <Icons.decrement color={T.accent} size={ICON_SIZE.lg} strokeWidth={ICON_STROKE} />
         </Pressable>
 
-        <View style={s.valueBox} accessible accessibilityRole="text" accessibilityLabel={`${label}: ${display}`}>
+        <View
+          style={s.valueBox}
+          accessible
+          accessibilityRole="text"
+          accessibilityLabel={`${label}: ${display}`}>
           <Text style={s.value} numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.7}>
             {display}
           </Text>
@@ -109,7 +113,12 @@ const btn: ViewStyle = {
 };
 const btnPressed: ViewStyle = { backgroundColor: T.pillBg };
 const btnDisabled: ViewStyle = { opacity: 0.4 };
-const valueBox: ViewStyle = { flex: 1, alignItems: 'center', justifyContent: 'center', minHeight: 44 };
+const valueBox: ViewStyle = {
+  flex: 1,
+  alignItems: 'center',
+  justifyContent: 'center',
+  minHeight: 44,
+};
 const valueStyle: TextStyle = { fontSize: 18, fontFamily: T.fontMonoBold, color: T.ink };
 
 const s = StyleSheet.create({

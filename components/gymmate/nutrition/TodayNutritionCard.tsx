@@ -6,7 +6,14 @@
  * pushing the card wider. Zeros are real logged zeros; without a target the
  * ring simply reports "No target yet".
  */
-import { StyleSheet, Text, View, type StyleProp, type TextStyle, type ViewStyle } from 'react-native';
+import {
+  StyleSheet,
+  Text,
+  View,
+  type StyleProp,
+  type TextStyle,
+  type ViewStyle,
+} from 'react-native';
 import { Card } from '@/components/gymmate/Card';
 import { GhostButton } from '@/components/gymmate/GhostButton';
 import { MacroRing } from '@/components/gymmate/nutrition/MacroRing';
@@ -38,11 +45,12 @@ export function TodayNutritionCard({
   // The ring already states today's intake, so the column spends its one big
   // line on what is left (or over) instead of repeating the same figure.
   const remaining = remainingCalories(totals, target);
-  const headline = remaining === null
-    ? 'No target yet'
-    : remaining >= 0
-      ? `${formatKcal(remaining)} left`
-      : `${formatKcal(Math.abs(remaining))} over`;
+  const headline =
+    remaining === null
+      ? 'No target yet'
+      : remaining >= 0
+        ? `${formatKcal(remaining)} left`
+        : `${formatKcal(Math.abs(remaining))} over`;
 
   return (
     <Card style={style}>

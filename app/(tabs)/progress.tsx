@@ -12,14 +12,16 @@ import {
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { GymMateTheme as T, MAX_CONTENT_WIDTH } from '@/constants/GymMateTheme';
-import { Card, EmptyState, Pill, PrimaryButton, ScreenHeader, SectionTitle } from '@/components/gymmate';
-import { EntryRow, GoalProgress, WeightTrend, goalLabel } from '@/components/gymmate/profile';
 import {
-  formatDateLabel,
-  formatKg,
-  formatSigned,
-  parseDecimalInput,
-} from '@/lib/gymmate/format';
+  Card,
+  EmptyState,
+  Pill,
+  PrimaryButton,
+  ScreenHeader,
+  SectionTitle,
+} from '@/components/gymmate';
+import { EntryRow, GoalProgress, WeightTrend, goalLabel } from '@/components/gymmate/profile';
+import { formatDateLabel, formatKg, formatSigned, parseDecimalInput } from '@/lib/gymmate/format';
 import {
   goalProgress,
   latestWeight,
@@ -39,8 +41,7 @@ export default function ProgressScreen() {
   const [error, setError] = useState<string | null>(null);
 
   const entries = useMemo(
-    () =>
-      [...state.bodyweights].sort((a, b) => (a.date === b.date ? 0 : a.date < b.date ? 1 : -1)),
+    () => [...state.bodyweights].sort((a, b) => (a.date === b.date ? 0 : a.date < b.date ? 1 : -1)),
     [state.bodyweights],
   );
 
@@ -227,7 +228,12 @@ const block: ViewStyle = { marginBottom: 14 };
 const head: ViewStyle = { flexDirection: 'row', alignItems: 'flex-start', gap: 12 };
 const headMain: ViewStyle = { flex: 1, minWidth: 0, gap: 2 };
 const kicker: TextStyle = { fontSize: 12, color: T.muted };
-const big: TextStyle = { fontSize: 34, color: T.ink, letterSpacing: -1, fontFamily: T.fontMonoBold };
+const big: TextStyle = {
+  fontSize: 34,
+  color: T.ink,
+  letterSpacing: -1,
+  fontFamily: T.fontMonoBold,
+};
 const headSub: TextStyle = { fontSize: 12, color: T.muted };
 const delta: ViewStyle = { alignItems: 'flex-end', gap: 2 };
 const deltaValue: TextStyle = { fontSize: 18, fontFamily: T.fontMonoBold };

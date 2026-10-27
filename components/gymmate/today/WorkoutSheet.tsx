@@ -95,7 +95,7 @@ export function WorkoutSheet({
     return picks ?? null;
   }, [exercises, activeExerciseId]);
 
-  const activeSets: DraftSet[] = activeExercise ? draft[activeExercise.id] ?? [] : [];
+  const activeSets: DraftSet[] = activeExercise ? (draft[activeExercise.id] ?? []) : [];
 
   const totals = useMemo(() => {
     let planned = 0;
@@ -150,9 +150,7 @@ export function WorkoutSheet({
           style={s.scrim}
         />
 
-        <View
-          accessibilityViewIsModal
-          style={[s.sheet, { paddingBottom: 20 + insets.bottom }]}>
+        <View accessibilityViewIsModal style={[s.sheet, { paddingBottom: 20 + insets.bottom }]}>
           <View style={s.head}>
             <View style={s.headText}>
               <Text style={s.title} accessibilityRole="header">
@@ -231,7 +229,9 @@ export function WorkoutSheet({
                     <View key={index} style={s.setCard}>
                       <View style={s.setHead}>
                         <Text style={s.setName}>Set {index + 1}</Text>
-                        <Text style={[s.setState, set.logged ? s.setStateOn : null]} numberOfLines={1}>
+                        <Text
+                          style={[s.setState, set.logged ? s.setStateOn : null]}
+                          numberOfLines={1}>
                           {set.logged
                             ? `${formatKg(set.kg)} × ${set.reps}`
                             : ready

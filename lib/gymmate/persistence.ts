@@ -62,7 +62,8 @@ function coerceScheduledExercise(value: unknown): ScheduledExercise | null {
 function coerceScheduleDay(value: unknown, key: WeekdayKey): ScheduleDay {
   const fallback: ScheduleDay = { key, focus: 'Rest', rest: true, exercises: [] };
   if (!isRecord(value)) return fallback;
-  const focus = typeof value.focus === 'string' && value.focus.trim() ? value.focus : fallback.focus;
+  const focus =
+    typeof value.focus === 'string' && value.focus.trim() ? value.focus : fallback.focus;
   const rest = typeof value.rest === 'boolean' ? value.rest : fallback.rest;
   const exercises: ScheduledExercise[] = [];
   if (isUnknownArray(value.exercises)) {
@@ -106,7 +107,8 @@ function isWeekdayKey(value: unknown): value is WeekdayKey {
 function coerceWorkoutLog(value: unknown): WorkoutLog | null {
   if (!isRecord(value)) return null;
   const { id, dayKey, date, focus, completedAt, exercises } = value;
-  if (typeof id !== 'string' || typeof date !== 'string' || typeof completedAt !== 'string') return null;
+  if (typeof id !== 'string' || typeof date !== 'string' || typeof completedAt !== 'string')
+    return null;
   const parsedExercises: { name: string; sets: SetLog[] }[] = [];
   if (isUnknownArray(exercises)) {
     for (const raw of exercises) {

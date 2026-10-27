@@ -207,7 +207,9 @@ export default function PlanScreen() {
           <SectionTitle
             title="Exercises"
             subtitle={
-              day.exercises.length === 0 ? 'None yet — add lifts from the library below.' : undefined
+              day.exercises.length === 0
+                ? 'None yet — add lifts from the library below.'
+                : undefined
             }
             style={styles.section}
           />

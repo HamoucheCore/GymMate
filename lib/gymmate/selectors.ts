@@ -86,9 +86,12 @@ export function goalProgress(profile: Profile | null, entries: BodyEntry[]): num
   const latest = latestWeight(entries);
   if (!profile || latest === null) return 0;
   const span =
-    profile.goal === 'lose' ? profile.startWeight - profile.targetWeight : profile.targetWeight - profile.startWeight;
+    profile.goal === 'lose'
+      ? profile.startWeight - profile.targetWeight
+      : profile.targetWeight - profile.startWeight;
   if (span <= 0) return 0;
-  const moved = profile.goal === 'lose' ? profile.startWeight - latest : latest - profile.startWeight;
+  const moved =
+    profile.goal === 'lose' ? profile.startWeight - latest : latest - profile.startWeight;
   return clamp01(moved / span);
 }
 

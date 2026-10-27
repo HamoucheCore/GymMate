@@ -1,4 +1,11 @@
-import { StyleSheet, Text, View, type StyleProp, type TextStyle, type ViewStyle } from 'react-native';
+import {
+  StyleSheet,
+  Text,
+  View,
+  type StyleProp,
+  type TextStyle,
+  type ViewStyle,
+} from 'react-native';
 import { GymMateTheme as T } from '@/constants/GymMateTheme';
 import { formatDateLabel, formatKg } from '@/lib/gymmate/format';
 import type { BodyEntry } from '@/lib/gymmate/store';

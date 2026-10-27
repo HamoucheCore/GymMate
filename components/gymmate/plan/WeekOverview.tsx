@@ -96,7 +96,11 @@ export function WeekOverview({
               </Text>
             </View>
 
-            <Pill label={rest ? 'Rest' : 'Train'} tone={rest ? 'muted' : 'accent'} style={s.badge} />
+            <Pill
+              label={rest ? 'Rest' : 'Train'}
+              tone={rest ? 'muted' : 'accent'}
+              style={s.badge}
+            />
           </Pressable>
         );
       })}
