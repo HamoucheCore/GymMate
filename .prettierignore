@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.expo/
+assets/
+lib/gymmate/data.ts
+pnpm-lock.yaml
+*.md
+.opencode/

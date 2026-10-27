@@ -56,7 +56,7 @@ export function TodayNutritionCard({
 
         <View style={s.body}>
           <Text style={s.kicker} numberOfLines={1}>
-            Today's fuel
+            Today&apos;s fuel
           </Text>
           <Text style={s.calories} numberOfLines={1}>
             {headline}
