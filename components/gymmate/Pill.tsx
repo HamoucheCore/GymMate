@@ -8,7 +8,7 @@ import {
 } from 'react-native';
 import { GymMateTheme as T } from '@/constants/GymMateTheme';
 
-export type PillTone = 'default' | 'accent' | 'muted' | 'danger' | 'success';
+export type PillTone = 'default' | 'accent' | 'muted';
 
 export interface PillProps {
   label: string;
@@ -40,8 +40,6 @@ const toneMuted: ViewStyle = { backgroundColor: T.surface2 };
 const textStyle: TextStyle = { fontSize: 12, fontWeight: '600', color: T.pillText };
 const textAccent: TextStyle = { color: T.accentInk, fontWeight: '700' };
 const textMuted: TextStyle = { color: T.muted };
-const textDanger: TextStyle = { color: T.danger };
-const textSuccess: TextStyle = { color: T.success };
 
 const s = StyleSheet.create({
   pill,
@@ -50,22 +48,16 @@ const s = StyleSheet.create({
   text: textStyle,
   textAccent,
   textMuted,
-  textDanger,
-  textSuccess,
 });
 
 const toneStyles: Record<PillTone, StyleProp<ViewStyle>> = {
   default: undefined,
   accent: s.toneAccent,
   muted: s.toneMuted,
-  danger: s.toneMuted,
-  success: s.toneMuted,
 };
 
 const toneTextStyles: Record<PillTone, StyleProp<TextStyle>> = {
   default: undefined,
   accent: s.textAccent,
   muted: s.textMuted,
-  danger: s.textDanger,
-  success: s.textSuccess,
 };

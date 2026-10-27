@@ -596,9 +596,9 @@ function serialize(state: GymState): string {
 
 /* ----------------------------------------------------------------- reducer */
 
-export const initialGymState: GymState = createEmptyState(false);
+const initialGymState: GymState = createEmptyState(false);
 
-export function gymReducer(state: GymState, action: GymAction): GymState {
+function gymReducer(state: GymState, action: GymAction): GymState {
   switch (action.type) {
     case 'HYDRATE':
       return { ...state, ...action.state, hydrated: true, persistable: action.persistable };

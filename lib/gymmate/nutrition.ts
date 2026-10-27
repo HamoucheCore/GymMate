@@ -13,9 +13,6 @@ import type { Goal, MealLog, Profile } from '@/lib/gymmate/store';
 
 /* ------------------------------------------------------------------ types */
 
-/** The three macros the tracker shows. Calories are tracked separately. */
-export type MacroKey = 'protein' | 'carbs' | 'fat';
-
 /** Where a meal sits in the day. Stored, so the order here is display order. */
 export type MealSlot = 'breakfast' | 'lunch' | 'dinner' | 'snack';
 
@@ -40,8 +37,6 @@ export const MEAL_SLOTS: readonly { key: MealSlot; label: string }[] = [
   { key: 'dinner', label: 'Dinner' },
   { key: 'snack', label: 'Snack' },
 ];
-
-export const MACRO_KEYS: readonly MacroKey[] = ['protein', 'carbs', 'fat'];
 
 /** Meal names are free text typed on a phone — cap them so a pasted essay
  *  can't blow out the row layout or the persisted blob. */
@@ -75,8 +70,8 @@ export function mealSlotLabel(slot: MealSlot): string {
   return match ? match.label : slot;
 }
 
-/** A zeroed total — used for the "nothing logged" state and as a reduce seed. */
-export function emptyNutritionTotals(): NutritionTotals {
+/** A zeroed total — the reduce seed for `sumNutrition`. */
+function emptyNutritionTotals(): NutritionTotals {
   return { calories: 0, protein: 0, carbs: 0, fat: 0 };
 }
 

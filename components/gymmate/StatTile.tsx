@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View, type StyleProp, type TextStyle, type ViewStyle } from 'react-native';
 import { GymMateTheme as T } from '@/constants/GymMateTheme';
 
-export type StatTone = 'default' | 'accent' | 'danger' | 'success' | 'muted';
+export type StatTone = 'default' | 'accent' | 'muted';
 
 export interface StatTileProps {
   label: string;
@@ -51,8 +51,6 @@ const tile: ViewStyle = {
 const labelStyle: TextStyle = { fontSize: 11, color: T.muted, letterSpacing: 0.4 };
 const valueStyle: TextStyle = { fontSize: 22, fontFamily: T.fontMonoBold, color: T.ink };
 const valueAccent: TextStyle = { color: T.accent };
-const valueDanger: TextStyle = { color: T.danger };
-const valueSuccess: TextStyle = { color: T.success };
 const valueMuted: TextStyle = { color: T.muted };
 const hint: TextStyle = { fontSize: 11, fontFamily: T.fontMono, color: T.muted };
 
@@ -61,8 +59,6 @@ const s = StyleSheet.create({
   label: labelStyle,
   value: valueStyle,
   valueAccent,
-  valueDanger,
-  valueSuccess,
   valueMuted,
   hint,
 });
@@ -70,7 +66,5 @@ const s = StyleSheet.create({
 const toneValue: Record<StatTone, StyleProp<TextStyle>> = {
   default: undefined,
   accent: s.valueAccent,
-  danger: s.valueDanger,
-  success: s.valueSuccess,
   muted: s.valueMuted,
 };

@@ -4,12 +4,10 @@ import { GymMateTheme as T } from '@/constants/GymMateTheme';
 export interface VolumeBarsProps {
   /** One value per bar. Scale is 0..100 (percent of the tallest bar). */
   values: number[];
-  /** Defaults to the Mon..Sun initials. */
-  labels?: string[];
+  /** One label per bar, e.g. the Mon..Sun initials. */
+  labels: string[];
   /** Bar to render in accent. Defaults to the real current weekday. */
   highlightIndex?: number;
-  /** Total block height in pt. */
-  height?: number;
   /**
    * One real sentence describing the chart (e.g. per-day kilometres). Announced
    * in place of the ambiguous single-letter labels, which are hidden from
@@ -19,7 +17,7 @@ export interface VolumeBarsProps {
   style?: StyleProp<ViewStyle>;
 }
 
-const DEFAULT_LABELS = ['M', 'T', 'W', 'T', 'F', 'S', 'S'];
+const HEIGHT = 146;
 const PLOT_PADDING = 40;
 
 function currentWeekdayIndex(): number {
@@ -32,21 +30,14 @@ function clampPercent(value: number): number {
 }
 
 /** Weekly volume chart: one bar per day, today highlighted. */
-export function VolumeBars({
-  values,
-  labels = DEFAULT_LABELS,
-  highlightIndex,
-  height = 146,
-  summary,
-  style,
-}: VolumeBarsProps) {
+export function VolumeBars({ values, labels, highlightIndex, summary, style }: VolumeBarsProps) {
   const active = highlightIndex ?? currentWeekdayIndex();
-  const plotHeight = Math.max(24, height - PLOT_PADDING);
+  const plotHeight = Math.max(24, HEIGHT - PLOT_PADDING);
   const described = summary !== undefined;
 
   return (
     <View
-      style={[s.bars, { height }, style]}
+      style={[s.bars, { height: HEIGHT }, style]}
       accessible={described ? true : undefined}
       accessibilityRole={described ? 'image' : undefined}
       accessibilityLabel={summary}>
