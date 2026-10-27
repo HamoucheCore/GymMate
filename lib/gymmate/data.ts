@@ -91,7 +91,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0001.jpg'),
+    imageUrl: require('../../assets/exercises/img/0001.webp'),
   },
   {
     id: "0002",
@@ -100,7 +100,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0002.jpg'),
+    imageUrl: require('../../assets/exercises/img/0002.webp'),
   },
   {
     id: "0003",
@@ -121,7 +121,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Continue alternating in this manner until all of the recommended repetitions for each side have been completed.",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0003.jpg'),
+    imageUrl: require('../../assets/exercises/img/0003.webp'),
     gifUrl: require('../../assets/exercises/gif/0003.webp'),
   },
   {
@@ -131,7 +131,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1512.jpg'),
+    imageUrl: require('../../assets/exercises/img/1512.webp'),
   },
   {
     id: "0006",
@@ -140,7 +140,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0006.jpg'),
+    imageUrl: require('../../assets/exercises/img/0006.webp'),
   },
   {
     id: "0007",
@@ -150,7 +150,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0007.jpg'),
+    imageUrl: require('../../assets/exercises/img/0007.webp'),
   },
   {
     id: "1368",
@@ -159,7 +159,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1368.jpg'),
+    imageUrl: require('../../assets/exercises/img/1368.webp'),
   },
   {
     id: "3293",
@@ -169,7 +169,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3293.jpg'),
+    imageUrl: require('../../assets/exercises/img/3293.webp'),
   },
   {
     id: "3294",
@@ -179,7 +179,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3294.jpg'),
+    imageUrl: require('../../assets/exercises/img/3294.webp'),
   },
   {
     id: "2355",
@@ -188,7 +188,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2355.jpg'),
+    imageUrl: require('../../assets/exercises/img/2355.webp'),
   },
   {
     id: "2333",
@@ -197,7 +197,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2333.jpg'),
+    imageUrl: require('../../assets/exercises/img/2333.webp'),
   },
   {
     id: "3214",
@@ -206,7 +206,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3214.jpg'),
+    imageUrl: require('../../assets/exercises/img/3214.webp'),
   },
   {
     id: "3204",
@@ -216,7 +216,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3204.jpg'),
+    imageUrl: require('../../assets/exercises/img/3204.webp'),
   },
   {
     id: "0009",
@@ -226,7 +226,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0009.jpg'),
+    imageUrl: require('../../assets/exercises/img/0009.webp'),
   },
   {
     id: "0011",
@@ -236,7 +236,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0011.jpg'),
+    imageUrl: require('../../assets/exercises/img/0011.webp'),
   },
   {
     id: "0010",
@@ -246,7 +246,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0010.jpg'),
+    imageUrl: require('../../assets/exercises/img/0010.webp'),
   },
   {
     id: "1708",
@@ -256,7 +256,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1708.jpg'),
+    imageUrl: require('../../assets/exercises/img/1708.webp'),
   },
   {
     id: "1709",
@@ -266,7 +266,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1709.jpg'),
+    imageUrl: require('../../assets/exercises/img/1709.webp'),
   },
   {
     id: "1710",
@@ -275,7 +275,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1710.jpg'),
+    imageUrl: require('../../assets/exercises/img/1710.webp'),
   },
   {
     id: "0012",
@@ -285,7 +285,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0012.jpg'),
+    imageUrl: require('../../assets/exercises/img/0012.webp'),
   },
   {
     id: "0013",
@@ -295,7 +295,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0013.jpg'),
+    imageUrl: require('../../assets/exercises/img/0013.webp'),
   },
   {
     id: "0014",
@@ -305,7 +305,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0014.jpg'),
+    imageUrl: require('../../assets/exercises/img/0014.webp'),
   },
   {
     id: "0015",
@@ -315,7 +315,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0015.jpg'),
+    imageUrl: require('../../assets/exercises/img/0015.webp'),
   },
   {
     id: "0016",
@@ -325,7 +325,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0016.jpg'),
+    imageUrl: require('../../assets/exercises/img/0016.webp'),
   },
   {
     id: "1713",
@@ -334,7 +334,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1713.jpg'),
+    imageUrl: require('../../assets/exercises/img/1713.webp'),
   },
   {
     id: "1714",
@@ -343,7 +343,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1714.jpg'),
+    imageUrl: require('../../assets/exercises/img/1714.webp'),
   },
   {
     id: "0017",
@@ -353,7 +353,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0017.jpg'),
+    imageUrl: require('../../assets/exercises/img/0017.webp'),
   },
   {
     id: "1716",
@@ -362,7 +362,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1716.jpg'),
+    imageUrl: require('../../assets/exercises/img/1716.webp'),
   },
   {
     id: "1712",
@@ -371,7 +371,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1712.jpg'),
+    imageUrl: require('../../assets/exercises/img/1712.webp'),
   },
   {
     id: "1758",
@@ -381,7 +381,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1758.jpg'),
+    imageUrl: require('../../assets/exercises/img/1758.webp'),
   },
   {
     id: "1431",
@@ -391,7 +391,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1431.jpg'),
+    imageUrl: require('../../assets/exercises/img/1431.webp'),
   },
   {
     id: "1432",
@@ -401,7 +401,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1432.jpg'),
+    imageUrl: require('../../assets/exercises/img/1432.webp'),
   },
   {
     id: "0018",
@@ -411,7 +411,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0018.jpg'),
+    imageUrl: require('../../assets/exercises/img/0018.webp'),
   },
   {
     id: "0019",
@@ -421,7 +421,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0019.jpg'),
+    imageUrl: require('../../assets/exercises/img/0019.webp'),
   },
   {
     id: "2364",
@@ -431,7 +431,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2364.jpg'),
+    imageUrl: require('../../assets/exercises/img/2364.webp'),
   },
   {
     id: "3220",
@@ -440,7 +440,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3220.jpg'),
+    imageUrl: require('../../assets/exercises/img/3220.webp'),
   },
   {
     id: "3672",
@@ -449,7 +449,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3672.jpg'),
+    imageUrl: require('../../assets/exercises/img/3672.webp'),
   },
   {
     id: "1314",
@@ -459,7 +459,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1314.jpg'),
+    imageUrl: require('../../assets/exercises/img/1314.webp'),
   },
   {
     id: "3297",
@@ -468,7 +468,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Other",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3297.jpg'),
+    imageUrl: require('../../assets/exercises/img/3297.webp'),
   },
   {
     id: "1405",
@@ -478,7 +478,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1405.jpg'),
+    imageUrl: require('../../assets/exercises/img/1405.webp'),
   },
   {
     id: "1473",
@@ -487,7 +487,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1473.jpg'),
+    imageUrl: require('../../assets/exercises/img/1473.webp'),
   },
   {
     id: "0020",
@@ -496,7 +496,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0020.jpg'),
+    imageUrl: require('../../assets/exercises/img/0020.webp'),
   },
   {
     id: "0968",
@@ -506,7 +506,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0968.jpg'),
+    imageUrl: require('../../assets/exercises/img/0968.webp'),
   },
   {
     id: "0969",
@@ -515,7 +515,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0969.jpg'),
+    imageUrl: require('../../assets/exercises/img/0969.webp'),
   },
   {
     id: "0970",
@@ -534,7 +534,7 @@ export const LIBRARY: LibraryExercise[] = [
       "After a brief pause, return to the starting position.",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0970.jpg'),
+    imageUrl: require('../../assets/exercises/img/0970.webp'),
     gifUrl: require('../../assets/exercises/gif/0970.webp'),
   },
   {
@@ -545,7 +545,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0971.jpg'),
+    imageUrl: require('../../assets/exercises/img/0971.webp'),
   },
   {
     id: "1254",
@@ -570,7 +570,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Bench Press - With Bands",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/1254.jpg'),
+    imageUrl: require('../../assets/exercises/img/1254.webp'),
     gifUrl: require('../../assets/exercises/gif/1254.webp'),
   },
   {
@@ -581,7 +581,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0980.jpg'),
+    imageUrl: require('../../assets/exercises/img/0980.webp'),
   },
   {
     id: "0972",
@@ -591,7 +591,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0972.jpg'),
+    imageUrl: require('../../assets/exercises/img/0972.webp'),
   },
   {
     id: "0974",
@@ -601,7 +601,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0974.jpg'),
+    imageUrl: require('../../assets/exercises/img/0974.webp'),
   },
   {
     id: "0975",
@@ -611,7 +611,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0975.jpg'),
+    imageUrl: require('../../assets/exercises/img/0975.webp'),
   },
   {
     id: "0976",
@@ -621,7 +621,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0976.jpg'),
+    imageUrl: require('../../assets/exercises/img/0976.webp'),
   },
   {
     id: "3117",
@@ -631,7 +631,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3117.jpg'),
+    imageUrl: require('../../assets/exercises/img/3117.webp'),
   },
   {
     id: "3116",
@@ -641,7 +641,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3116.jpg'),
+    imageUrl: require('../../assets/exercises/img/3116.webp'),
   },
   {
     id: "0977",
@@ -651,7 +651,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0977.jpg'),
+    imageUrl: require('../../assets/exercises/img/0977.webp'),
   },
   {
     id: "0978",
@@ -661,7 +661,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0978.jpg'),
+    imageUrl: require('../../assets/exercises/img/0978.webp'),
   },
   {
     id: "1408",
@@ -671,7 +671,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1408.jpg'),
+    imageUrl: require('../../assets/exercises/img/1408.webp'),
   },
   {
     id: "0979",
@@ -695,7 +695,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Pallof Press",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0979.jpg'),
+    imageUrl: require('../../assets/exercises/img/0979.webp'),
     gifUrl: require('../../assets/exercises/gif/0979.webp'),
   },
   {
@@ -706,7 +706,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0981.jpg'),
+    imageUrl: require('../../assets/exercises/img/0981.webp'),
   },
   {
     id: "0983",
@@ -716,7 +716,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0983.jpg'),
+    imageUrl: require('../../assets/exercises/img/0983.webp'),
   },
   {
     id: "0985",
@@ -726,7 +726,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0985.jpg'),
+    imageUrl: require('../../assets/exercises/img/0985.webp'),
   },
   {
     id: "0984",
@@ -735,7 +735,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0984.jpg'),
+    imageUrl: require('../../assets/exercises/img/0984.webp'),
   },
   {
     id: "1002",
@@ -745,7 +745,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1002.jpg'),
+    imageUrl: require('../../assets/exercises/img/1002.webp'),
   },
   {
     id: "0986",
@@ -755,7 +755,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0986.jpg'),
+    imageUrl: require('../../assets/exercises/img/0986.webp'),
   },
   {
     id: "0987",
@@ -765,7 +765,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0987.jpg'),
+    imageUrl: require('../../assets/exercises/img/0987.webp'),
   },
   {
     id: "0988",
@@ -775,7 +775,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0988.jpg'),
+    imageUrl: require('../../assets/exercises/img/0988.webp'),
   },
   {
     id: "0989",
@@ -785,7 +785,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0989.jpg'),
+    imageUrl: require('../../assets/exercises/img/0989.webp'),
   },
   {
     id: "0990",
@@ -795,7 +795,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0990.jpg'),
+    imageUrl: require('../../assets/exercises/img/0990.webp'),
   },
   {
     id: "0991",
@@ -804,7 +804,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0991.jpg'),
+    imageUrl: require('../../assets/exercises/img/0991.webp'),
   },
   {
     id: "0992",
@@ -814,7 +814,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0992.jpg'),
+    imageUrl: require('../../assets/exercises/img/0992.webp'),
   },
   {
     id: "0993",
@@ -824,7 +824,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0993.jpg'),
+    imageUrl: require('../../assets/exercises/img/0993.webp'),
   },
   {
     id: "0994",
@@ -834,7 +834,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0994.jpg'),
+    imageUrl: require('../../assets/exercises/img/0994.webp'),
   },
   {
     id: "0996",
@@ -843,7 +843,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0996.jpg'),
+    imageUrl: require('../../assets/exercises/img/0996.webp'),
   },
   {
     id: "1011",
@@ -853,7 +853,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1011.jpg'),
+    imageUrl: require('../../assets/exercises/img/1011.webp'),
   },
   {
     id: "0997",
@@ -863,7 +863,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0997.jpg'),
+    imageUrl: require('../../assets/exercises/img/0997.webp'),
   },
   {
     id: "1018",
@@ -873,7 +873,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1018.jpg'),
+    imageUrl: require('../../assets/exercises/img/1018.webp'),
   },
   {
     id: "0998",
@@ -883,7 +883,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0998.jpg'),
+    imageUrl: require('../../assets/exercises/img/0998.webp'),
   },
   {
     id: "0999",
@@ -893,7 +893,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0999.jpg'),
+    imageUrl: require('../../assets/exercises/img/0999.webp'),
   },
   {
     id: "1000",
@@ -903,7 +903,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1000.jpg'),
+    imageUrl: require('../../assets/exercises/img/1000.webp'),
   },
   {
     id: "1001",
@@ -913,7 +913,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1001.jpg'),
+    imageUrl: require('../../assets/exercises/img/1001.webp'),
   },
   {
     id: "1004",
@@ -923,7 +923,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1004.jpg'),
+    imageUrl: require('../../assets/exercises/img/1004.webp'),
   },
   {
     id: "1003",
@@ -933,7 +933,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1003.jpg'),
+    imageUrl: require('../../assets/exercises/img/1003.webp'),
   },
   {
     id: "1005",
@@ -943,7 +943,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1005.jpg'),
+    imageUrl: require('../../assets/exercises/img/1005.webp'),
   },
   {
     id: "1022",
@@ -953,7 +953,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1022.jpg'),
+    imageUrl: require('../../assets/exercises/img/1022.webp'),
   },
   {
     id: "1007",
@@ -963,7 +963,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1007.jpg'),
+    imageUrl: require('../../assets/exercises/img/1007.webp'),
   },
   {
     id: "1008",
@@ -973,7 +973,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1008.jpg'),
+    imageUrl: require('../../assets/exercises/img/1008.webp'),
   },
   {
     id: "1009",
@@ -983,7 +983,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1009.jpg'),
+    imageUrl: require('../../assets/exercises/img/1009.webp'),
   },
   {
     id: "1023",
@@ -993,7 +993,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1023.jpg'),
+    imageUrl: require('../../assets/exercises/img/1023.webp'),
   },
   {
     id: "1010",
@@ -1003,7 +1003,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1010.jpg'),
+    imageUrl: require('../../assets/exercises/img/1010.webp'),
   },
   {
     id: "1012",
@@ -1013,7 +1013,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1012.jpg'),
+    imageUrl: require('../../assets/exercises/img/1012.webp'),
   },
   {
     id: "1369",
@@ -1036,7 +1036,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Calf Raises - With Bands",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/1369.jpg'),
+    imageUrl: require('../../assets/exercises/img/1369.webp'),
     gifUrl: require('../../assets/exercises/gif/1369.webp'),
   },
   {
@@ -1047,7 +1047,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1013.jpg'),
+    imageUrl: require('../../assets/exercises/img/1013.webp'),
   },
   {
     id: "1014",
@@ -1056,7 +1056,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1014.jpg'),
+    imageUrl: require('../../assets/exercises/img/1014.webp'),
   },
   {
     id: "1015",
@@ -1065,7 +1065,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1015.jpg'),
+    imageUrl: require('../../assets/exercises/img/1015.webp'),
   },
   {
     id: "1016",
@@ -1075,7 +1075,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1016.jpg'),
+    imageUrl: require('../../assets/exercises/img/1016.webp'),
   },
   {
     id: "1017",
@@ -1084,7 +1084,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1017.jpg'),
+    imageUrl: require('../../assets/exercises/img/1017.webp'),
   },
   {
     id: "0023",
@@ -1094,7 +1094,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0023.jpg'),
+    imageUrl: require('../../assets/exercises/img/0023.webp'),
   },
   {
     id: "0024",
@@ -1104,7 +1104,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0024.jpg'),
+    imageUrl: require('../../assets/exercises/img/0024.webp'),
   },
   {
     id: "0025",
@@ -1128,7 +1128,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Bench press",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0025.jpg'),
+    imageUrl: require('../../assets/exercises/img/0025.webp'),
     gifUrl: require('../../assets/exercises/gif/0025.webp'),
   },
   {
@@ -1139,7 +1139,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0026.jpg'),
+    imageUrl: require('../../assets/exercises/img/0026.webp'),
   },
   {
     id: "1316",
@@ -1149,7 +1149,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1316.jpg'),
+    imageUrl: require('../../assets/exercises/img/1316.webp'),
   },
   {
     id: "0027",
@@ -1172,7 +1172,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Barbell row",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0027.jpg'),
+    imageUrl: require('../../assets/exercises/img/0027.webp'),
     gifUrl: require('../../assets/exercises/gif/0027.webp'),
   },
   {
@@ -1183,7 +1183,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2407.jpg'),
+    imageUrl: require('../../assets/exercises/img/2407.webp'),
   },
   {
     id: "0028",
@@ -1192,7 +1192,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0028.jpg'),
+    imageUrl: require('../../assets/exercises/img/0028.webp'),
   },
   {
     id: "0029",
@@ -1202,7 +1202,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0029.jpg'),
+    imageUrl: require('../../assets/exercises/img/0029.webp'),
   },
   {
     id: "0030",
@@ -1225,7 +1225,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Close-Grip Barbell Bench Press",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0030.jpg'),
+    imageUrl: require('../../assets/exercises/img/0030.webp'),
     gifUrl: require('../../assets/exercises/gif/0030.webp'),
   },
   {
@@ -1249,7 +1249,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Biceps curl",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0031.jpg'),
+    imageUrl: require('../../assets/exercises/img/0031.webp'),
     gifUrl: require('../../assets/exercises/gif/0031.webp'),
   },
   {
@@ -1273,7 +1273,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Deadlift",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0032.jpg'),
+    imageUrl: require('../../assets/exercises/img/0032.webp'),
     gifUrl: require('../../assets/exercises/gif/0032.webp'),
   },
   {
@@ -1298,7 +1298,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Decline Barbell Bench Press",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0033.jpg'),
+    imageUrl: require('../../assets/exercises/img/0033.webp'),
     gifUrl: require('../../assets/exercises/gif/0033.webp'),
   },
   {
@@ -1309,7 +1309,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0034.jpg'),
+    imageUrl: require('../../assets/exercises/img/0034.webp'),
   },
   {
     id: "0035",
@@ -1319,7 +1319,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0035.jpg'),
+    imageUrl: require('../../assets/exercises/img/0035.webp'),
   },
   {
     id: "1255",
@@ -1329,7 +1329,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1255.jpg'),
+    imageUrl: require('../../assets/exercises/img/1255.webp'),
   },
   {
     id: "0036",
@@ -1338,7 +1338,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0036.jpg'),
+    imageUrl: require('../../assets/exercises/img/0036.webp'),
   },
   {
     id: "0037",
@@ -1348,7 +1348,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0037.jpg'),
+    imageUrl: require('../../assets/exercises/img/0037.webp'),
   },
   {
     id: "0038",
@@ -1358,7 +1358,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0038.jpg'),
+    imageUrl: require('../../assets/exercises/img/0038.webp'),
   },
   {
     id: "1370",
@@ -1368,7 +1368,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1370.jpg'),
+    imageUrl: require('../../assets/exercises/img/1370.webp'),
   },
   {
     id: "0039",
@@ -1378,7 +1378,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0039.jpg'),
+    imageUrl: require('../../assets/exercises/img/0039.webp'),
   },
   {
     id: "0041",
@@ -1388,7 +1388,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0041.jpg'),
+    imageUrl: require('../../assets/exercises/img/0041.webp'),
   },
   {
     id: "0040",
@@ -1398,7 +1398,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0040.jpg'),
+    imageUrl: require('../../assets/exercises/img/0040.webp'),
   },
   {
     id: "0042",
@@ -1423,7 +1423,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Front squat",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0042.jpg'),
+    imageUrl: require('../../assets/exercises/img/0042.webp'),
     gifUrl: require('../../assets/exercises/gif/0042.webp'),
   },
   {
@@ -1449,7 +1449,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Squat",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0043.jpg'),
+    imageUrl: require('../../assets/exercises/img/0043.webp'),
     gifUrl: require('../../assets/exercises/gif/0043.webp'),
   },
   {
@@ -1460,7 +1460,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1461.jpg'),
+    imageUrl: require('../../assets/exercises/img/1461.webp'),
   },
   {
     id: "1462",
@@ -1470,7 +1470,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1462.jpg'),
+    imageUrl: require('../../assets/exercises/img/1462.webp'),
   },
   {
     id: "1545",
@@ -1480,7 +1480,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1545.jpg'),
+    imageUrl: require('../../assets/exercises/img/1545.webp'),
   },
   {
     id: "1409",
@@ -1501,7 +1501,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Glute bridge",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/1409.jpg'),
+    imageUrl: require('../../assets/exercises/img/1409.webp'),
     gifUrl: require('../../assets/exercises/gif/1409.webp'),
   },
   {
@@ -1512,7 +1512,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3562.jpg'),
+    imageUrl: require('../../assets/exercises/img/3562.webp'),
   },
   {
     id: "0044",
@@ -1533,7 +1533,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Good Morning",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0044.jpg'),
+    imageUrl: require('../../assets/exercises/img/0044.webp'),
     gifUrl: require('../../assets/exercises/gif/0044.webp'),
   },
   {
@@ -1544,7 +1544,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0045.jpg'),
+    imageUrl: require('../../assets/exercises/img/0045.webp'),
   },
   {
     id: "0046",
@@ -1554,7 +1554,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0046.jpg'),
+    imageUrl: require('../../assets/exercises/img/0046.webp'),
   },
   {
     id: "1436",
@@ -1564,7 +1564,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1436.jpg'),
+    imageUrl: require('../../assets/exercises/img/1436.webp'),
   },
   {
     id: "0047",
@@ -1588,7 +1588,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Incline barbell bench",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0047.jpg'),
+    imageUrl: require('../../assets/exercises/img/0047.webp'),
     gifUrl: require('../../assets/exercises/gif/0047.webp'),
   },
   {
@@ -1599,7 +1599,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1719.jpg'),
+    imageUrl: require('../../assets/exercises/img/1719.webp'),
   },
   {
     id: "0048",
@@ -1608,7 +1608,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0048.jpg'),
+    imageUrl: require('../../assets/exercises/img/0048.webp'),
   },
   {
     id: "0049",
@@ -1618,7 +1618,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0049.jpg'),
+    imageUrl: require('../../assets/exercises/img/0049.webp'),
   },
   {
     id: "0050",
@@ -1627,7 +1627,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0050.jpg'),
+    imageUrl: require('../../assets/exercises/img/0050.webp'),
   },
   {
     id: "0051",
@@ -1637,7 +1637,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0051.jpg'),
+    imageUrl: require('../../assets/exercises/img/0051.webp'),
   },
   {
     id: "0052",
@@ -1647,7 +1647,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0052.jpg'),
+    imageUrl: require('../../assets/exercises/img/0052.webp'),
   },
   {
     id: "0053",
@@ -1657,7 +1657,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0053.jpg'),
+    imageUrl: require('../../assets/exercises/img/0053.webp'),
   },
   {
     id: "1410",
@@ -1667,7 +1667,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1410.jpg'),
+    imageUrl: require('../../assets/exercises/img/1410.webp'),
   },
   {
     id: "1435",
@@ -1677,7 +1677,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1435.jpg'),
+    imageUrl: require('../../assets/exercises/img/1435.webp'),
   },
   {
     id: "0054",
@@ -1699,7 +1699,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Barbell Walking Lunge",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0054.jpg'),
+    imageUrl: require('../../assets/exercises/img/0054.webp'),
     gifUrl: require('../../assets/exercises/gif/0054.webp'),
   },
   {
@@ -1710,7 +1710,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1720.jpg'),
+    imageUrl: require('../../assets/exercises/img/1720.webp'),
   },
   {
     id: "0055",
@@ -1719,7 +1719,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0055.jpg'),
+    imageUrl: require('../../assets/exercises/img/0055.webp'),
   },
   {
     id: "0056",
@@ -1729,7 +1729,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0056.jpg'),
+    imageUrl: require('../../assets/exercises/img/0056.webp'),
   },
   {
     id: "0057",
@@ -1739,7 +1739,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0057.jpg'),
+    imageUrl: require('../../assets/exercises/img/0057.webp'),
   },
   {
     id: "0058",
@@ -1748,7 +1748,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0058.jpg'),
+    imageUrl: require('../../assets/exercises/img/0058.webp'),
   },
   {
     id: "0059",
@@ -1758,7 +1758,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0059.jpg'),
+    imageUrl: require('../../assets/exercises/img/0059.webp'),
   },
   {
     id: "0061",
@@ -1768,7 +1768,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0061.jpg'),
+    imageUrl: require('../../assets/exercises/img/0061.webp'),
   },
   {
     id: "0060",
@@ -1791,7 +1791,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Skull crusher",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0060.jpg'),
+    imageUrl: require('../../assets/exercises/img/0060.webp'),
     gifUrl: require('../../assets/exercises/gif/0060.webp'),
   },
   {
@@ -1802,7 +1802,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0063.jpg'),
+    imageUrl: require('../../assets/exercises/img/0063.webp'),
   },
   {
     id: "0064",
@@ -1812,7 +1812,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0064.jpg'),
+    imageUrl: require('../../assets/exercises/img/0064.webp'),
   },
   {
     id: "0065",
@@ -1821,7 +1821,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0065.jpg'),
+    imageUrl: require('../../assets/exercises/img/0065.webp'),
   },
   {
     id: "0066",
@@ -1831,7 +1831,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0066.jpg'),
+    imageUrl: require('../../assets/exercises/img/0066.webp'),
   },
   {
     id: "0067",
@@ -1840,7 +1840,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0067.jpg'),
+    imageUrl: require('../../assets/exercises/img/0067.webp'),
   },
   {
     id: "0068",
@@ -1850,7 +1850,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0068.jpg'),
+    imageUrl: require('../../assets/exercises/img/0068.webp'),
   },
   {
     id: "0069",
@@ -1874,7 +1874,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Overhead Squat",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0069.jpg'),
+    imageUrl: require('../../assets/exercises/img/0069.webp'),
     gifUrl: require('../../assets/exercises/gif/0069.webp'),
   },
   {
@@ -1900,7 +1900,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Palms-Down Wrist Curl Over A Bench",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/1411.jpg'),
+    imageUrl: require('../../assets/exercises/img/1411.webp'),
     gifUrl: require('../../assets/exercises/gif/1411.webp'),
   },
   {
@@ -1927,7 +1927,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Wrist curl",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/1412.jpg'),
+    imageUrl: require('../../assets/exercises/img/1412.webp'),
     gifUrl: require('../../assets/exercises/gif/1412.webp'),
   },
   {
@@ -1938,7 +1938,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3017.jpg'),
+    imageUrl: require('../../assets/exercises/img/3017.webp'),
   },
   {
     id: "1751",
@@ -1947,7 +1947,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1751.jpg'),
+    imageUrl: require('../../assets/exercises/img/1751.webp'),
   },
   {
     id: "0070",
@@ -1970,7 +1970,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Preacher Curl",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0070.jpg'),
+    imageUrl: require('../../assets/exercises/img/0070.webp'),
     gifUrl: require('../../assets/exercises/gif/0070.webp'),
   },
   {
@@ -1981,7 +1981,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0071.jpg'),
+    imageUrl: require('../../assets/exercises/img/0071.webp'),
   },
   {
     id: "0072",
@@ -1991,7 +1991,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0072.jpg'),
+    imageUrl: require('../../assets/exercises/img/0072.webp'),
   },
   {
     id: "0073",
@@ -2001,7 +2001,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0073.jpg'),
+    imageUrl: require('../../assets/exercises/img/0073.webp'),
   },
   {
     id: "0022",
@@ -2011,7 +2011,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0022.jpg'),
+    imageUrl: require('../../assets/exercises/img/0022.webp'),
   },
   {
     id: "0074",
@@ -2020,7 +2020,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0074.jpg'),
+    imageUrl: require('../../assets/exercises/img/0074.webp'),
   },
   {
     id: "0075",
@@ -2030,7 +2030,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0075.jpg'),
+    imageUrl: require('../../assets/exercises/img/0075.webp'),
   },
   {
     id: "0076",
@@ -2040,7 +2040,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0076.jpg'),
+    imageUrl: require('../../assets/exercises/img/0076.webp'),
   },
   {
     id: "0078",
@@ -2050,7 +2050,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0078.jpg'),
+    imageUrl: require('../../assets/exercises/img/0078.webp'),
   },
   {
     id: "0077",
@@ -2060,7 +2060,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0077.jpg'),
+    imageUrl: require('../../assets/exercises/img/0077.webp'),
   },
   {
     id: "0079",
@@ -2070,7 +2070,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0079.jpg'),
+    imageUrl: require('../../assets/exercises/img/0079.webp'),
   },
   {
     id: "2187",
@@ -2080,7 +2080,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2187.jpg'),
+    imageUrl: require('../../assets/exercises/img/2187.webp'),
   },
   {
     id: "0080",
@@ -2102,7 +2102,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Reverse Barbell Curl",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0080.jpg'),
+    imageUrl: require('../../assets/exercises/img/0080.webp'),
     gifUrl: require('../../assets/exercises/gif/0080.webp'),
   },
   {
@@ -2126,7 +2126,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Reverse Grip Bent-Over Rows",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0118.jpg'),
+    imageUrl: require('../../assets/exercises/img/0118.webp'),
     gifUrl: require('../../assets/exercises/gif/0118.webp'),
   },
   {
@@ -2137,7 +2137,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1256.jpg'),
+    imageUrl: require('../../assets/exercises/img/1256.webp'),
   },
   {
     id: "1257",
@@ -2147,7 +2147,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1257.jpg'),
+    imageUrl: require('../../assets/exercises/img/1257.webp'),
   },
   {
     id: "1317",
@@ -2157,7 +2157,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1317.jpg'),
+    imageUrl: require('../../assets/exercises/img/1317.webp'),
   },
   {
     id: "1721",
@@ -2167,7 +2167,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1721.jpg'),
+    imageUrl: require('../../assets/exercises/img/1721.webp'),
   },
   {
     id: "0081",
@@ -2177,7 +2177,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0081.jpg'),
+    imageUrl: require('../../assets/exercises/img/0081.webp'),
   },
   {
     id: "0082",
@@ -2187,7 +2187,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0082.jpg'),
+    imageUrl: require('../../assets/exercises/img/0082.webp'),
   },
   {
     id: "0084",
@@ -2209,7 +2209,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Barbell Ab Rollout",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0084.jpg'),
+    imageUrl: require('../../assets/exercises/img/0084.webp'),
     gifUrl: require('../../assets/exercises/gif/0084.webp'),
   },
   {
@@ -2220,7 +2220,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0083.jpg'),
+    imageUrl: require('../../assets/exercises/img/0083.webp'),
   },
   {
     id: "0085",
@@ -2243,7 +2243,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Romanian Deadlift",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0085.jpg'),
+    imageUrl: require('../../assets/exercises/img/0085.webp'),
     gifUrl: require('../../assets/exercises/gif/0085.webp'),
   },
   {
@@ -2254,7 +2254,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0086.jpg'),
+    imageUrl: require('../../assets/exercises/img/0086.webp'),
   },
   {
     id: "0087",
@@ -2263,7 +2263,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0087.jpg'),
+    imageUrl: require('../../assets/exercises/img/0087.webp'),
   },
   {
     id: "0088",
@@ -2273,7 +2273,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0088.jpg'),
+    imageUrl: require('../../assets/exercises/img/0088.webp'),
   },
   {
     id: "1371",
@@ -2283,7 +2283,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1371.jpg'),
+    imageUrl: require('../../assets/exercises/img/1371.webp'),
   },
   {
     id: "1718",
@@ -2293,7 +2293,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1718.jpg'),
+    imageUrl: require('../../assets/exercises/img/1718.webp'),
   },
   {
     id: "0089",
@@ -2303,7 +2303,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0089.jpg'),
+    imageUrl: require('../../assets/exercises/img/0089.webp'),
   },
   {
     id: "0090",
@@ -2312,7 +2312,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0090.jpg'),
+    imageUrl: require('../../assets/exercises/img/0090.webp'),
   },
   {
     id: "0091",
@@ -2335,7 +2335,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Seated Barbell Military Press",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0091.jpg'),
+    imageUrl: require('../../assets/exercises/img/0091.webp'),
     gifUrl: require('../../assets/exercises/gif/0091.webp'),
   },
   {
@@ -2346,7 +2346,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0092.jpg'),
+    imageUrl: require('../../assets/exercises/img/0092.webp'),
   },
   {
     id: "0094",
@@ -2356,7 +2356,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0094.jpg'),
+    imageUrl: require('../../assets/exercises/img/0094.webp'),
   },
   {
     id: "0095",
@@ -2378,7 +2378,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Shrug",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0095.jpg'),
+    imageUrl: require('../../assets/exercises/img/0095.webp'),
     gifUrl: require('../../assets/exercises/gif/0095.webp'),
   },
   {
@@ -2388,7 +2388,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0096.jpg'),
+    imageUrl: require('../../assets/exercises/img/0096.webp'),
   },
   {
     id: "0098",
@@ -2398,7 +2398,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0098.jpg'),
+    imageUrl: require('../../assets/exercises/img/0098.webp'),
   },
   {
     id: "0097",
@@ -2408,7 +2408,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0097.jpg'),
+    imageUrl: require('../../assets/exercises/img/0097.webp'),
   },
   {
     id: "1756",
@@ -2418,7 +2418,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1756.jpg'),
+    imageUrl: require('../../assets/exercises/img/1756.webp'),
   },
   {
     id: "0099",
@@ -2428,7 +2428,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0099.jpg'),
+    imageUrl: require('../../assets/exercises/img/0099.webp'),
   },
   {
     id: "2799",
@@ -2438,7 +2438,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2799.jpg'),
+    imageUrl: require('../../assets/exercises/img/2799.webp'),
   },
   {
     id: "2800",
@@ -2448,7 +2448,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2800.jpg'),
+    imageUrl: require('../../assets/exercises/img/2800.webp'),
   },
   {
     id: "0100",
@@ -2457,7 +2457,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0100.jpg'),
+    imageUrl: require('../../assets/exercises/img/0100.webp'),
   },
   {
     id: "0101",
@@ -2467,7 +2467,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0101.jpg'),
+    imageUrl: require('../../assets/exercises/img/0101.webp'),
   },
   {
     id: "2810",
@@ -2477,7 +2477,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2810.jpg'),
+    imageUrl: require('../../assets/exercises/img/2810.webp'),
   },
   {
     id: "0102",
@@ -2487,7 +2487,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0102.jpg'),
+    imageUrl: require('../../assets/exercises/img/0102.webp'),
   },
   {
     id: "2798",
@@ -2497,7 +2497,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2798.jpg'),
+    imageUrl: require('../../assets/exercises/img/2798.webp'),
   },
   {
     id: "0103",
@@ -2507,7 +2507,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0103.jpg'),
+    imageUrl: require('../../assets/exercises/img/0103.webp'),
   },
   {
     id: "0104",
@@ -2517,7 +2517,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0104.jpg'),
+    imageUrl: require('../../assets/exercises/img/0104.webp'),
   },
   {
     id: "0105",
@@ -2526,7 +2526,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0105.jpg'),
+    imageUrl: require('../../assets/exercises/img/0105.webp'),
   },
   {
     id: "1372",
@@ -2536,7 +2536,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1372.jpg'),
+    imageUrl: require('../../assets/exercises/img/1372.webp'),
   },
   {
     id: "0106",
@@ -2546,7 +2546,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0106.jpg'),
+    imageUrl: require('../../assets/exercises/img/0106.webp'),
   },
   {
     id: "1456",
@@ -2556,7 +2556,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1456.jpg'),
+    imageUrl: require('../../assets/exercises/img/1456.webp'),
   },
   {
     id: "2414",
@@ -2566,7 +2566,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2414.jpg'),
+    imageUrl: require('../../assets/exercises/img/2414.webp'),
   },
   {
     id: "0107",
@@ -2576,7 +2576,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0107.jpg'),
+    imageUrl: require('../../assets/exercises/img/0107.webp'),
   },
   {
     id: "0108",
@@ -2586,7 +2586,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0108.jpg'),
+    imageUrl: require('../../assets/exercises/img/0108.webp'),
   },
   {
     id: "0109",
@@ -2596,7 +2596,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0109.jpg'),
+    imageUrl: require('../../assets/exercises/img/0109.webp'),
   },
   {
     id: "0110",
@@ -2606,7 +2606,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0110.jpg'),
+    imageUrl: require('../../assets/exercises/img/0110.webp'),
   },
   {
     id: "0111",
@@ -2616,7 +2616,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0111.jpg'),
+    imageUrl: require('../../assets/exercises/img/0111.webp'),
   },
   {
     id: "0112",
@@ -2626,7 +2626,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0112.jpg'),
+    imageUrl: require('../../assets/exercises/img/0112.webp'),
   },
   {
     id: "1629",
@@ -2636,7 +2636,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1629.jpg'),
+    imageUrl: require('../../assets/exercises/img/1629.webp'),
   },
   {
     id: "1457",
@@ -2661,7 +2661,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Overhead press",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/1457.jpg'),
+    imageUrl: require('../../assets/exercises/img/1457.webp'),
     gifUrl: require('../../assets/exercises/gif/1457.webp'),
   },
   {
@@ -2672,7 +2672,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0113.jpg'),
+    imageUrl: require('../../assets/exercises/img/0113.webp'),
   },
   {
     id: "0114",
@@ -2682,7 +2682,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0114.jpg'),
+    imageUrl: require('../../assets/exercises/img/0114.webp'),
   },
   {
     id: "0115",
@@ -2691,7 +2691,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0115.jpg'),
+    imageUrl: require('../../assets/exercises/img/0115.webp'),
   },
   {
     id: "0116",
@@ -2714,7 +2714,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Stiff-Legged Barbell Deadlift",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0116.jpg'),
+    imageUrl: require('../../assets/exercises/img/0116.webp'),
     gifUrl: require('../../assets/exercises/gif/0116.webp'),
   },
   {
@@ -2737,7 +2737,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Sumo Deadlift",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0117.jpg'),
+    imageUrl: require('../../assets/exercises/img/0117.webp'),
     gifUrl: require('../../assets/exercises/gif/0117.webp'),
   },
   {
@@ -2747,7 +2747,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3305.jpg'),
+    imageUrl: require('../../assets/exercises/img/3305.webp'),
   },
   {
     id: "0120",
@@ -2769,7 +2769,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Upright Barbell Row",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0120.jpg'),
+    imageUrl: require('../../assets/exercises/img/0120.webp'),
     gifUrl: require('../../assets/exercises/gif/0120.webp'),
   },
   {
@@ -2780,7 +2780,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0119.jpg'),
+    imageUrl: require('../../assets/exercises/img/0119.webp'),
   },
   {
     id: "0121",
@@ -2790,7 +2790,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0121.jpg'),
+    imageUrl: require('../../assets/exercises/img/0121.webp'),
   },
   {
     id: "0122",
@@ -2800,7 +2800,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0122.jpg'),
+    imageUrl: require('../../assets/exercises/img/0122.webp'),
   },
   {
     id: "1258",
@@ -2810,7 +2810,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1258.jpg'),
+    imageUrl: require('../../assets/exercises/img/1258.webp'),
   },
   {
     id: "0124",
@@ -2820,7 +2820,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0124.jpg'),
+    imageUrl: require('../../assets/exercises/img/0124.webp'),
   },
   {
     id: "0123",
@@ -2830,7 +2830,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0123.jpg'),
+    imageUrl: require('../../assets/exercises/img/0123.webp'),
   },
   {
     id: "0126",
@@ -2840,7 +2840,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0126.jpg'),
+    imageUrl: require('../../assets/exercises/img/0126.webp'),
   },
   {
     id: "0125",
@@ -2850,7 +2850,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0125.jpg'),
+    imageUrl: require('../../assets/exercises/img/0125.webp'),
   },
   {
     id: "0127",
@@ -2860,7 +2860,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0127.jpg'),
+    imageUrl: require('../../assets/exercises/img/0127.webp'),
   },
   {
     id: "3212",
@@ -2869,7 +2869,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3212.jpg'),
+    imageUrl: require('../../assets/exercises/img/3212.webp'),
   },
   {
     id: "0128",
@@ -2878,7 +2878,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Other",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0128.jpg'),
+    imageUrl: require('../../assets/exercises/img/0128.webp'),
   },
   {
     id: "3360",
@@ -2887,7 +2887,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3360.jpg'),
+    imageUrl: require('../../assets/exercises/img/3360.webp'),
   },
   {
     id: "1259",
@@ -2897,7 +2897,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1259.jpg'),
+    imageUrl: require('../../assets/exercises/img/1259.webp'),
   },
   {
     id: "0129",
@@ -2919,7 +2919,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Bench Dips",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0129.jpg'),
+    imageUrl: require('../../assets/exercises/img/0129.webp'),
     gifUrl: require('../../assets/exercises/gif/0129.webp'),
   },
   {
@@ -2930,7 +2930,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1399.jpg'),
+    imageUrl: require('../../assets/exercises/img/1399.webp'),
   },
   {
     id: "0130",
@@ -2940,7 +2940,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0130.jpg'),
+    imageUrl: require('../../assets/exercises/img/0130.webp'),
   },
   {
     id: "3019",
@@ -2950,7 +2950,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3019.jpg'),
+    imageUrl: require('../../assets/exercises/img/3019.webp'),
   },
   {
     id: "3639",
@@ -2960,7 +2960,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3639.jpg'),
+    imageUrl: require('../../assets/exercises/img/3639.webp'),
   },
   {
     id: "1770",
@@ -2970,7 +2970,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1770.jpg'),
+    imageUrl: require('../../assets/exercises/img/1770.webp'),
   },
   {
     id: "0139",
@@ -2980,7 +2980,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0139.jpg'),
+    imageUrl: require('../../assets/exercises/img/0139.webp'),
   },
   {
     id: "0140",
@@ -2990,7 +2990,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0140.jpg'),
+    imageUrl: require('../../assets/exercises/img/0140.webp'),
   },
   {
     id: "0137",
@@ -2999,7 +2999,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0137.jpg'),
+    imageUrl: require('../../assets/exercises/img/0137.webp'),
   },
   {
     id: "3543",
@@ -3009,7 +3009,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3543.jpg'),
+    imageUrl: require('../../assets/exercises/img/3543.webp'),
   },
   {
     id: "3544",
@@ -3019,7 +3019,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3544.jpg'),
+    imageUrl: require('../../assets/exercises/img/3544.webp'),
   },
   {
     id: "1771",
@@ -3029,7 +3029,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1771.jpg'),
+    imageUrl: require('../../assets/exercises/img/1771.webp'),
   },
   {
     id: "1769",
@@ -3039,7 +3039,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1769.jpg'),
+    imageUrl: require('../../assets/exercises/img/1769.webp'),
   },
   {
     id: "3168",
@@ -3049,7 +3049,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3168.jpg'),
+    imageUrl: require('../../assets/exercises/img/3168.webp'),
   },
   {
     id: "3167",
@@ -3059,7 +3059,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3167.jpg'),
+    imageUrl: require('../../assets/exercises/img/3167.webp'),
   },
   {
     id: "1373",
@@ -3069,7 +3069,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1373.jpg'),
+    imageUrl: require('../../assets/exercises/img/1373.webp'),
   },
   {
     id: "3156",
@@ -3079,7 +3079,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3156.jpg'),
+    imageUrl: require('../../assets/exercises/img/3156.webp'),
   },
   {
     id: "3158",
@@ -3089,7 +3089,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3158.jpg'),
+    imageUrl: require('../../assets/exercises/img/3158.webp'),
   },
   {
     id: "3162",
@@ -3099,7 +3099,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3162.jpg'),
+    imageUrl: require('../../assets/exercises/img/3162.webp'),
   },
   {
     id: "3161",
@@ -3109,7 +3109,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3161.jpg'),
+    imageUrl: require('../../assets/exercises/img/3161.webp'),
   },
   {
     id: "3166",
@@ -3119,7 +3119,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3166.jpg'),
+    imageUrl: require('../../assets/exercises/img/3166.webp'),
   },
   {
     id: "3165",
@@ -3129,7 +3129,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3165.jpg'),
+    imageUrl: require('../../assets/exercises/img/3165.webp'),
   },
   {
     id: "0138",
@@ -3138,7 +3138,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0138.jpg'),
+    imageUrl: require('../../assets/exercises/img/0138.webp'),
   },
   {
     id: "1374",
@@ -3147,7 +3147,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1374.jpg'),
+    imageUrl: require('../../assets/exercises/img/1374.webp'),
   },
   {
     id: "2466",
@@ -3156,7 +3156,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2466.jpg'),
+    imageUrl: require('../../assets/exercises/img/2466.webp'),
   },
   {
     id: "1160",
@@ -3165,7 +3165,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1160.jpg'),
+    imageUrl: require('../../assets/exercises/img/1160.webp'),
   },
   {
     id: "0870",
@@ -3174,7 +3174,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0870.jpg'),
+    imageUrl: require('../../assets/exercises/img/0870.webp'),
   },
   {
     id: "1494",
@@ -3183,7 +3183,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1494.jpg'),
+    imageUrl: require('../../assets/exercises/img/1494.webp'),
   },
   {
     id: "0148",
@@ -3193,7 +3193,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0148.jpg'),
+    imageUrl: require('../../assets/exercises/img/0148.webp'),
   },
   {
     id: "0149",
@@ -3203,7 +3203,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0149.jpg'),
+    imageUrl: require('../../assets/exercises/img/0149.webp'),
   },
   {
     id: "3235",
@@ -3213,7 +3213,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3235.jpg'),
+    imageUrl: require('../../assets/exercises/img/3235.webp'),
   },
   {
     id: "0150",
@@ -3223,7 +3223,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0150.jpg'),
+    imageUrl: require('../../assets/exercises/img/0150.webp'),
   },
   {
     id: "0151",
@@ -3233,7 +3233,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0151.jpg'),
+    imageUrl: require('../../assets/exercises/img/0151.webp'),
   },
   {
     id: "1630",
@@ -3243,7 +3243,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1630.jpg'),
+    imageUrl: require('../../assets/exercises/img/1630.webp'),
   },
   {
     id: "1631",
@@ -3253,7 +3253,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1631.jpg'),
+    imageUrl: require('../../assets/exercises/img/1631.webp'),
   },
   {
     id: "0152",
@@ -3263,7 +3263,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0152.jpg'),
+    imageUrl: require('../../assets/exercises/img/0152.webp'),
   },
   {
     id: "0153",
@@ -3273,7 +3273,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0153.jpg'),
+    imageUrl: require('../../assets/exercises/img/0153.webp'),
   },
   {
     id: "0154",
@@ -3283,7 +3283,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0154.jpg'),
+    imageUrl: require('../../assets/exercises/img/0154.webp'),
   },
   {
     id: "0155",
@@ -3292,7 +3292,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0155.jpg'),
+    imageUrl: require('../../assets/exercises/img/0155.webp'),
   },
   {
     id: "0868",
@@ -3314,7 +3314,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Standing Biceps Cable Curl",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0868.jpg'),
+    imageUrl: require('../../assets/exercises/img/0868.webp'),
     gifUrl: require('../../assets/exercises/gif/0868.webp'),
   },
   {
@@ -3325,7 +3325,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0157.jpg'),
+    imageUrl: require('../../assets/exercises/img/0157.webp'),
   },
   {
     id: "0158",
@@ -3335,7 +3335,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0158.jpg'),
+    imageUrl: require('../../assets/exercises/img/0158.webp'),
   },
   {
     id: "1260",
@@ -3344,7 +3344,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1260.jpg'),
+    imageUrl: require('../../assets/exercises/img/1260.webp'),
   },
   {
     id: "1261",
@@ -3353,7 +3353,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1261.jpg'),
+    imageUrl: require('../../assets/exercises/img/1261.webp'),
   },
   {
     id: "0159",
@@ -3363,7 +3363,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0159.jpg'),
+    imageUrl: require('../../assets/exercises/img/0159.webp'),
   },
   {
     id: "1632",
@@ -3373,7 +3373,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1632.jpg'),
+    imageUrl: require('../../assets/exercises/img/1632.webp'),
   },
   {
     id: "0160",
@@ -3383,7 +3383,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0160.jpg'),
+    imageUrl: require('../../assets/exercises/img/0160.webp'),
   },
   {
     id: "0161",
@@ -3392,7 +3392,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0161.jpg'),
+    imageUrl: require('../../assets/exercises/img/0161.webp'),
   },
   {
     id: "0162",
@@ -3402,7 +3402,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0162.jpg'),
+    imageUrl: require('../../assets/exercises/img/0162.webp'),
   },
   {
     id: "0164",
@@ -3411,7 +3411,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0164.jpg'),
+    imageUrl: require('../../assets/exercises/img/0164.webp'),
   },
   {
     id: "0165",
@@ -3435,7 +3435,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Cable Hammer Curls - Rope Attachment",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0165.jpg'),
+    imageUrl: require('../../assets/exercises/img/0165.webp'),
     gifUrl: require('../../assets/exercises/gif/0165.webp'),
   },
   {
@@ -3446,7 +3446,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1722.jpg'),
+    imageUrl: require('../../assets/exercises/img/1722.webp'),
   },
   {
     id: "0167",
@@ -3456,7 +3456,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0167.jpg'),
+    imageUrl: require('../../assets/exercises/img/0167.webp'),
   },
   {
     id: "0168",
@@ -3465,7 +3465,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0168.jpg'),
+    imageUrl: require('../../assets/exercises/img/0168.webp'),
   },
   {
     id: "0169",
@@ -3475,7 +3475,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0169.jpg'),
+    imageUrl: require('../../assets/exercises/img/0169.webp'),
   },
   {
     id: "1318",
@@ -3485,7 +3485,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1318.jpg'),
+    imageUrl: require('../../assets/exercises/img/1318.webp'),
   },
   {
     id: "0171",
@@ -3509,7 +3509,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Incline Cable Flye",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0171.jpg'),
+    imageUrl: require('../../assets/exercises/img/0171.webp'),
     gifUrl: require('../../assets/exercises/gif/0171.webp'),
   },
   {
@@ -3520,7 +3520,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0170.jpg'),
+    imageUrl: require('../../assets/exercises/img/0170.webp'),
   },
   {
     id: "0172",
@@ -3530,7 +3530,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0172.jpg'),
+    imageUrl: require('../../assets/exercises/img/0172.webp'),
   },
   {
     id: "0173",
@@ -3540,7 +3540,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0173.jpg'),
+    imageUrl: require('../../assets/exercises/img/0173.webp'),
   },
   {
     id: "0174",
@@ -3549,7 +3549,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0174.jpg'),
+    imageUrl: require('../../assets/exercises/img/0174.webp'),
   },
   {
     id: "0860",
@@ -3559,7 +3559,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0860.jpg'),
+    imageUrl: require('../../assets/exercises/img/0860.webp'),
   },
   {
     id: "0175",
@@ -3583,7 +3583,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Cable Crunch",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0175.jpg'),
+    imageUrl: require('../../assets/exercises/img/0175.webp'),
     gifUrl: require('../../assets/exercises/gif/0175.webp'),
   },
   {
@@ -3594,7 +3594,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3697.jpg'),
+    imageUrl: require('../../assets/exercises/img/3697.webp'),
   },
   {
     id: "0176",
@@ -3604,7 +3604,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0176.jpg'),
+    imageUrl: require('../../assets/exercises/img/0176.webp'),
   },
   {
     id: "2330",
@@ -3614,7 +3614,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2330.jpg'),
+    imageUrl: require('../../assets/exercises/img/2330.webp'),
   },
   {
     id: "0177",
@@ -3624,7 +3624,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0177.jpg'),
+    imageUrl: require('../../assets/exercises/img/0177.webp'),
   },
   {
     id: "2616",
@@ -3634,7 +3634,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2616.jpg'),
+    imageUrl: require('../../assets/exercises/img/2616.webp'),
   },
   {
     id: "0178",
@@ -3644,7 +3644,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0178.jpg'),
+    imageUrl: require('../../assets/exercises/img/0178.webp'),
   },
   {
     id: "0179",
@@ -3654,7 +3654,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0179.jpg'),
+    imageUrl: require('../../assets/exercises/img/0179.webp'),
   },
   {
     id: "0180",
@@ -3664,7 +3664,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0180.jpg'),
+    imageUrl: require('../../assets/exercises/img/0180.webp'),
   },
   {
     id: "1634",
@@ -3674,7 +3674,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1634.jpg'),
+    imageUrl: require('../../assets/exercises/img/1634.webp'),
   },
   {
     id: "0182",
@@ -3684,7 +3684,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0182.jpg'),
+    imageUrl: require('../../assets/exercises/img/0182.webp'),
   },
   {
     id: "0184",
@@ -3694,7 +3694,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0184.jpg'),
+    imageUrl: require('../../assets/exercises/img/0184.webp'),
   },
   {
     id: "0185",
@@ -3720,7 +3720,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Cable fly",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0185.jpg'),
+    imageUrl: require('../../assets/exercises/img/0185.webp'),
     gifUrl: require('../../assets/exercises/gif/0185.webp'),
   },
   {
@@ -3731,7 +3731,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0186.jpg'),
+    imageUrl: require('../../assets/exercises/img/0186.webp'),
   },
   {
     id: "0188",
@@ -3741,7 +3741,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0188.jpg'),
+    imageUrl: require('../../assets/exercises/img/0188.webp'),
   },
   {
     id: "0189",
@@ -3751,7 +3751,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0189.jpg'),
+    imageUrl: require('../../assets/exercises/img/0189.webp'),
   },
   {
     id: "0190",
@@ -3761,7 +3761,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0190.jpg'),
+    imageUrl: require('../../assets/exercises/img/0190.webp'),
   },
   {
     id: "1262",
@@ -3771,7 +3771,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1262.jpg'),
+    imageUrl: require('../../assets/exercises/img/1262.webp'),
   },
   {
     id: "1263",
@@ -3781,7 +3781,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1263.jpg'),
+    imageUrl: require('../../assets/exercises/img/1263.webp'),
   },
   {
     id: "1264",
@@ -3791,7 +3791,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1264.jpg'),
+    imageUrl: require('../../assets/exercises/img/1264.webp'),
   },
   {
     id: "1265",
@@ -3800,7 +3800,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1265.jpg'),
+    imageUrl: require('../../assets/exercises/img/1265.webp'),
   },
   {
     id: "1266",
@@ -3809,7 +3809,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1266.jpg'),
+    imageUrl: require('../../assets/exercises/img/1266.webp'),
   },
   {
     id: "0191",
@@ -3832,7 +3832,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Bent Over Low-Pulley Side Lateral",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0191.jpg'),
+    imageUrl: require('../../assets/exercises/img/0191.webp'),
     gifUrl: require('../../assets/exercises/gif/0191.webp'),
   },
   {
@@ -3843,7 +3843,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0192.jpg'),
+    imageUrl: require('../../assets/exercises/img/0192.webp'),
   },
   {
     id: "1633",
@@ -3853,7 +3853,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1633.jpg'),
+    imageUrl: require('../../assets/exercises/img/1633.webp'),
   },
   {
     id: "1267",
@@ -3862,7 +3862,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1267.jpg'),
+    imageUrl: require('../../assets/exercises/img/1267.webp'),
   },
   {
     id: "3563",
@@ -3872,7 +3872,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3563.jpg'),
+    imageUrl: require('../../assets/exercises/img/3563.webp'),
   },
   {
     id: "1635",
@@ -3882,7 +3882,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1635.jpg'),
+    imageUrl: require('../../assets/exercises/img/1635.webp'),
   },
   {
     id: "0193",
@@ -3892,7 +3892,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0193.jpg'),
+    imageUrl: require('../../assets/exercises/img/0193.webp'),
   },
   {
     id: "1723",
@@ -3902,7 +3902,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1723.jpg'),
+    imageUrl: require('../../assets/exercises/img/1723.webp'),
   },
   {
     id: "1636",
@@ -3912,7 +3912,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1636.jpg'),
+    imageUrl: require('../../assets/exercises/img/1636.webp'),
   },
   {
     id: "1637",
@@ -3922,7 +3922,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1637.jpg'),
+    imageUrl: require('../../assets/exercises/img/1637.webp'),
   },
   {
     id: "0194",
@@ -3944,7 +3944,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Triceps Overhead Extension with Rope",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0194.jpg'),
+    imageUrl: require('../../assets/exercises/img/0194.webp'),
     gifUrl: require('../../assets/exercises/gif/0194.webp'),
   },
   {
@@ -3955,7 +3955,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1319.jpg'),
+    imageUrl: require('../../assets/exercises/img/1319.webp'),
   },
   {
     id: "0195",
@@ -3965,7 +3965,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0195.jpg'),
+    imageUrl: require('../../assets/exercises/img/0195.webp'),
   },
   {
     id: "1268",
@@ -3974,7 +3974,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1268.jpg'),
+    imageUrl: require('../../assets/exercises/img/1268.webp'),
   },
   {
     id: "0196",
@@ -3994,7 +3994,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Pull Through",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0196.jpg'),
+    imageUrl: require('../../assets/exercises/img/0196.webp'),
     gifUrl: require('../../assets/exercises/gif/0196.webp'),
   },
   {
@@ -4020,7 +4020,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Lat pulldown",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0198.jpg'),
+    imageUrl: require('../../assets/exercises/img/0198.webp'),
     gifUrl: require('../../assets/exercises/gif/0198.webp'),
   },
   {
@@ -4031,7 +4031,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0197.jpg'),
+    imageUrl: require('../../assets/exercises/img/0197.webp'),
   },
   {
     id: "1638",
@@ -4041,7 +4041,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1638.jpg'),
+    imageUrl: require('../../assets/exercises/img/1638.webp'),
   },
   {
     id: "0201",
@@ -4051,7 +4051,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0201.jpg'),
+    imageUrl: require('../../assets/exercises/img/0201.webp'),
   },
   {
     id: "0199",
@@ -4061,7 +4061,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0199.jpg'),
+    imageUrl: require('../../assets/exercises/img/0199.webp'),
   },
   {
     id: "0200",
@@ -4084,7 +4084,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Triceps Pushdown - Rope Attachment",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0200.jpg'),
+    imageUrl: require('../../assets/exercises/img/0200.webp'),
     gifUrl: require('../../assets/exercises/gif/0200.webp'),
   },
   {
@@ -4095,7 +4095,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0202.jpg'),
+    imageUrl: require('../../assets/exercises/img/0202.webp'),
   },
   {
     id: "0203",
@@ -4105,7 +4105,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0203.jpg'),
+    imageUrl: require('../../assets/exercises/img/0203.webp'),
   },
   {
     id: "0204",
@@ -4114,7 +4114,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0204.jpg'),
+    imageUrl: require('../../assets/exercises/img/0204.webp'),
   },
   {
     id: "0205",
@@ -4124,7 +4124,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0205.jpg'),
+    imageUrl: require('../../assets/exercises/img/0205.webp'),
   },
   {
     id: "0873",
@@ -4145,7 +4145,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Repeat the same movement to failure.",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0873.jpg'),
+    imageUrl: require('../../assets/exercises/img/0873.webp'),
     gifUrl: require('../../assets/exercises/gif/0873.webp'),
   },
   {
@@ -4156,7 +4156,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0206.jpg'),
+    imageUrl: require('../../assets/exercises/img/0206.webp'),
   },
   {
     id: "2406",
@@ -4166,7 +4166,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2406.jpg'),
+    imageUrl: require('../../assets/exercises/img/2406.webp'),
   },
   {
     id: "1413",
@@ -4176,7 +4176,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1413.jpg'),
+    imageUrl: require('../../assets/exercises/img/1413.webp'),
   },
   {
     id: "0209",
@@ -4186,7 +4186,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0209.jpg'),
+    imageUrl: require('../../assets/exercises/img/0209.webp'),
   },
   {
     id: "0210",
@@ -4196,7 +4196,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0210.jpg'),
+    imageUrl: require('../../assets/exercises/img/0210.webp'),
   },
   {
     id: "0207",
@@ -4206,7 +4206,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0207.jpg'),
+    imageUrl: require('../../assets/exercises/img/0207.webp'),
   },
   {
     id: "0208",
@@ -4216,7 +4216,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0208.jpg'),
+    imageUrl: require('../../assets/exercises/img/0208.webp'),
   },
   {
     id: "1320",
@@ -4226,7 +4226,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1320.jpg'),
+    imageUrl: require('../../assets/exercises/img/1320.webp'),
   },
   {
     id: "1321",
@@ -4236,7 +4236,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1321.jpg'),
+    imageUrl: require('../../assets/exercises/img/1321.webp'),
   },
   {
     id: "1322",
@@ -4246,7 +4246,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1322.jpg'),
+    imageUrl: require('../../assets/exercises/img/1322.webp'),
   },
   {
     id: "1639",
@@ -4256,7 +4256,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1639.jpg'),
+    imageUrl: require('../../assets/exercises/img/1639.webp'),
   },
   {
     id: "1724",
@@ -4266,7 +4266,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1724.jpg'),
+    imageUrl: require('../../assets/exercises/img/1724.webp'),
   },
   {
     id: "1725",
@@ -4276,7 +4276,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1725.jpg'),
+    imageUrl: require('../../assets/exercises/img/1725.webp'),
   },
   {
     id: "1726",
@@ -4286,7 +4286,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1726.jpg'),
+    imageUrl: require('../../assets/exercises/img/1726.webp'),
   },
   {
     id: "1640",
@@ -4296,7 +4296,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1640.jpg'),
+    imageUrl: require('../../assets/exercises/img/1640.webp'),
   },
   {
     id: "1323",
@@ -4306,7 +4306,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1323.jpg'),
+    imageUrl: require('../../assets/exercises/img/1323.webp'),
   },
   {
     id: "0211",
@@ -4331,7 +4331,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Cable Russian Twists",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0211.jpg'),
+    imageUrl: require('../../assets/exercises/img/0211.webp'),
     gifUrl: require('../../assets/exercises/gif/0211.webp'),
   },
   {
@@ -4342,7 +4342,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2144.jpg'),
+    imageUrl: require('../../assets/exercises/img/2144.webp'),
   },
   {
     id: "0212",
@@ -4352,7 +4352,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0212.jpg'),
+    imageUrl: require('../../assets/exercises/img/0212.webp'),
   },
   {
     id: "1641",
@@ -4362,7 +4362,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1641.jpg'),
+    imageUrl: require('../../assets/exercises/img/1641.webp'),
   },
   {
     id: "0213",
@@ -4372,7 +4372,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0213.jpg'),
+    imageUrl: require('../../assets/exercises/img/0213.webp'),
   },
   {
     id: "0214",
@@ -4382,7 +4382,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0214.jpg'),
+    imageUrl: require('../../assets/exercises/img/0214.webp'),
   },
   {
     id: "1642",
@@ -4392,7 +4392,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1642.jpg'),
+    imageUrl: require('../../assets/exercises/img/1642.webp'),
   },
   {
     id: "1643",
@@ -4402,7 +4402,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1643.jpg'),
+    imageUrl: require('../../assets/exercises/img/1643.webp'),
   },
   {
     id: "0215",
@@ -4427,7 +4427,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Cable Seated Lateral Raise",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0215.jpg'),
+    imageUrl: require('../../assets/exercises/img/0215.webp'),
     gifUrl: require('../../assets/exercises/gif/0215.webp'),
   },
   {
@@ -4452,7 +4452,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Seated cable row",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0861.jpg'),
+    imageUrl: require('../../assets/exercises/img/0861.webp'),
     gifUrl: require('../../assets/exercises/gif/0861.webp'),
   },
   {
@@ -4462,7 +4462,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0216.jpg'),
+    imageUrl: require('../../assets/exercises/img/0216.webp'),
   },
   {
     id: "2399",
@@ -4472,7 +4472,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2399.jpg'),
+    imageUrl: require('../../assets/exercises/img/2399.webp'),
   },
   {
     id: "0218",
@@ -4482,7 +4482,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0218.jpg'),
+    imageUrl: require('../../assets/exercises/img/0218.webp'),
   },
   {
     id: "0219",
@@ -4501,7 +4501,7 @@ export const LIBRARY: LibraryExercise[] = [
       "After pausing at the top, return to the starting position and repeat.",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0219.jpg'),
+    imageUrl: require('../../assets/exercises/img/0219.webp'),
     gifUrl: require('../../assets/exercises/gif/0219.webp'),
   },
   {
@@ -4512,7 +4512,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0220.jpg'),
+    imageUrl: require('../../assets/exercises/img/0220.webp'),
   },
   {
     id: "0222",
@@ -4521,7 +4521,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0222.jpg'),
+    imageUrl: require('../../assets/exercises/img/0222.webp'),
   },
   {
     id: "0221",
@@ -4531,7 +4531,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0221.jpg'),
+    imageUrl: require('../../assets/exercises/img/0221.webp'),
   },
   {
     id: "0223",
@@ -4541,7 +4541,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0223.jpg'),
+    imageUrl: require('../../assets/exercises/img/0223.webp'),
   },
   {
     id: "1717",
@@ -4551,7 +4551,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1717.jpg'),
+    imageUrl: require('../../assets/exercises/img/1717.webp'),
   },
   {
     id: "1644",
@@ -4561,7 +4561,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1644.jpg'),
+    imageUrl: require('../../assets/exercises/img/1644.webp'),
   },
   {
     id: "0224",
@@ -4571,7 +4571,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0224.jpg'),
+    imageUrl: require('../../assets/exercises/img/0224.webp'),
   },
   {
     id: "1375",
@@ -4581,7 +4581,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1375.jpg'),
+    imageUrl: require('../../assets/exercises/img/1375.webp'),
   },
   {
     id: "0225",
@@ -4603,7 +4603,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Cable Rear Delt Fly",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0225.jpg'),
+    imageUrl: require('../../assets/exercises/img/0225.webp'),
     gifUrl: require('../../assets/exercises/gif/0225.webp'),
   },
   {
@@ -4614,7 +4614,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0226.jpg'),
+    imageUrl: require('../../assets/exercises/img/0226.webp'),
   },
   {
     id: "0874",
@@ -4637,7 +4637,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Rope Crunch",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0874.jpg'),
+    imageUrl: require('../../assets/exercises/img/0874.webp'),
     gifUrl: require('../../assets/exercises/gif/0874.webp'),
   },
   {
@@ -4648,7 +4648,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0227.jpg'),
+    imageUrl: require('../../assets/exercises/img/0227.webp'),
   },
   {
     id: "0228",
@@ -4658,7 +4658,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0228.jpg'),
+    imageUrl: require('../../assets/exercises/img/0228.webp'),
   },
   {
     id: "0229",
@@ -4668,7 +4668,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0229.jpg'),
+    imageUrl: require('../../assets/exercises/img/0229.webp'),
   },
   {
     id: "0230",
@@ -4677,7 +4677,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0230.jpg'),
+    imageUrl: require('../../assets/exercises/img/0230.webp'),
   },
   {
     id: "0231",
@@ -4701,7 +4701,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Cable One Arm Tricep Extension",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0231.jpg'),
+    imageUrl: require('../../assets/exercises/img/0231.webp'),
     gifUrl: require('../../assets/exercises/gif/0231.webp'),
   },
   {
@@ -4712,7 +4712,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1376.jpg'),
+    imageUrl: require('../../assets/exercises/img/1376.webp'),
   },
   {
     id: "0232",
@@ -4722,7 +4722,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0232.jpg'),
+    imageUrl: require('../../assets/exercises/img/0232.webp'),
   },
   {
     id: "0233",
@@ -4741,7 +4741,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Face Pull",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0233.jpg'),
+    imageUrl: require('../../assets/exercises/img/0233.webp'),
     gifUrl: require('../../assets/exercises/gif/0233.webp'),
   },
   {
@@ -4752,7 +4752,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1727.jpg'),
+    imageUrl: require('../../assets/exercises/img/1727.webp'),
   },
   {
     id: "0234",
@@ -4762,7 +4762,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0234.jpg'),
+    imageUrl: require('../../assets/exercises/img/0234.webp'),
   },
   {
     id: "0235",
@@ -4771,7 +4771,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0235.jpg'),
+    imageUrl: require('../../assets/exercises/img/0235.webp'),
   },
   {
     id: "0236",
@@ -4781,7 +4781,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0236.jpg'),
+    imageUrl: require('../../assets/exercises/img/0236.webp'),
   },
   {
     id: "1269",
@@ -4804,7 +4804,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Cable Crossover",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/1269.jpg'),
+    imageUrl: require('../../assets/exercises/img/1269.webp'),
     gifUrl: require('../../assets/exercises/gif/1269.webp'),
   },
   {
@@ -4828,7 +4828,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Straight-Arm Pulldown",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0238.jpg'),
+    imageUrl: require('../../assets/exercises/img/0238.webp'),
     gifUrl: require('../../assets/exercises/gif/0238.webp'),
   },
   {
@@ -4839,7 +4839,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0237.jpg'),
+    imageUrl: require('../../assets/exercises/img/0237.webp'),
   },
   {
     id: "0239",
@@ -4849,7 +4849,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0239.jpg'),
+    imageUrl: require('../../assets/exercises/img/0239.webp'),
   },
   {
     id: "0240",
@@ -4859,7 +4859,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0240.jpg'),
+    imageUrl: require('../../assets/exercises/img/0240.webp'),
   },
   {
     id: "2464",
@@ -4869,7 +4869,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2464.jpg'),
+    imageUrl: require('../../assets/exercises/img/2464.webp'),
   },
   {
     id: "0241",
@@ -4892,7 +4892,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Triceps Pushdown",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0241.jpg'),
+    imageUrl: require('../../assets/exercises/img/0241.webp'),
     gifUrl: require('../../assets/exercises/gif/0241.webp'),
   },
   {
@@ -4903,7 +4903,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2405.jpg'),
+    imageUrl: require('../../assets/exercises/img/2405.webp'),
   },
   {
     id: "0242",
@@ -4913,7 +4913,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0242.jpg'),
+    imageUrl: require('../../assets/exercises/img/0242.webp'),
   },
   {
     id: "0243",
@@ -4923,7 +4923,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0243.jpg'),
+    imageUrl: require('../../assets/exercises/img/0243.webp'),
   },
   {
     id: "0862",
@@ -4950,7 +4950,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Woodchop",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0862.jpg'),
+    imageUrl: require('../../assets/exercises/img/0862.webp'),
     gifUrl: require('../../assets/exercises/gif/0862.webp'),
   },
   {
@@ -4961,7 +4961,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0244.jpg'),
+    imageUrl: require('../../assets/exercises/img/0244.webp'),
   },
   {
     id: "1645",
@@ -4971,7 +4971,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1645.jpg'),
+    imageUrl: require('../../assets/exercises/img/1645.webp'),
   },
   {
     id: "1728",
@@ -4981,7 +4981,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1728.jpg'),
+    imageUrl: require('../../assets/exercises/img/1728.webp'),
   },
   {
     id: "0245",
@@ -5005,7 +5005,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Underhand Cable Pulldowns",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0245.jpg'),
+    imageUrl: require('../../assets/exercises/img/0245.webp'),
     gifUrl: require('../../assets/exercises/gif/0245.webp'),
   },
   {
@@ -5016,7 +5016,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1270.jpg'),
+    imageUrl: require('../../assets/exercises/img/1270.webp'),
   },
   {
     id: "1324",
@@ -5026,7 +5026,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1324.jpg'),
+    imageUrl: require('../../assets/exercises/img/1324.webp'),
   },
   {
     id: "0246",
@@ -5036,7 +5036,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0246.jpg'),
+    imageUrl: require('../../assets/exercises/img/0246.webp'),
   },
   {
     id: "1325",
@@ -5046,7 +5046,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1325.jpg'),
+    imageUrl: require('../../assets/exercises/img/1325.webp'),
   },
   {
     id: "0247",
@@ -5056,7 +5056,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0247.jpg'),
+    imageUrl: require('../../assets/exercises/img/0247.webp'),
   },
   {
     id: "1407",
@@ -5066,7 +5066,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1407.jpg'),
+    imageUrl: require('../../assets/exercises/img/1407.webp'),
   },
   {
     id: "1377",
@@ -5076,7 +5076,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1377.jpg'),
+    imageUrl: require('../../assets/exercises/img/1377.webp'),
   },
   {
     id: "1378",
@@ -5086,7 +5086,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Other",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1378.jpg'),
+    imageUrl: require('../../assets/exercises/img/1378.webp'),
   },
   {
     id: "0248",
@@ -5096,7 +5096,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0248.jpg'),
+    imageUrl: require('../../assets/exercises/img/0248.webp'),
   },
   {
     id: "2963",
@@ -5106,7 +5106,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2963.jpg'),
+    imageUrl: require('../../assets/exercises/img/2963.webp'),
   },
   {
     id: "1548",
@@ -5115,7 +5115,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1548.jpg'),
+    imageUrl: require('../../assets/exercises/img/1548.webp'),
   },
   {
     id: "1271",
@@ -5125,7 +5125,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1271.jpg'),
+    imageUrl: require('../../assets/exercises/img/1271.webp'),
   },
   {
     id: "0251",
@@ -5147,7 +5147,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Dips - Chest Version",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0251.jpg'),
+    imageUrl: require('../../assets/exercises/img/0251.webp'),
     gifUrl: require('../../assets/exercises/gif/0251.webp'),
   },
   {
@@ -5158,7 +5158,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1430.jpg'),
+    imageUrl: require('../../assets/exercises/img/1430.webp'),
   },
   {
     id: "2462",
@@ -5168,7 +5168,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2462.jpg'),
+    imageUrl: require('../../assets/exercises/img/2462.webp'),
   },
   {
     id: "1272",
@@ -5178,7 +5178,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1272.jpg'),
+    imageUrl: require('../../assets/exercises/img/1272.webp'),
   },
   {
     id: "3216",
@@ -5188,7 +5188,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3216.jpg'),
+    imageUrl: require('../../assets/exercises/img/3216.webp'),
   },
   {
     id: "1326",
@@ -5208,7 +5208,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Repeat this motion for the prescribed amount of repetitions.",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/1326.jpg'),
+    imageUrl: require('../../assets/exercises/img/1326.webp'),
     gifUrl: require('../../assets/exercises/gif/1326.webp'),
   },
   {
@@ -5219,7 +5219,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0253.jpg'),
+    imageUrl: require('../../assets/exercises/img/0253.webp'),
   },
   {
     id: "0257",
@@ -5228,7 +5228,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0257.jpg'),
+    imageUrl: require('../../assets/exercises/img/0257.webp'),
   },
   {
     id: "1273",
@@ -5238,7 +5238,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1273.jpg'),
+    imageUrl: require('../../assets/exercises/img/1273.webp'),
   },
   {
     id: "0258",
@@ -5248,7 +5248,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0258.jpg'),
+    imageUrl: require('../../assets/exercises/img/0258.webp'),
   },
   {
     id: "1327",
@@ -5258,7 +5258,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1327.jpg'),
+    imageUrl: require('../../assets/exercises/img/1327.webp'),
   },
   {
     id: "0259",
@@ -5268,7 +5268,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0259.jpg'),
+    imageUrl: require('../../assets/exercises/img/0259.webp'),
   },
   {
     id: "2398",
@@ -5278,7 +5278,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2398.jpg'),
+    imageUrl: require('../../assets/exercises/img/2398.webp'),
   },
   {
     id: "0260",
@@ -5287,7 +5287,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0260.jpg'),
+    imageUrl: require('../../assets/exercises/img/0260.webp'),
   },
   {
     id: "1468",
@@ -5297,7 +5297,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1468.jpg'),
+    imageUrl: require('../../assets/exercises/img/1468.webp'),
   },
   {
     id: "0262",
@@ -5307,7 +5307,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0262.jpg'),
+    imageUrl: require('../../assets/exercises/img/0262.webp'),
   },
   {
     id: "0267",
@@ -5317,7 +5317,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0267.jpg'),
+    imageUrl: require('../../assets/exercises/img/0267.webp'),
   },
   {
     id: "0271",
@@ -5340,7 +5340,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Exercise Ball Crunch",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0271.jpg'),
+    imageUrl: require('../../assets/exercises/img/0271.webp'),
     gifUrl: require('../../assets/exercises/gif/0271.webp'),
   },
   {
@@ -5351,7 +5351,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0272.jpg'),
+    imageUrl: require('../../assets/exercises/img/0272.webp'),
   },
   {
     id: "0274",
@@ -5375,7 +5375,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Crunches",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0274.jpg'),
+    imageUrl: require('../../assets/exercises/img/0274.webp'),
     gifUrl: require('../../assets/exercises/gif/0274.webp'),
   },
   {
@@ -5386,7 +5386,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3016.jpg'),
+    imageUrl: require('../../assets/exercises/img/3016.webp'),
   },
   {
     id: "3769",
@@ -5396,7 +5396,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3769.jpg'),
+    imageUrl: require('../../assets/exercises/img/3769.webp'),
   },
   {
     id: "2331",
@@ -5405,7 +5405,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2331.jpg'),
+    imageUrl: require('../../assets/exercises/img/2331.webp'),
   },
   {
     id: "0276",
@@ -5427,7 +5427,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Repeat on the opposite side, alternating until the set is complete.",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0276.jpg'),
+    imageUrl: require('../../assets/exercises/img/0276.webp'),
     gifUrl: require('../../assets/exercises/gif/0276.webp'),
   },
   {
@@ -5438,7 +5438,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0277.jpg'),
+    imageUrl: require('../../assets/exercises/img/0277.webp'),
   },
   {
     id: "0279",
@@ -5448,7 +5448,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0279.jpg'),
+    imageUrl: require('../../assets/exercises/img/0279.webp'),
   },
   {
     id: "0282",
@@ -5458,7 +5458,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0282.jpg'),
+    imageUrl: require('../../assets/exercises/img/0282.webp'),
   },
   {
     id: "1274",
@@ -5468,7 +5468,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1274.jpg'),
+    imageUrl: require('../../assets/exercises/img/1274.webp'),
   },
   {
     id: "0283",
@@ -5478,7 +5478,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0283.jpg'),
+    imageUrl: require('../../assets/exercises/img/0283.webp'),
   },
   {
     id: "0284",
@@ -5488,7 +5488,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0284.jpg'),
+    imageUrl: require('../../assets/exercises/img/0284.webp'),
   },
   {
     id: "1275",
@@ -5498,7 +5498,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1275.jpg'),
+    imageUrl: require('../../assets/exercises/img/1275.webp'),
   },
   {
     id: "0285",
@@ -5508,7 +5508,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0285.jpg'),
+    imageUrl: require('../../assets/exercises/img/0285.webp'),
   },
   {
     id: "2403",
@@ -5518,7 +5518,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2403.jpg'),
+    imageUrl: require('../../assets/exercises/img/2403.webp'),
   },
   {
     id: "1646",
@@ -5528,7 +5528,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1646.jpg'),
+    imageUrl: require('../../assets/exercises/img/1646.webp'),
   },
   {
     id: "1647",
@@ -5538,7 +5538,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1647.jpg'),
+    imageUrl: require('../../assets/exercises/img/1647.webp'),
   },
   {
     id: "1648",
@@ -5548,7 +5548,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1648.jpg'),
+    imageUrl: require('../../assets/exercises/img/1648.webp'),
   },
   {
     id: "0286",
@@ -5557,7 +5557,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0286.jpg'),
+    imageUrl: require('../../assets/exercises/img/0286.webp'),
   },
   {
     id: "1649",
@@ -5567,7 +5567,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1649.jpg'),
+    imageUrl: require('../../assets/exercises/img/1649.webp'),
   },
   {
     id: "1650",
@@ -5577,7 +5577,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1650.jpg'),
+    imageUrl: require('../../assets/exercises/img/1650.webp'),
   },
   {
     id: "2137",
@@ -5601,7 +5601,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Arnold press",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/2137.jpg'),
+    imageUrl: require('../../assets/exercises/img/2137.webp'),
     gifUrl: require('../../assets/exercises/gif/2137.webp'),
   },
   {
@@ -5612,7 +5612,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0287.jpg'),
+    imageUrl: require('../../assets/exercises/img/0287.webp'),
   },
   {
     id: "0288",
@@ -5622,7 +5622,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0288.jpg'),
+    imageUrl: require('../../assets/exercises/img/0288.webp'),
   },
   {
     id: "0289",
@@ -5642,7 +5642,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Repeat the movement for the prescribed amount of repetitions of your training program.",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0289.jpg'),
+    imageUrl: require('../../assets/exercises/img/0289.webp'),
     gifUrl: require('../../assets/exercises/gif/0289.webp'),
   },
   {
@@ -5652,7 +5652,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0290.jpg'),
+    imageUrl: require('../../assets/exercises/img/0290.webp'),
   },
   {
     id: "0291",
@@ -5662,7 +5662,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0291.jpg'),
+    imageUrl: require('../../assets/exercises/img/0291.webp'),
   },
   {
     id: "0293",
@@ -5672,7 +5672,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0293.jpg'),
+    imageUrl: require('../../assets/exercises/img/0293.webp'),
   },
   {
     id: "1651",
@@ -5682,7 +5682,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1651.jpg'),
+    imageUrl: require('../../assets/exercises/img/1651.webp'),
   },
   {
     id: "1652",
@@ -5692,7 +5692,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1652.jpg'),
+    imageUrl: require('../../assets/exercises/img/1652.webp'),
   },
   {
     id: "1653",
@@ -5702,7 +5702,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1653.jpg'),
+    imageUrl: require('../../assets/exercises/img/1653.webp'),
   },
   {
     id: "0294",
@@ -5724,7 +5724,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Dumbbell Bicep Curl",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0294.jpg'),
+    imageUrl: require('../../assets/exercises/img/0294.webp'),
     gifUrl: require('../../assets/exercises/gif/0294.webp'),
   },
   {
@@ -5735,7 +5735,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2401.jpg'),
+    imageUrl: require('../../assets/exercises/img/2401.webp'),
   },
   {
     id: "1654",
@@ -5745,7 +5745,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1654.jpg'),
+    imageUrl: require('../../assets/exercises/img/1654.webp'),
   },
   {
     id: "1655",
@@ -5755,7 +5755,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1655.jpg'),
+    imageUrl: require('../../assets/exercises/img/1655.webp'),
   },
   {
     id: "1656",
@@ -5765,7 +5765,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1656.jpg'),
+    imageUrl: require('../../assets/exercises/img/1656.webp'),
   },
   {
     id: "1201",
@@ -5774,7 +5774,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1201.jpg'),
+    imageUrl: require('../../assets/exercises/img/1201.webp'),
   },
   {
     id: "0295",
@@ -5783,7 +5783,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0295.jpg'),
+    imageUrl: require('../../assets/exercises/img/0295.webp'),
   },
   {
     id: "1731",
@@ -5792,7 +5792,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1731.jpg'),
+    imageUrl: require('../../assets/exercises/img/1731.webp'),
   },
   {
     id: "0296",
@@ -5801,7 +5801,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0296.jpg'),
+    imageUrl: require('../../assets/exercises/img/0296.webp'),
   },
   {
     id: "0297",
@@ -5811,7 +5811,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0297.jpg'),
+    imageUrl: require('../../assets/exercises/img/0297.webp'),
   },
   {
     id: "3635",
@@ -5821,7 +5821,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3635.jpg'),
+    imageUrl: require('../../assets/exercises/img/3635.webp'),
   },
   {
     id: "0298",
@@ -5831,7 +5831,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0298.jpg'),
+    imageUrl: require('../../assets/exercises/img/0298.webp'),
   },
   {
     id: "1657",
@@ -5841,7 +5841,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1657.jpg'),
+    imageUrl: require('../../assets/exercises/img/1657.webp'),
   },
   {
     id: "0299",
@@ -5850,7 +5850,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0299.jpg'),
+    imageUrl: require('../../assets/exercises/img/0299.webp'),
   },
   {
     id: "2136",
@@ -5859,7 +5859,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2136.jpg'),
+    imageUrl: require('../../assets/exercises/img/2136.webp'),
   },
   {
     id: "0300",
@@ -5869,7 +5869,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0300.jpg'),
+    imageUrl: require('../../assets/exercises/img/0300.webp'),
   },
   {
     id: "0301",
@@ -5879,7 +5879,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0301.jpg'),
+    imageUrl: require('../../assets/exercises/img/0301.webp'),
   },
   {
     id: "0302",
@@ -5889,7 +5889,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0302.jpg'),
+    imageUrl: require('../../assets/exercises/img/0302.webp'),
   },
   {
     id: "0303",
@@ -5899,7 +5899,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0303.jpg'),
+    imageUrl: require('../../assets/exercises/img/0303.webp'),
   },
   {
     id: "1276",
@@ -5909,7 +5909,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1276.jpg'),
+    imageUrl: require('../../assets/exercises/img/1276.webp'),
   },
   {
     id: "1617",
@@ -5919,7 +5919,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1617.jpg'),
+    imageUrl: require('../../assets/exercises/img/1617.webp'),
   },
   {
     id: "0305",
@@ -5929,7 +5929,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0305.jpg'),
+    imageUrl: require('../../assets/exercises/img/0305.webp'),
   },
   {
     id: "0304",
@@ -5939,7 +5939,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0304.jpg'),
+    imageUrl: require('../../assets/exercises/img/0304.webp'),
   },
   {
     id: "0306",
@@ -5949,7 +5949,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0306.jpg'),
+    imageUrl: require('../../assets/exercises/img/0306.webp'),
   },
   {
     id: "0307",
@@ -5959,7 +5959,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0307.jpg'),
+    imageUrl: require('../../assets/exercises/img/0307.webp'),
   },
   {
     id: "1437",
@@ -5969,7 +5969,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1437.jpg'),
+    imageUrl: require('../../assets/exercises/img/1437.webp'),
   },
   {
     id: "0308",
@@ -5993,7 +5993,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Chest fly",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0308.jpg'),
+    imageUrl: require('../../assets/exercises/img/0308.webp'),
     gifUrl: require('../../assets/exercises/gif/0308.webp'),
   },
   {
@@ -6004,7 +6004,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1277.jpg'),
+    imageUrl: require('../../assets/exercises/img/1277.webp'),
   },
   {
     id: "1732",
@@ -6014,7 +6014,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1732.jpg'),
+    imageUrl: require('../../assets/exercises/img/1732.webp'),
   },
   {
     id: "0310",
@@ -6036,7 +6036,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Front Dumbbell Raise",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0310.jpg'),
+    imageUrl: require('../../assets/exercises/img/0310.webp'),
     gifUrl: require('../../assets/exercises/gif/0310.webp'),
   },
   {
@@ -6047,7 +6047,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0309.jpg'),
+    imageUrl: require('../../assets/exercises/img/0309.webp'),
   },
   {
     id: "0311",
@@ -6057,7 +6057,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0311.jpg'),
+    imageUrl: require('../../assets/exercises/img/0311.webp'),
   },
   {
     id: "1760",
@@ -6067,7 +6067,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1760.jpg'),
+    imageUrl: require('../../assets/exercises/img/1760.webp'),
   },
   {
     id: "0313",
@@ -6091,7 +6091,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Hammer curl",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0313.jpg'),
+    imageUrl: require('../../assets/exercises/img/0313.webp'),
     gifUrl: require('../../assets/exercises/gif/0313.webp'),
   },
   {
@@ -6102,7 +6102,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1659.jpg'),
+    imageUrl: require('../../assets/exercises/img/1659.webp'),
   },
   {
     id: "0312",
@@ -6112,7 +6112,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0312.jpg'),
+    imageUrl: require('../../assets/exercises/img/0312.webp'),
   },
   {
     id: "2402",
@@ -6122,7 +6122,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2402.jpg'),
+    imageUrl: require('../../assets/exercises/img/2402.webp'),
   },
   {
     id: "1664",
@@ -6132,7 +6132,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1664.jpg'),
+    imageUrl: require('../../assets/exercises/img/1664.webp'),
   },
   {
     id: "3545",
@@ -6141,7 +6141,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3545.jpg'),
+    imageUrl: require('../../assets/exercises/img/3545.webp'),
   },
   {
     id: "0314",
@@ -6166,7 +6166,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Incline Dumbbell Press",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0314.jpg'),
+    imageUrl: require('../../assets/exercises/img/0314.webp'),
     gifUrl: require('../../assets/exercises/gif/0314.webp'),
   },
   {
@@ -6177,7 +6177,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0315.jpg'),
+    imageUrl: require('../../assets/exercises/img/0315.webp'),
   },
   {
     id: "0316",
@@ -6186,7 +6186,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0316.jpg'),
+    imageUrl: require('../../assets/exercises/img/0316.webp'),
   },
   {
     id: "0318",
@@ -6208,7 +6208,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Incline Dumbbell Curl",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0318.jpg'),
+    imageUrl: require('../../assets/exercises/img/0318.webp'),
     gifUrl: require('../../assets/exercises/gif/0318.webp'),
   },
   {
@@ -6219,7 +6219,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0317.jpg'),
+    imageUrl: require('../../assets/exercises/img/0317.webp'),
   },
   {
     id: "0319",
@@ -6243,7 +6243,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Incline Dumbbell Flyes",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0319.jpg'),
+    imageUrl: require('../../assets/exercises/img/0319.webp'),
     gifUrl: require('../../assets/exercises/gif/0319.webp'),
   },
   {
@@ -6254,7 +6254,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1278.jpg'),
+    imageUrl: require('../../assets/exercises/img/1278.webp'),
   },
   {
     id: "0320",
@@ -6264,7 +6264,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0320.jpg'),
+    imageUrl: require('../../assets/exercises/img/0320.webp'),
   },
   {
     id: "0321",
@@ -6274,7 +6274,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0321.jpg'),
+    imageUrl: require('../../assets/exercises/img/0321.webp'),
   },
   {
     id: "1618",
@@ -6284,7 +6284,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1618.jpg'),
+    imageUrl: require('../../assets/exercises/img/1618.webp'),
   },
   {
     id: "0322",
@@ -6294,7 +6294,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0322.jpg'),
+    imageUrl: require('../../assets/exercises/img/0322.webp'),
   },
   {
     id: "1279",
@@ -6304,7 +6304,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1279.jpg'),
+    imageUrl: require('../../assets/exercises/img/1279.webp'),
   },
   {
     id: "1280",
@@ -6314,7 +6314,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1280.jpg'),
+    imageUrl: require('../../assets/exercises/img/1280.webp'),
   },
   {
     id: "1619",
@@ -6324,7 +6324,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1619.jpg'),
+    imageUrl: require('../../assets/exercises/img/1619.webp'),
   },
   {
     id: "1620",
@@ -6334,7 +6334,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1620.jpg'),
+    imageUrl: require('../../assets/exercises/img/1620.webp'),
   },
   {
     id: "0323",
@@ -6344,7 +6344,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0323.jpg'),
+    imageUrl: require('../../assets/exercises/img/0323.webp'),
   },
   {
     id: "1281",
@@ -6353,7 +6353,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1281.jpg'),
+    imageUrl: require('../../assets/exercises/img/1281.webp'),
   },
   {
     id: "1282",
@@ -6362,7 +6362,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1282.jpg'),
+    imageUrl: require('../../assets/exercises/img/1282.webp'),
   },
   {
     id: "0324",
@@ -6371,7 +6371,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0324.jpg'),
+    imageUrl: require('../../assets/exercises/img/0324.webp'),
   },
   {
     id: "1283",
@@ -6380,7 +6380,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1283.jpg'),
+    imageUrl: require('../../assets/exercises/img/1283.webp'),
   },
   {
     id: "0325",
@@ -6389,7 +6389,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0325.jpg'),
+    imageUrl: require('../../assets/exercises/img/0325.webp'),
   },
   {
     id: "0326",
@@ -6399,7 +6399,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0326.jpg'),
+    imageUrl: require('../../assets/exercises/img/0326.webp'),
   },
   {
     id: "0327",
@@ -6409,7 +6409,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0327.jpg'),
+    imageUrl: require('../../assets/exercises/img/0327.webp'),
   },
   {
     id: "0328",
@@ -6418,7 +6418,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0328.jpg'),
+    imageUrl: require('../../assets/exercises/img/0328.webp'),
   },
   {
     id: "0329",
@@ -6428,7 +6428,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0329.jpg'),
+    imageUrl: require('../../assets/exercises/img/0329.webp'),
   },
   {
     id: "3542",
@@ -6437,7 +6437,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3542.jpg'),
+    imageUrl: require('../../assets/exercises/img/3542.webp'),
   },
   {
     id: "0330",
@@ -6447,7 +6447,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0330.jpg'),
+    imageUrl: require('../../assets/exercises/img/0330.webp'),
   },
   {
     id: "0331",
@@ -6457,7 +6457,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0331.jpg'),
+    imageUrl: require('../../assets/exercises/img/0331.webp'),
   },
   {
     id: "1733",
@@ -6467,7 +6467,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1733.jpg'),
+    imageUrl: require('../../assets/exercises/img/1733.webp'),
   },
   {
     id: "3541",
@@ -6476,7 +6476,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3541.jpg'),
+    imageUrl: require('../../assets/exercises/img/3541.webp'),
   },
   {
     id: "0332",
@@ -6485,7 +6485,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0332.jpg'),
+    imageUrl: require('../../assets/exercises/img/0332.webp'),
   },
   {
     id: "0333",
@@ -6507,7 +6507,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Tricep Dumbbell Kickback",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0333.jpg'),
+    imageUrl: require('../../assets/exercises/img/0333.webp'),
     gifUrl: require('../../assets/exercises/gif/0333.webp'),
   },
   {
@@ -6518,7 +6518,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1734.jpg'),
+    imageUrl: require('../../assets/exercises/img/1734.webp'),
   },
   {
     id: "1660",
@@ -6528,7 +6528,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1660.jpg'),
+    imageUrl: require('../../assets/exercises/img/1660.webp'),
   },
   {
     id: "0334",
@@ -6551,7 +6551,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Lateral raise",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0334.jpg'),
+    imageUrl: require('../../assets/exercises/img/0334.webp'),
     gifUrl: require('../../assets/exercises/gif/0334.webp'),
   },
   {
@@ -6562,7 +6562,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0335.jpg'),
+    imageUrl: require('../../assets/exercises/img/0335.webp'),
   },
   {
     id: "0336",
@@ -6585,7 +6585,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Lunge",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0336.jpg'),
+    imageUrl: require('../../assets/exercises/img/0336.webp'),
     gifUrl: require('../../assets/exercises/gif/0336.webp'),
   },
   {
@@ -6596,7 +6596,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1658.jpg'),
+    imageUrl: require('../../assets/exercises/img/1658.webp'),
   },
   {
     id: "1729",
@@ -6606,7 +6606,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1729.jpg'),
+    imageUrl: require('../../assets/exercises/img/1729.webp'),
   },
   {
     id: "0338",
@@ -6615,7 +6615,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0338.jpg'),
+    imageUrl: require('../../assets/exercises/img/0338.webp'),
   },
   {
     id: "0337",
@@ -6625,7 +6625,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0337.jpg'),
+    imageUrl: require('../../assets/exercises/img/0337.webp'),
   },
   {
     id: "0863",
@@ -6634,7 +6634,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0863.jpg'),
+    imageUrl: require('../../assets/exercises/img/0863.webp'),
   },
   {
     id: "0339",
@@ -6643,7 +6643,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0339.jpg'),
+    imageUrl: require('../../assets/exercises/img/0339.webp'),
   },
   {
     id: "0340",
@@ -6653,7 +6653,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0340.jpg'),
+    imageUrl: require('../../assets/exercises/img/0340.webp'),
   },
   {
     id: "2470",
@@ -6663,7 +6663,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2470.jpg'),
+    imageUrl: require('../../assets/exercises/img/2470.webp'),
   },
   {
     id: "0341",
@@ -6672,7 +6672,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0341.jpg'),
+    imageUrl: require('../../assets/exercises/img/0341.webp'),
   },
   {
     id: "0343",
@@ -6681,7 +6681,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0343.jpg'),
+    imageUrl: require('../../assets/exercises/img/0343.webp'),
   },
   {
     id: "0342",
@@ -6690,7 +6690,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0342.jpg'),
+    imageUrl: require('../../assets/exercises/img/0342.webp'),
   },
   {
     id: "0344",
@@ -6700,7 +6700,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0344.jpg'),
+    imageUrl: require('../../assets/exercises/img/0344.webp'),
   },
   {
     id: "0345",
@@ -6710,7 +6710,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0345.jpg'),
+    imageUrl: require('../../assets/exercises/img/0345.webp'),
   },
   {
     id: "0346",
@@ -6720,7 +6720,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0346.jpg'),
+    imageUrl: require('../../assets/exercises/img/0346.webp'),
   },
   {
     id: "0347",
@@ -6729,7 +6729,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0347.jpg'),
+    imageUrl: require('../../assets/exercises/img/0347.webp'),
   },
   {
     id: "2705",
@@ -6738,7 +6738,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2705.jpg'),
+    imageUrl: require('../../assets/exercises/img/2705.webp'),
   },
   {
     id: "1284",
@@ -6748,7 +6748,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1284.jpg'),
+    imageUrl: require('../../assets/exercises/img/1284.webp'),
   },
   {
     id: "1328",
@@ -6758,7 +6758,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1328.jpg'),
+    imageUrl: require('../../assets/exercises/img/1328.webp'),
   },
   {
     id: "0348",
@@ -6768,7 +6768,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0348.jpg'),
+    imageUrl: require('../../assets/exercises/img/0348.webp'),
   },
   {
     id: "1735",
@@ -6778,7 +6778,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1735.jpg'),
+    imageUrl: require('../../assets/exercises/img/1735.webp'),
   },
   {
     id: "0349",
@@ -6787,7 +6787,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0349.jpg'),
+    imageUrl: require('../../assets/exercises/img/0349.webp'),
   },
   {
     id: "2706",
@@ -6796,7 +6796,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2706.jpg'),
+    imageUrl: require('../../assets/exercises/img/2706.webp'),
   },
   {
     id: "1661",
@@ -6806,7 +6806,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1661.jpg'),
+    imageUrl: require('../../assets/exercises/img/1661.webp'),
   },
   {
     id: "0350",
@@ -6816,7 +6816,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0350.jpg'),
+    imageUrl: require('../../assets/exercises/img/0350.webp'),
   },
   {
     id: "0351",
@@ -6838,7 +6838,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Lying Dumbbell Tricep Extension",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0351.jpg'),
+    imageUrl: require('../../assets/exercises/img/0351.webp'),
     gifUrl: require('../../assets/exercises/gif/0351.webp'),
   },
   {
@@ -6849,7 +6849,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1662.jpg'),
+    imageUrl: require('../../assets/exercises/img/1662.webp'),
   },
   {
     id: "0352",
@@ -6859,7 +6859,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0352.jpg'),
+    imageUrl: require('../../assets/exercises/img/0352.webp'),
   },
   {
     id: "1285",
@@ -6869,7 +6869,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1285.jpg'),
+    imageUrl: require('../../assets/exercises/img/1285.webp'),
   },
   {
     id: "0292",
@@ -6894,7 +6894,7 @@ export const LIBRARY: LibraryExercise[] = [
       "One-Arm Dumbbell Row",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0292.jpg'),
+    imageUrl: require('../../assets/exercises/img/0292.webp'),
     gifUrl: require('../../assets/exercises/gif/0292.webp'),
   },
   {
@@ -6905,7 +6905,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1286.jpg'),
+    imageUrl: require('../../assets/exercises/img/1286.webp'),
   },
   {
     id: "0353",
@@ -6915,7 +6915,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0353.jpg'),
+    imageUrl: require('../../assets/exercises/img/0353.webp'),
   },
   {
     id: "1287",
@@ -6925,7 +6925,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1287.jpg'),
+    imageUrl: require('../../assets/exercises/img/1287.webp'),
   },
   {
     id: "1288",
@@ -6935,7 +6935,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1288.jpg'),
+    imageUrl: require('../../assets/exercises/img/1288.webp'),
   },
   {
     id: "1736",
@@ -6944,7 +6944,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1736.jpg'),
+    imageUrl: require('../../assets/exercises/img/1736.webp'),
   },
   {
     id: "1663",
@@ -6954,7 +6954,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1663.jpg'),
+    imageUrl: require('../../assets/exercises/img/1663.webp'),
   },
   {
     id: "1621",
@@ -6964,7 +6964,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1621.jpg'),
+    imageUrl: require('../../assets/exercises/img/1621.webp'),
   },
   {
     id: "1289",
@@ -6974,7 +6974,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1289.jpg'),
+    imageUrl: require('../../assets/exercises/img/1289.webp'),
   },
   {
     id: "0354",
@@ -6984,7 +6984,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0354.jpg'),
+    imageUrl: require('../../assets/exercises/img/0354.webp'),
   },
   {
     id: "0355",
@@ -6994,7 +6994,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0355.jpg'),
+    imageUrl: require('../../assets/exercises/img/0355.webp'),
   },
   {
     id: "0356",
@@ -7004,7 +7004,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0356.jpg'),
+    imageUrl: require('../../assets/exercises/img/0356.webp'),
   },
   {
     id: "1290",
@@ -7013,7 +7013,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1290.jpg'),
+    imageUrl: require('../../assets/exercises/img/1290.webp'),
   },
   {
     id: "1665",
@@ -7023,7 +7023,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1665.jpg'),
+    imageUrl: require('../../assets/exercises/img/1665.webp'),
   },
   {
     id: "1666",
@@ -7033,7 +7033,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1666.jpg'),
+    imageUrl: require('../../assets/exercises/img/1666.webp'),
   },
   {
     id: "1291",
@@ -7043,7 +7043,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1291.jpg'),
+    imageUrl: require('../../assets/exercises/img/1291.webp'),
   },
   {
     id: "0359",
@@ -7053,7 +7053,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0359.jpg'),
+    imageUrl: require('../../assets/exercises/img/0359.webp'),
   },
   {
     id: "1622",
@@ -7062,7 +7062,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1622.jpg'),
+    imageUrl: require('../../assets/exercises/img/1622.webp'),
   },
   {
     id: "1414",
@@ -7072,7 +7072,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1414.jpg'),
+    imageUrl: require('../../assets/exercises/img/1414.webp'),
   },
   {
     id: "1667",
@@ -7082,7 +7082,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1667.jpg'),
+    imageUrl: require('../../assets/exercises/img/1667.webp'),
   },
   {
     id: "0358",
@@ -7092,7 +7092,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0358.jpg'),
+    imageUrl: require('../../assets/exercises/img/0358.webp'),
   },
   {
     id: "1668",
@@ -7102,7 +7102,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1668.jpg'),
+    imageUrl: require('../../assets/exercises/img/1668.webp'),
   },
   {
     id: "1669",
@@ -7112,7 +7112,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1669.jpg'),
+    imageUrl: require('../../assets/exercises/img/1669.webp'),
   },
   {
     id: "1415",
@@ -7122,7 +7122,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1415.jpg'),
+    imageUrl: require('../../assets/exercises/img/1415.webp'),
   },
   {
     id: "0361",
@@ -7132,7 +7132,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0361.jpg'),
+    imageUrl: require('../../assets/exercises/img/0361.webp'),
   },
   {
     id: "0360",
@@ -7142,7 +7142,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0360.jpg'),
+    imageUrl: require('../../assets/exercises/img/0360.webp'),
   },
   {
     id: "3888",
@@ -7151,7 +7151,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3888.jpg'),
+    imageUrl: require('../../assets/exercises/img/3888.webp'),
   },
   {
     id: "1670",
@@ -7161,7 +7161,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1670.jpg'),
+    imageUrl: require('../../assets/exercises/img/1670.webp'),
   },
   {
     id: "1671",
@@ -7171,7 +7171,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1671.jpg'),
+    imageUrl: require('../../assets/exercises/img/1671.webp'),
   },
   {
     id: "0362",
@@ -7181,7 +7181,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0362.jpg'),
+    imageUrl: require('../../assets/exercises/img/0362.webp'),
   },
   {
     id: "0363",
@@ -7191,7 +7191,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0363.jpg'),
+    imageUrl: require('../../assets/exercises/img/0363.webp'),
   },
   {
     id: "0364",
@@ -7201,7 +7201,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0364.jpg'),
+    imageUrl: require('../../assets/exercises/img/0364.webp'),
   },
   {
     id: "1672",
@@ -7211,7 +7211,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1672.jpg'),
+    imageUrl: require('../../assets/exercises/img/1672.webp'),
   },
   {
     id: "1292",
@@ -7221,7 +7221,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1292.jpg'),
+    imageUrl: require('../../assets/exercises/img/1292.webp'),
   },
   {
     id: "0365",
@@ -7231,7 +7231,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0365.jpg'),
+    imageUrl: require('../../assets/exercises/img/0365.webp'),
   },
   {
     id: "0366",
@@ -7241,7 +7241,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0366.jpg'),
+    imageUrl: require('../../assets/exercises/img/0366.webp'),
   },
   {
     id: "1441",
@@ -7251,7 +7251,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1441.jpg'),
+    imageUrl: require('../../assets/exercises/img/1441.webp'),
   },
   {
     id: "0367",
@@ -7261,7 +7261,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0367.jpg'),
+    imageUrl: require('../../assets/exercises/img/0367.webp'),
   },
   {
     id: "0368",
@@ -7271,7 +7271,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0368.jpg'),
+    imageUrl: require('../../assets/exercises/img/0368.webp'),
   },
   {
     id: "0369",
@@ -7296,7 +7296,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Palms-Up Dumbbell Wrist Curl Over A Bench",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0369.jpg'),
+    imageUrl: require('../../assets/exercises/img/0369.webp'),
     gifUrl: require('../../assets/exercises/gif/0369.webp'),
   },
   {
@@ -7307,7 +7307,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1329.jpg'),
+    imageUrl: require('../../assets/exercises/img/1329.webp'),
   },
   {
     id: "1623",
@@ -7317,7 +7317,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1623.jpg'),
+    imageUrl: require('../../assets/exercises/img/1623.webp'),
   },
   {
     id: "0370",
@@ -7327,7 +7327,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0370.jpg'),
+    imageUrl: require('../../assets/exercises/img/0370.webp'),
   },
   {
     id: "0371",
@@ -7337,7 +7337,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0371.jpg'),
+    imageUrl: require('../../assets/exercises/img/0371.webp'),
   },
   {
     id: "0372",
@@ -7347,7 +7347,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0372.jpg'),
+    imageUrl: require('../../assets/exercises/img/0372.webp'),
   },
   {
     id: "1673",
@@ -7357,7 +7357,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1673.jpg'),
+    imageUrl: require('../../assets/exercises/img/1673.webp'),
   },
   {
     id: "1293",
@@ -7366,7 +7366,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1293.jpg'),
+    imageUrl: require('../../assets/exercises/img/1293.webp'),
   },
   {
     id: "0373",
@@ -7376,7 +7376,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0373.jpg'),
+    imageUrl: require('../../assets/exercises/img/0373.webp'),
   },
   {
     id: "0374",
@@ -7386,7 +7386,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0374.jpg'),
+    imageUrl: require('../../assets/exercises/img/0374.webp'),
   },
   {
     id: "1674",
@@ -7396,7 +7396,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1674.jpg'),
+    imageUrl: require('../../assets/exercises/img/1674.webp'),
   },
   {
     id: "0375",
@@ -7420,7 +7420,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Bent-Arm Dumbbell Pullover",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0375.jpg'),
+    imageUrl: require('../../assets/exercises/img/0375.webp'),
     gifUrl: require('../../assets/exercises/gif/0375.webp'),
   },
   {
@@ -7431,7 +7431,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1294.jpg'),
+    imageUrl: require('../../assets/exercises/img/1294.webp'),
   },
   {
     id: "1295",
@@ -7441,7 +7441,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1295.jpg'),
+    imageUrl: require('../../assets/exercises/img/1295.webp'),
   },
   {
     id: "1700",
@@ -7450,7 +7450,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1700.jpg'),
+    imageUrl: require('../../assets/exercises/img/1700.webp'),
   },
   {
     id: "0376",
@@ -7459,7 +7459,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0376.jpg'),
+    imageUrl: require('../../assets/exercises/img/0376.webp'),
   },
   {
     id: "2292",
@@ -7469,7 +7469,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2292.jpg'),
+    imageUrl: require('../../assets/exercises/img/2292.webp'),
   },
   {
     id: "0377",
@@ -7479,7 +7479,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0377.jpg'),
+    imageUrl: require('../../assets/exercises/img/0377.webp'),
   },
   {
     id: "0378",
@@ -7489,7 +7489,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0378.jpg'),
+    imageUrl: require('../../assets/exercises/img/0378.webp'),
   },
   {
     id: "0380",
@@ -7513,7 +7513,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Seated Bent-Over Rear Delt Raise",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0380.jpg'),
+    imageUrl: require('../../assets/exercises/img/0380.webp'),
     gifUrl: require('../../assets/exercises/gif/0380.webp'),
   },
   {
@@ -7524,7 +7524,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0379.jpg'),
+    imageUrl: require('../../assets/exercises/img/0379.webp'),
   },
   {
     id: "0381",
@@ -7534,7 +7534,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0381.jpg'),
+    imageUrl: require('../../assets/exercises/img/0381.webp'),
   },
   {
     id: "0382",
@@ -7544,7 +7544,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0382.jpg'),
+    imageUrl: require('../../assets/exercises/img/0382.webp'),
   },
   {
     id: "1624",
@@ -7554,7 +7554,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1624.jpg'),
+    imageUrl: require('../../assets/exercises/img/1624.webp'),
   },
   {
     id: "0383",
@@ -7578,7 +7578,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Reverse Flyes",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0383.jpg'),
+    imageUrl: require('../../assets/exercises/img/0383.webp'),
     gifUrl: require('../../assets/exercises/gif/0383.webp'),
   },
   {
@@ -7589,7 +7589,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1330.jpg'),
+    imageUrl: require('../../assets/exercises/img/1330.webp'),
   },
   {
     id: "1331",
@@ -7599,7 +7599,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1331.jpg'),
+    imageUrl: require('../../assets/exercises/img/1331.webp'),
   },
   {
     id: "2327",
@@ -7609,7 +7609,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2327.jpg'),
+    imageUrl: require('../../assets/exercises/img/2327.webp'),
   },
   {
     id: "0384",
@@ -7619,7 +7619,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0384.jpg'),
+    imageUrl: require('../../assets/exercises/img/0384.webp'),
   },
   {
     id: "1675",
@@ -7629,7 +7629,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1675.jpg'),
+    imageUrl: require('../../assets/exercises/img/1675.webp'),
   },
   {
     id: "0385",
@@ -7639,7 +7639,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0385.jpg'),
+    imageUrl: require('../../assets/exercises/img/0385.webp'),
   },
   {
     id: "1459",
@@ -7649,7 +7649,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1459.jpg'),
+    imageUrl: require('../../assets/exercises/img/1459.webp'),
   },
   {
     id: "0386",
@@ -7659,7 +7659,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0386.jpg'),
+    imageUrl: require('../../assets/exercises/img/0386.webp'),
   },
   {
     id: "2397",
@@ -7668,7 +7668,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2397.jpg'),
+    imageUrl: require('../../assets/exercises/img/2397.webp'),
   },
   {
     id: "0387",
@@ -7678,7 +7678,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0387.jpg'),
+    imageUrl: require('../../assets/exercises/img/0387.webp'),
   },
   {
     id: "1676",
@@ -7688,7 +7688,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1676.jpg'),
+    imageUrl: require('../../assets/exercises/img/1676.webp'),
   },
   {
     id: "0388",
@@ -7697,7 +7697,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0388.jpg'),
+    imageUrl: require('../../assets/exercises/img/0388.webp'),
   },
   {
     id: "3546",
@@ -7706,7 +7706,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3546.jpg'),
+    imageUrl: require('../../assets/exercises/img/3546.webp'),
   },
   {
     id: "0389",
@@ -7716,7 +7716,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0389.jpg'),
+    imageUrl: require('../../assets/exercises/img/0389.webp'),
   },
   {
     id: "2317",
@@ -7726,7 +7726,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2317.jpg'),
+    imageUrl: require('../../assets/exercises/img/2317.webp'),
   },
   {
     id: "1730",
@@ -7736,7 +7736,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1730.jpg'),
+    imageUrl: require('../../assets/exercises/img/1730.webp'),
   },
   {
     id: "1737",
@@ -7746,7 +7746,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1737.jpg'),
+    imageUrl: require('../../assets/exercises/img/1737.webp'),
   },
   {
     id: "1677",
@@ -7756,7 +7756,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1677.jpg'),
+    imageUrl: require('../../assets/exercises/img/1677.webp'),
   },
   {
     id: "0390",
@@ -7766,7 +7766,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0390.jpg'),
+    imageUrl: require('../../assets/exercises/img/0390.webp'),
   },
   {
     id: "3547",
@@ -7776,7 +7776,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3547.jpg'),
+    imageUrl: require('../../assets/exercises/img/3547.webp'),
   },
   {
     id: "1379",
@@ -7786,7 +7786,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1379.jpg'),
+    imageUrl: require('../../assets/exercises/img/1379.webp'),
   },
   {
     id: "0391",
@@ -7796,7 +7796,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0391.jpg'),
+    imageUrl: require('../../assets/exercises/img/0391.webp'),
   },
   {
     id: "0392",
@@ -7806,7 +7806,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0392.jpg'),
+    imageUrl: require('../../assets/exercises/img/0392.webp'),
   },
   {
     id: "1678",
@@ -7816,7 +7816,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1678.jpg'),
+    imageUrl: require('../../assets/exercises/img/1678.webp'),
   },
   {
     id: "0393",
@@ -7826,7 +7826,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0393.jpg'),
+    imageUrl: require('../../assets/exercises/img/0393.webp'),
   },
   {
     id: "0394",
@@ -7836,7 +7836,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0394.jpg'),
+    imageUrl: require('../../assets/exercises/img/0394.webp'),
   },
   {
     id: "0396",
@@ -7846,7 +7846,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0396.jpg'),
+    imageUrl: require('../../assets/exercises/img/0396.webp'),
   },
   {
     id: "0395",
@@ -7856,7 +7856,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0395.jpg'),
+    imageUrl: require('../../assets/exercises/img/0395.webp'),
   },
   {
     id: "0397",
@@ -7866,7 +7866,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0397.jpg'),
+    imageUrl: require('../../assets/exercises/img/0397.webp'),
   },
   {
     id: "1679",
@@ -7876,7 +7876,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1679.jpg'),
+    imageUrl: require('../../assets/exercises/img/1679.webp'),
   },
   {
     id: "0398",
@@ -7886,7 +7886,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0398.jpg'),
+    imageUrl: require('../../assets/exercises/img/0398.webp'),
   },
   {
     id: "0399",
@@ -7895,7 +7895,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0399.jpg'),
+    imageUrl: require('../../assets/exercises/img/0399.webp'),
   },
   {
     id: "0400",
@@ -7905,7 +7905,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0400.jpg'),
+    imageUrl: require('../../assets/exercises/img/0400.webp'),
   },
   {
     id: "1380",
@@ -7915,7 +7915,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1380.jpg'),
+    imageUrl: require('../../assets/exercises/img/1380.webp'),
   },
   {
     id: "1381",
@@ -7925,7 +7925,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1381.jpg'),
+    imageUrl: require('../../assets/exercises/img/1381.webp'),
   },
   {
     id: "0401",
@@ -7935,7 +7935,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0401.jpg'),
+    imageUrl: require('../../assets/exercises/img/0401.webp'),
   },
   {
     id: "0402",
@@ -7945,7 +7945,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0402.jpg'),
+    imageUrl: require('../../assets/exercises/img/0402.webp'),
   },
   {
     id: "0403",
@@ -7955,7 +7955,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0403.jpg'),
+    imageUrl: require('../../assets/exercises/img/0403.webp'),
   },
   {
     id: "1738",
@@ -7965,7 +7965,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1738.jpg'),
+    imageUrl: require('../../assets/exercises/img/1738.webp'),
   },
   {
     id: "0405",
@@ -7989,7 +7989,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Seated Dumbbell Press",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0405.jpg'),
+    imageUrl: require('../../assets/exercises/img/0405.webp'),
     gifUrl: require('../../assets/exercises/gif/0405.webp'),
   },
   {
@@ -8000,7 +8000,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0404.jpg'),
+    imageUrl: require('../../assets/exercises/img/0404.webp'),
   },
   {
     id: "2188",
@@ -8010,7 +8010,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2188.jpg'),
+    imageUrl: require('../../assets/exercises/img/2188.webp'),
   },
   {
     id: "0406",
@@ -8029,7 +8029,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Repeat for the recommended amount of repetitions.",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0406.jpg'),
+    imageUrl: require('../../assets/exercises/img/0406.webp'),
     gifUrl: require('../../assets/exercises/gif/0406.webp'),
   },
   {
@@ -8039,7 +8039,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0407.jpg'),
+    imageUrl: require('../../assets/exercises/img/0407.webp'),
   },
   {
     id: "0408",
@@ -8048,7 +8048,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0408.jpg'),
+    imageUrl: require('../../assets/exercises/img/0408.webp'),
   },
   {
     id: "3664",
@@ -8058,7 +8058,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3664.jpg'),
+    imageUrl: require('../../assets/exercises/img/3664.webp'),
   },
   {
     id: "3548",
@@ -8067,7 +8067,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3548.jpg'),
+    imageUrl: require('../../assets/exercises/img/3548.webp'),
   },
   {
     id: "0409",
@@ -8077,7 +8077,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0409.jpg'),
+    imageUrl: require('../../assets/exercises/img/0409.webp'),
   },
   {
     id: "1757",
@@ -8087,7 +8087,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1757.jpg'),
+    imageUrl: require('../../assets/exercises/img/1757.webp'),
   },
   {
     id: "2805",
@@ -8097,7 +8097,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2805.jpg'),
+    imageUrl: require('../../assets/exercises/img/2805.webp'),
   },
   {
     id: "0410",
@@ -8107,7 +8107,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0410.jpg'),
+    imageUrl: require('../../assets/exercises/img/0410.webp'),
   },
   {
     id: "0411",
@@ -8117,7 +8117,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0411.jpg'),
+    imageUrl: require('../../assets/exercises/img/0411.webp'),
   },
   {
     id: "0413",
@@ -8127,7 +8127,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0413.jpg'),
+    imageUrl: require('../../assets/exercises/img/0413.webp'),
   },
   {
     id: "3560",
@@ -8137,7 +8137,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3560.jpg'),
+    imageUrl: require('../../assets/exercises/img/3560.webp'),
   },
   {
     id: "0414",
@@ -8147,7 +8147,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0414.jpg'),
+    imageUrl: require('../../assets/exercises/img/0414.webp'),
   },
   {
     id: "0415",
@@ -8156,7 +8156,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0415.jpg'),
+    imageUrl: require('../../assets/exercises/img/0415.webp'),
   },
   {
     id: "1739",
@@ -8166,7 +8166,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1739.jpg'),
+    imageUrl: require('../../assets/exercises/img/1739.webp'),
   },
   {
     id: "2143",
@@ -8175,7 +8175,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2143.jpg'),
+    imageUrl: require('../../assets/exercises/img/2143.webp'),
   },
   {
     id: "1740",
@@ -8185,7 +8185,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1740.jpg'),
+    imageUrl: require('../../assets/exercises/img/1740.webp'),
   },
   {
     id: "1741",
@@ -8195,7 +8195,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1741.jpg'),
+    imageUrl: require('../../assets/exercises/img/1741.webp'),
   },
   {
     id: "0416",
@@ -8205,7 +8205,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0416.jpg'),
+    imageUrl: require('../../assets/exercises/img/0416.webp'),
   },
   {
     id: "0417",
@@ -8215,7 +8215,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0417.jpg'),
+    imageUrl: require('../../assets/exercises/img/0417.webp'),
   },
   {
     id: "0418",
@@ -8225,7 +8225,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0418.jpg'),
+    imageUrl: require('../../assets/exercises/img/0418.webp'),
   },
   {
     id: "0419",
@@ -8235,7 +8235,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0419.jpg'),
+    imageUrl: require('../../assets/exercises/img/0419.webp'),
   },
   {
     id: "2321",
@@ -8245,7 +8245,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2321.jpg'),
+    imageUrl: require('../../assets/exercises/img/2321.webp'),
   },
   {
     id: "0420",
@@ -8255,7 +8255,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0420.jpg'),
+    imageUrl: require('../../assets/exercises/img/0420.webp'),
   },
   {
     id: "0421",
@@ -8265,7 +8265,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0421.jpg'),
+    imageUrl: require('../../assets/exercises/img/0421.webp'),
   },
   {
     id: "0422",
@@ -8275,7 +8275,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0422.jpg'),
+    imageUrl: require('../../assets/exercises/img/0422.webp'),
   },
   {
     id: "1680",
@@ -8285,7 +8285,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1680.jpg'),
+    imageUrl: require('../../assets/exercises/img/1680.webp'),
   },
   {
     id: "0423",
@@ -8295,7 +8295,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0423.jpg'),
+    imageUrl: require('../../assets/exercises/img/0423.webp'),
   },
   {
     id: "0424",
@@ -8304,7 +8304,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0424.jpg'),
+    imageUrl: require('../../assets/exercises/img/0424.webp'),
   },
   {
     id: "0425",
@@ -8314,7 +8314,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0425.jpg'),
+    imageUrl: require('../../assets/exercises/img/0425.webp'),
   },
   {
     id: "0426",
@@ -8335,7 +8335,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Standing Dumbbell Press",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0426.jpg'),
+    imageUrl: require('../../assets/exercises/img/0426.webp'),
     gifUrl: require('../../assets/exercises/gif/0426.webp'),
   },
   {
@@ -8345,7 +8345,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0427.jpg'),
+    imageUrl: require('../../assets/exercises/img/0427.webp'),
   },
   {
     id: "0428",
@@ -8355,7 +8355,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0428.jpg'),
+    imageUrl: require('../../assets/exercises/img/0428.webp'),
   },
   {
     id: "0429",
@@ -8365,7 +8365,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0429.jpg'),
+    imageUrl: require('../../assets/exercises/img/0429.webp'),
   },
   {
     id: "0430",
@@ -8375,7 +8375,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0430.jpg'),
+    imageUrl: require('../../assets/exercises/img/0430.webp'),
   },
   {
     id: "2293",
@@ -8385,7 +8385,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2293.jpg'),
+    imageUrl: require('../../assets/exercises/img/2293.webp'),
   },
   {
     id: "1684",
@@ -8395,7 +8395,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1684.jpg'),
+    imageUrl: require('../../assets/exercises/img/1684.webp'),
   },
   {
     id: "0431",
@@ -8405,7 +8405,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0431.jpg'),
+    imageUrl: require('../../assets/exercises/img/0431.webp'),
   },
   {
     id: "2796",
@@ -8415,7 +8415,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2796.jpg'),
+    imageUrl: require('../../assets/exercises/img/2796.webp'),
   },
   {
     id: "2812",
@@ -8425,7 +8425,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2812.jpg'),
+    imageUrl: require('../../assets/exercises/img/2812.webp'),
   },
   {
     id: "0432",
@@ -8435,7 +8435,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0432.jpg'),
+    imageUrl: require('../../assets/exercises/img/0432.webp'),
   },
   {
     id: "0433",
@@ -8445,7 +8445,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0433.jpg'),
+    imageUrl: require('../../assets/exercises/img/0433.webp'),
   },
   {
     id: "0434",
@@ -8455,7 +8455,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0434.jpg'),
+    imageUrl: require('../../assets/exercises/img/0434.webp'),
   },
   {
     id: "2808",
@@ -8464,7 +8464,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2808.jpg'),
+    imageUrl: require('../../assets/exercises/img/2808.webp'),
   },
   {
     id: "2803",
@@ -8474,7 +8474,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2803.jpg'),
+    imageUrl: require('../../assets/exercises/img/2803.webp'),
   },
   {
     id: "0436",
@@ -8483,7 +8483,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0436.jpg'),
+    imageUrl: require('../../assets/exercises/img/0436.webp'),
   },
   {
     id: "1742",
@@ -8493,7 +8493,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1742.jpg'),
+    imageUrl: require('../../assets/exercises/img/1742.webp'),
   },
   {
     id: "1743",
@@ -8503,7 +8503,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1743.jpg'),
+    imageUrl: require('../../assets/exercises/img/1743.webp'),
   },
   {
     id: "0437",
@@ -8513,7 +8513,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0437.jpg'),
+    imageUrl: require('../../assets/exercises/img/0437.webp'),
   },
   {
     id: "1765",
@@ -8523,7 +8523,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1765.jpg'),
+    imageUrl: require('../../assets/exercises/img/1765.webp'),
   },
   {
     id: "0864",
@@ -8532,7 +8532,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0864.jpg'),
+    imageUrl: require('../../assets/exercises/img/0864.webp'),
   },
   {
     id: "0438",
@@ -8541,7 +8541,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0438.jpg'),
+    imageUrl: require('../../assets/exercises/img/0438.webp'),
   },
   {
     id: "5201",
@@ -8551,7 +8551,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/5201.jpg'),
+    imageUrl: require('../../assets/exercises/img/5201.webp'),
   },
   {
     id: "0439",
@@ -8561,7 +8561,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0439.jpg'),
+    imageUrl: require('../../assets/exercises/img/0439.webp'),
   },
   {
     id: "2294",
@@ -8571,7 +8571,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2294.jpg'),
+    imageUrl: require('../../assets/exercises/img/2294.webp'),
   },
   {
     id: "2189",
@@ -8581,7 +8581,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2189.jpg'),
+    imageUrl: require('../../assets/exercises/img/2189.webp'),
   },
   {
     id: "1167",
@@ -8591,7 +8591,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1167.jpg'),
+    imageUrl: require('../../assets/exercises/img/1167.webp'),
   },
   {
     id: "3287",
@@ -8601,7 +8601,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3287.jpg'),
+    imageUrl: require('../../assets/exercises/img/3287.webp'),
   },
   {
     id: "1772",
@@ -8611,7 +8611,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1772.jpg'),
+    imageUrl: require('../../assets/exercises/img/1772.webp'),
   },
   {
     id: "0443",
@@ -8620,7 +8620,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0443.jpg'),
+    imageUrl: require('../../assets/exercises/img/0443.webp'),
   },
   {
     id: "3292",
@@ -8629,7 +8629,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3292.jpg'),
+    imageUrl: require('../../assets/exercises/img/3292.webp'),
   },
   {
     id: "1332",
@@ -8638,7 +8638,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Exercise Ball",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1332.jpg'),
+    imageUrl: require('../../assets/exercises/img/1332.webp'),
   },
   {
     id: "1333",
@@ -8648,7 +8648,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Exercise Ball",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1333.jpg'),
+    imageUrl: require('../../assets/exercises/img/1333.webp'),
   },
   {
     id: "1334",
@@ -8658,7 +8658,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Exercise Ball",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1334.jpg'),
+    imageUrl: require('../../assets/exercises/img/1334.webp'),
   },
   {
     id: "1335",
@@ -8668,7 +8668,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Exercise Ball",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1335.jpg'),
+    imageUrl: require('../../assets/exercises/img/1335.webp'),
   },
   {
     id: "1336",
@@ -8678,7 +8678,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Exercise Ball",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1336.jpg'),
+    imageUrl: require('../../assets/exercises/img/1336.webp'),
   },
   {
     id: "1744",
@@ -8688,7 +8688,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Exercise Ball",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1744.jpg'),
+    imageUrl: require('../../assets/exercises/img/1744.webp'),
   },
   {
     id: "1559",
@@ -8697,7 +8697,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Exercise Ball",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1559.jpg'),
+    imageUrl: require('../../assets/exercises/img/1559.webp'),
   },
   {
     id: "1338",
@@ -8706,7 +8706,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Exercise Ball",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1338.jpg'),
+    imageUrl: require('../../assets/exercises/img/1338.webp'),
   },
   {
     id: "1339",
@@ -8716,7 +8716,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Exercise Ball",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1339.jpg'),
+    imageUrl: require('../../assets/exercises/img/1339.webp'),
   },
   {
     id: "1341",
@@ -8725,7 +8725,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Exercise Ball",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1341.jpg'),
+    imageUrl: require('../../assets/exercises/img/1341.webp'),
   },
   {
     id: "1342",
@@ -8735,7 +8735,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Exercise Ball",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1342.jpg'),
+    imageUrl: require('../../assets/exercises/img/1342.webp'),
   },
   {
     id: "1382",
@@ -8745,7 +8745,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Exercise Ball",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1382.jpg'),
+    imageUrl: require('../../assets/exercises/img/1382.webp'),
   },
   {
     id: "3241",
@@ -8755,7 +8755,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Exercise Ball",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3241.jpg'),
+    imageUrl: require('../../assets/exercises/img/3241.webp'),
   },
   {
     id: "3240",
@@ -8765,7 +8765,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Exercise Ball",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3240.jpg'),
+    imageUrl: require('../../assets/exercises/img/3240.webp'),
   },
   {
     id: "1416",
@@ -8774,7 +8774,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Exercise Ball",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1416.jpg'),
+    imageUrl: require('../../assets/exercises/img/1416.webp'),
   },
   {
     id: "1417",
@@ -8784,7 +8784,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Exercise Ball",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1417.jpg'),
+    imageUrl: require('../../assets/exercises/img/1417.webp'),
   },
   {
     id: "1296",
@@ -8794,7 +8794,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Exercise Ball",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1296.jpg'),
+    imageUrl: require('../../assets/exercises/img/1296.webp'),
   },
   {
     id: "1343",
@@ -8804,7 +8804,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Exercise Ball",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1343.jpg'),
+    imageUrl: require('../../assets/exercises/img/1343.webp'),
   },
   {
     id: "1560",
@@ -8814,7 +8814,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Exercise Ball",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1560.jpg'),
+    imageUrl: require('../../assets/exercises/img/1560.webp'),
   },
   {
     id: "1745",
@@ -8824,7 +8824,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Exercise Ball",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1745.jpg'),
+    imageUrl: require('../../assets/exercises/img/1745.webp'),
   },
   {
     id: "1746",
@@ -8834,7 +8834,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Exercise Ball",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1746.jpg'),
+    imageUrl: require('../../assets/exercises/img/1746.webp'),
   },
   {
     id: "1747",
@@ -8843,7 +8843,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "E-Z Curl Bar",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1747.jpg'),
+    imageUrl: require('../../assets/exercises/img/1747.webp'),
   },
   {
     id: "3010",
@@ -8853,7 +8853,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "E-Z Curl Bar",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3010.jpg'),
+    imageUrl: require('../../assets/exercises/img/3010.webp'),
   },
   {
     id: "1748",
@@ -8876,7 +8876,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Lying Triceps Press",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/1748.jpg'),
+    imageUrl: require('../../assets/exercises/img/1748.webp'),
     gifUrl: require('../../assets/exercises/gif/1748.webp'),
   },
   {
@@ -8887,7 +8887,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "E-Z Curl Bar",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1344.jpg'),
+    imageUrl: require('../../assets/exercises/img/1344.webp'),
   },
   {
     id: "1682",
@@ -8897,7 +8897,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "E-Z Curl Bar",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1682.jpg'),
+    imageUrl: require('../../assets/exercises/img/1682.webp'),
   },
   {
     id: "1749",
@@ -8906,7 +8906,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "E-Z Curl Bar",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1749.jpg'),
+    imageUrl: require('../../assets/exercises/img/1749.webp'),
   },
   {
     id: "0445",
@@ -8915,7 +8915,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "E-Z Curl Bar",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0445.jpg'),
+    imageUrl: require('../../assets/exercises/img/0445.webp'),
   },
   {
     id: "1627",
@@ -8925,7 +8925,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "E-Z Curl Bar",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1627.jpg'),
+    imageUrl: require('../../assets/exercises/img/1627.webp'),
   },
   {
     id: "0446",
@@ -8935,7 +8935,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "E-Z Curl Bar",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0446.jpg'),
+    imageUrl: require('../../assets/exercises/img/0446.webp'),
   },
   {
     id: "0447",
@@ -8958,7 +8958,7 @@ export const LIBRARY: LibraryExercise[] = [
       "EZ-Bar Curl",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0447.jpg'),
+    imageUrl: require('../../assets/exercises/img/0447.webp'),
     gifUrl: require('../../assets/exercises/gif/0447.webp'),
   },
   {
@@ -8968,7 +8968,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "E-Z Curl Bar",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0448.jpg'),
+    imageUrl: require('../../assets/exercises/img/0448.webp'),
   },
   {
     id: "2186",
@@ -8978,7 +8978,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "E-Z Curl Bar",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2186.jpg'),
+    imageUrl: require('../../assets/exercises/img/2186.webp'),
   },
   {
     id: "0449",
@@ -8988,7 +8988,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "E-Z Curl Bar",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0449.jpg'),
+    imageUrl: require('../../assets/exercises/img/0449.webp'),
   },
   {
     id: "0450",
@@ -8998,7 +8998,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "E-Z Curl Bar",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0450.jpg'),
+    imageUrl: require('../../assets/exercises/img/0450.webp'),
   },
   {
     id: "0451",
@@ -9008,7 +9008,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "E-Z Curl Bar",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0451.jpg'),
+    imageUrl: require('../../assets/exercises/img/0451.webp'),
   },
   {
     id: "0452",
@@ -9018,7 +9018,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "E-Z Curl Bar",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0452.jpg'),
+    imageUrl: require('../../assets/exercises/img/0452.webp'),
   },
   {
     id: "1458",
@@ -9028,7 +9028,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "E-Z Curl Bar",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1458.jpg'),
+    imageUrl: require('../../assets/exercises/img/1458.webp'),
   },
   {
     id: "0453",
@@ -9038,7 +9038,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "E-Z Curl Bar",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0453.jpg'),
+    imageUrl: require('../../assets/exercises/img/0453.webp'),
   },
   {
     id: "0454",
@@ -9048,7 +9048,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "E-Z Curl Bar",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0454.jpg'),
+    imageUrl: require('../../assets/exercises/img/0454.webp'),
   },
   {
     id: "1628",
@@ -9058,7 +9058,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "E-Z Curl Bar",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1628.jpg'),
+    imageUrl: require('../../assets/exercises/img/1628.webp'),
   },
   {
     id: "2404",
@@ -9068,7 +9068,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "E-Z Curl Bar",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2404.jpg'),
+    imageUrl: require('../../assets/exercises/img/2404.webp'),
   },
   {
     id: "2432",
@@ -9078,7 +9078,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "E-Z Curl Bar",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2432.jpg'),
+    imageUrl: require('../../assets/exercises/img/2432.webp'),
   },
   {
     id: "2741",
@@ -9088,7 +9088,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "E-Z Curl Bar",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2741.jpg'),
+    imageUrl: require('../../assets/exercises/img/2741.webp'),
   },
   {
     id: "2133",
@@ -9109,7 +9109,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Farmer's Walk",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/2133.jpg'),
+    imageUrl: require('../../assets/exercises/img/2133.webp'),
     gifUrl: require('../../assets/exercises/gif/2133.webp'),
   },
   {
@@ -9120,7 +9120,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0455.jpg'),
+    imageUrl: require('../../assets/exercises/img/0455.webp'),
   },
   {
     id: "3303",
@@ -9129,7 +9129,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3303.jpg'),
+    imageUrl: require('../../assets/exercises/img/3303.webp'),
   },
   {
     id: "0456",
@@ -9139,7 +9139,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0456.jpg'),
+    imageUrl: require('../../assets/exercises/img/0456.webp'),
   },
   {
     id: "0457",
@@ -9149,7 +9149,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0457.jpg'),
+    imageUrl: require('../../assets/exercises/img/0457.webp'),
   },
   {
     id: "0458",
@@ -9159,7 +9159,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0458.jpg'),
+    imageUrl: require('../../assets/exercises/img/0458.webp'),
   },
   {
     id: "0459",
@@ -9168,7 +9168,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0459.jpg'),
+    imageUrl: require('../../assets/exercises/img/0459.webp'),
   },
   {
     id: "1472",
@@ -9177,7 +9177,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1472.jpg'),
+    imageUrl: require('../../assets/exercises/img/1472.webp'),
   },
   {
     id: "3470",
@@ -9187,7 +9187,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3470.jpg'),
+    imageUrl: require('../../assets/exercises/img/3470.webp'),
   },
   {
     id: "3194",
@@ -9197,7 +9197,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3194.jpg'),
+    imageUrl: require('../../assets/exercises/img/3194.webp'),
   },
   {
     id: "2429",
@@ -9207,7 +9207,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2429.jpg'),
+    imageUrl: require('../../assets/exercises/img/2429.webp'),
   },
   {
     id: "3301",
@@ -9216,7 +9216,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3301.jpg'),
+    imageUrl: require('../../assets/exercises/img/3301.webp'),
   },
   {
     id: "3296",
@@ -9225,7 +9225,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Other",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3296.jpg'),
+    imageUrl: require('../../assets/exercises/img/3296.webp'),
   },
   {
     id: "3295",
@@ -9234,7 +9234,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Other",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3295.jpg'),
+    imageUrl: require('../../assets/exercises/img/3295.webp'),
   },
   {
     id: "0464",
@@ -9244,7 +9244,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0464.jpg'),
+    imageUrl: require('../../assets/exercises/img/0464.webp'),
   },
   {
     id: "3315",
@@ -9253,7 +9253,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3315.jpg'),
+    imageUrl: require('../../assets/exercises/img/3315.webp'),
   },
   {
     id: "3299",
@@ -9262,7 +9262,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3299.jpg'),
+    imageUrl: require('../../assets/exercises/img/3299.webp'),
   },
   {
     id: "3327",
@@ -9272,7 +9272,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3327.jpg'),
+    imageUrl: require('../../assets/exercises/img/3327.webp'),
   },
   {
     id: "0466",
@@ -9282,7 +9282,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0466.jpg'),
+    imageUrl: require('../../assets/exercises/img/0466.webp'),
   },
   {
     id: "3561",
@@ -9292,7 +9292,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3561.jpg'),
+    imageUrl: require('../../assets/exercises/img/3561.webp'),
   },
   {
     id: "3523",
@@ -9302,7 +9302,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3523.jpg'),
+    imageUrl: require('../../assets/exercises/img/3523.webp'),
   },
   {
     id: "3193",
@@ -9312,7 +9312,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3193.jpg'),
+    imageUrl: require('../../assets/exercises/img/3193.webp'),
   },
   {
     id: "0467",
@@ -9322,7 +9322,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0467.jpg'),
+    imageUrl: require('../../assets/exercises/img/0467.webp'),
   },
   {
     id: "0469",
@@ -9332,7 +9332,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0469.jpg'),
+    imageUrl: require('../../assets/exercises/img/0469.webp'),
   },
   {
     id: "1383",
@@ -9342,7 +9342,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1383.jpg'),
+    imageUrl: require('../../assets/exercises/img/1383.webp'),
   },
   {
     id: "1384",
@@ -9352,7 +9352,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1384.jpg'),
+    imageUrl: require('../../assets/exercises/img/1384.webp'),
   },
   {
     id: "3221",
@@ -9361,7 +9361,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3221.jpg'),
+    imageUrl: require('../../assets/exercises/img/3221.webp'),
   },
   {
     id: "3202",
@@ -9371,7 +9371,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3202.jpg'),
+    imageUrl: require('../../assets/exercises/img/3202.webp'),
   },
   {
     id: "1511",
@@ -9381,7 +9381,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1511.jpg'),
+    imageUrl: require('../../assets/exercises/img/1511.webp'),
   },
   {
     id: "2139",
@@ -9390,7 +9390,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Other",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2139.jpg'),
+    imageUrl: require('../../assets/exercises/img/2139.webp'),
   },
   {
     id: "3218",
@@ -9399,7 +9399,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3218.jpg'),
+    imageUrl: require('../../assets/exercises/img/3218.webp'),
   },
   {
     id: "3215",
@@ -9408,7 +9408,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3215.jpg'),
+    imageUrl: require('../../assets/exercises/img/3215.webp'),
   },
   {
     id: "3302",
@@ -9417,7 +9417,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3302.jpg'),
+    imageUrl: require('../../assets/exercises/img/3302.webp'),
   },
   {
     id: "0471",
@@ -9427,7 +9427,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0471.jpg'),
+    imageUrl: require('../../assets/exercises/img/0471.webp'),
   },
   {
     id: "1764",
@@ -9437,7 +9437,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1764.jpg'),
+    imageUrl: require('../../assets/exercises/img/1764.webp'),
   },
   {
     id: "0472",
@@ -9456,7 +9456,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Repeat for the recommended amount of repetitions.",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0472.jpg'),
+    imageUrl: require('../../assets/exercises/img/0472.webp'),
     gifUrl: require('../../assets/exercises/gif/0472.webp'),
   },
   {
@@ -9467,7 +9467,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1761.jpg'),
+    imageUrl: require('../../assets/exercises/img/1761.webp'),
   },
   {
     id: "0473",
@@ -9476,7 +9476,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0473.jpg'),
+    imageUrl: require('../../assets/exercises/img/0473.webp'),
   },
   {
     id: "0474",
@@ -9486,7 +9486,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0474.jpg'),
+    imageUrl: require('../../assets/exercises/img/0474.webp'),
   },
   {
     id: "0475",
@@ -9496,7 +9496,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0475.jpg'),
+    imageUrl: require('../../assets/exercises/img/0475.webp'),
   },
   {
     id: "0476",
@@ -9506,7 +9506,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0476.jpg'),
+    imageUrl: require('../../assets/exercises/img/0476.webp'),
   },
   {
     id: "3636",
@@ -9515,7 +9515,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3636.jpg'),
+    imageUrl: require('../../assets/exercises/img/3636.webp'),
   },
   {
     id: "0484",
@@ -9525,7 +9525,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0484.jpg'),
+    imageUrl: require('../../assets/exercises/img/0484.webp'),
   },
   {
     id: "1418",
@@ -9535,7 +9535,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1418.jpg'),
+    imageUrl: require('../../assets/exercises/img/1418.webp'),
   },
   {
     id: "3234",
@@ -9545,7 +9545,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3234.jpg'),
+    imageUrl: require('../../assets/exercises/img/3234.webp'),
   },
   {
     id: "0489",
@@ -9569,7 +9569,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Hyperextensions (Back Extensions)",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0489.jpg'),
+    imageUrl: require('../../assets/exercises/img/0489.webp'),
     gifUrl: require('../../assets/exercises/gif/0489.webp'),
   },
   {
@@ -9580,7 +9580,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0488.jpg'),
+    imageUrl: require('../../assets/exercises/img/0488.webp'),
   },
   {
     id: "3289",
@@ -9590,7 +9590,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3289.jpg'),
+    imageUrl: require('../../assets/exercises/img/3289.webp'),
   },
   {
     id: "1471",
@@ -9599,7 +9599,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1471.jpg'),
+    imageUrl: require('../../assets/exercises/img/1471.webp'),
   },
   {
     id: "3698",
@@ -9608,7 +9608,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3698.jpg'),
+    imageUrl: require('../../assets/exercises/img/3698.webp'),
   },
   {
     id: "0490",
@@ -9618,7 +9618,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0490.jpg'),
+    imageUrl: require('../../assets/exercises/img/0490.webp'),
   },
   {
     id: "0491",
@@ -9628,7 +9628,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0491.jpg'),
+    imageUrl: require('../../assets/exercises/img/0491.webp'),
   },
   {
     id: "0492",
@@ -9638,7 +9638,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0492.jpg'),
+    imageUrl: require('../../assets/exercises/img/0492.webp'),
   },
   {
     id: "0493",
@@ -9648,7 +9648,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0493.jpg'),
+    imageUrl: require('../../assets/exercises/img/0493.webp'),
   },
   {
     id: "3785",
@@ -9658,7 +9658,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3785.jpg'),
+    imageUrl: require('../../assets/exercises/img/3785.webp'),
   },
   {
     id: "0494",
@@ -9668,7 +9668,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0494.jpg'),
+    imageUrl: require('../../assets/exercises/img/0494.webp'),
   },
   {
     id: "3011",
@@ -9678,7 +9678,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3011.jpg'),
+    imageUrl: require('../../assets/exercises/img/3011.webp'),
   },
   {
     id: "0495",
@@ -9688,7 +9688,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0495.jpg'),
+    imageUrl: require('../../assets/exercises/img/0495.webp'),
   },
   {
     id: "1564",
@@ -9697,7 +9697,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1564.jpg'),
+    imageUrl: require('../../assets/exercises/img/1564.webp'),
   },
   {
     id: "0496",
@@ -9707,7 +9707,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0496.jpg'),
+    imageUrl: require('../../assets/exercises/img/0496.webp'),
   },
   {
     id: "2400",
@@ -9717,7 +9717,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Cable",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2400.jpg'),
+    imageUrl: require('../../assets/exercises/img/2400.webp'),
   },
   {
     id: "0499",
@@ -9727,7 +9727,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0499.jpg'),
+    imageUrl: require('../../assets/exercises/img/0499.webp'),
   },
   {
     id: "2300",
@@ -9737,7 +9737,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2300.jpg'),
+    imageUrl: require('../../assets/exercises/img/2300.webp'),
   },
   {
     id: "2298",
@@ -9747,7 +9747,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2298.jpg'),
+    imageUrl: require('../../assets/exercises/img/2298.webp'),
   },
   {
     id: "0497",
@@ -9757,7 +9757,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0497.jpg'),
+    imageUrl: require('../../assets/exercises/img/0497.webp'),
   },
   {
     id: "0498",
@@ -9767,7 +9767,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0498.jpg'),
+    imageUrl: require('../../assets/exercises/img/0498.webp'),
   },
   {
     id: "1419",
@@ -9776,7 +9776,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1419.jpg'),
+    imageUrl: require('../../assets/exercises/img/1419.webp'),
   },
   {
     id: "1297",
@@ -9786,7 +9786,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1297.jpg'),
+    imageUrl: require('../../assets/exercises/img/1297.webp'),
   },
   {
     id: "0500",
@@ -9795,7 +9795,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0500.jpg'),
+    imageUrl: require('../../assets/exercises/img/0500.webp'),
   },
   {
     id: "0501",
@@ -9804,7 +9804,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0501.jpg'),
+    imageUrl: require('../../assets/exercises/img/0501.webp'),
   },
   {
     id: "3224",
@@ -9813,7 +9813,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3224.jpg'),
+    imageUrl: require('../../assets/exercises/img/3224.webp'),
   },
   {
     id: "0507",
@@ -9823,7 +9823,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0507.jpg'),
+    imageUrl: require('../../assets/exercises/img/0507.webp'),
   },
   {
     id: "0508",
@@ -9833,7 +9833,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0508.jpg'),
+    imageUrl: require('../../assets/exercises/img/0508.webp'),
   },
   {
     id: "2612",
@@ -9853,7 +9853,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Rope Jumping",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/2612.jpg'),
+    imageUrl: require('../../assets/exercises/img/2612.webp'),
     gifUrl: require('../../assets/exercises/gif/2612.webp'),
   },
   {
@@ -9864,7 +9864,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0514.jpg'),
+    imageUrl: require('../../assets/exercises/img/0514.webp'),
   },
   {
     id: "0513",
@@ -9874,7 +9874,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0513.jpg'),
+    imageUrl: require('../../assets/exercises/img/0513.webp'),
   },
   {
     id: "0517",
@@ -9883,7 +9883,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Kettlebell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0517.jpg'),
+    imageUrl: require('../../assets/exercises/img/0517.webp'),
   },
   {
     id: "0518",
@@ -9892,7 +9892,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Kettlebell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0518.jpg'),
+    imageUrl: require('../../assets/exercises/img/0518.webp'),
   },
   {
     id: "0520",
@@ -9901,7 +9901,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Kettlebell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0520.jpg'),
+    imageUrl: require('../../assets/exercises/img/0520.webp'),
   },
   {
     id: "0519",
@@ -9910,7 +9910,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Kettlebell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0519.jpg'),
+    imageUrl: require('../../assets/exercises/img/0519.webp'),
   },
   {
     id: "0521",
@@ -9920,7 +9920,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Kettlebell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0521.jpg'),
+    imageUrl: require('../../assets/exercises/img/0521.webp'),
   },
   {
     id: "0522",
@@ -9930,7 +9930,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Kettlebell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0522.jpg'),
+    imageUrl: require('../../assets/exercises/img/0522.webp'),
   },
   {
     id: "0523",
@@ -9940,7 +9940,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Kettlebell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0523.jpg'),
+    imageUrl: require('../../assets/exercises/img/0523.webp'),
   },
   {
     id: "0524",
@@ -9961,7 +9961,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Bent Press",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0524.jpg'),
+    imageUrl: require('../../assets/exercises/img/0524.webp'),
     gifUrl: require('../../assets/exercises/gif/0524.webp'),
   },
   {
@@ -9971,7 +9971,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Kettlebell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0525.jpg'),
+    imageUrl: require('../../assets/exercises/img/0525.webp'),
   },
   {
     id: "0526",
@@ -9980,7 +9980,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Kettlebell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0526.jpg'),
+    imageUrl: require('../../assets/exercises/img/0526.webp'),
   },
   {
     id: "0527",
@@ -9989,7 +9989,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Kettlebell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0527.jpg'),
+    imageUrl: require('../../assets/exercises/img/0527.webp'),
   },
   {
     id: "0528",
@@ -9998,7 +9998,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Kettlebell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0528.jpg'),
+    imageUrl: require('../../assets/exercises/img/0528.webp'),
   },
   {
     id: "0529",
@@ -10007,7 +10007,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Kettlebell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0529.jpg'),
+    imageUrl: require('../../assets/exercises/img/0529.webp'),
   },
   {
     id: "0530",
@@ -10016,7 +10016,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Kettlebell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0530.jpg'),
+    imageUrl: require('../../assets/exercises/img/0530.webp'),
   },
   {
     id: "0531",
@@ -10025,7 +10025,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Kettlebell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0531.jpg'),
+    imageUrl: require('../../assets/exercises/img/0531.webp'),
   },
   {
     id: "0532",
@@ -10034,7 +10034,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Kettlebell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0532.jpg'),
+    imageUrl: require('../../assets/exercises/img/0532.webp'),
   },
   {
     id: "0533",
@@ -10044,7 +10044,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Kettlebell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0533.jpg'),
+    imageUrl: require('../../assets/exercises/img/0533.webp'),
   },
   {
     id: "0534",
@@ -10065,7 +10065,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Goblet Squat",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0534.jpg'),
+    imageUrl: require('../../assets/exercises/img/0534.webp'),
     gifUrl: require('../../assets/exercises/gif/0534.webp'),
   },
   {
@@ -10075,7 +10075,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Kettlebell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0535.jpg'),
+    imageUrl: require('../../assets/exercises/img/0535.webp'),
   },
   {
     id: "0536",
@@ -10085,7 +10085,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Kettlebell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0536.jpg'),
+    imageUrl: require('../../assets/exercises/img/0536.webp'),
   },
   {
     id: "0537",
@@ -10094,7 +10094,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Kettlebell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0537.jpg'),
+    imageUrl: require('../../assets/exercises/img/0537.webp'),
   },
   {
     id: "1298",
@@ -10103,7 +10103,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Kettlebell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1298.jpg'),
+    imageUrl: require('../../assets/exercises/img/1298.webp'),
   },
   {
     id: "0538",
@@ -10112,7 +10112,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Kettlebell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0538.jpg'),
+    imageUrl: require('../../assets/exercises/img/0538.webp'),
   },
   {
     id: "0539",
@@ -10122,7 +10122,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Kettlebell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0539.jpg'),
+    imageUrl: require('../../assets/exercises/img/0539.webp'),
   },
   {
     id: "0540",
@@ -10131,7 +10131,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Kettlebell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0540.jpg'),
+    imageUrl: require('../../assets/exercises/img/0540.webp'),
   },
   {
     id: "0541",
@@ -10141,7 +10141,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Kettlebell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0541.jpg'),
+    imageUrl: require('../../assets/exercises/img/0541.webp'),
   },
   {
     id: "0542",
@@ -10150,7 +10150,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Kettlebell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0542.jpg'),
+    imageUrl: require('../../assets/exercises/img/0542.webp'),
   },
   {
     id: "0543",
@@ -10159,7 +10159,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Kettlebell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0543.jpg'),
+    imageUrl: require('../../assets/exercises/img/0543.webp'),
   },
   {
     id: "0544",
@@ -10178,7 +10178,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Lower yourself again and repeat.",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0544.jpg'),
+    imageUrl: require('../../assets/exercises/img/0544.webp'),
     gifUrl: require('../../assets/exercises/gif/0544.webp'),
   },
   {
@@ -10189,7 +10189,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Kettlebell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0545.jpg'),
+    imageUrl: require('../../assets/exercises/img/0545.webp'),
   },
   {
     id: "0546",
@@ -10207,7 +10207,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Press the kettlebell up and out until it is locked out overhead. Return to the starting position.",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0546.jpg'),
+    imageUrl: require('../../assets/exercises/img/0546.webp'),
     gifUrl: require('../../assets/exercises/gif/0546.webp'),
   },
   {
@@ -10218,7 +10218,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Kettlebell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1438.jpg'),
+    imageUrl: require('../../assets/exercises/img/1438.webp'),
   },
   {
     id: "0547",
@@ -10227,7 +10227,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Kettlebell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0547.jpg'),
+    imageUrl: require('../../assets/exercises/img/0547.webp'),
   },
   {
     id: "0548",
@@ -10236,7 +10236,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Kettlebell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0548.jpg'),
+    imageUrl: require('../../assets/exercises/img/0548.webp'),
   },
   {
     id: "0549",
@@ -10245,7 +10245,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Kettlebell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0549.jpg'),
+    imageUrl: require('../../assets/exercises/img/0549.webp'),
   },
   {
     id: "0550",
@@ -10254,7 +10254,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Kettlebell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0550.jpg'),
+    imageUrl: require('../../assets/exercises/img/0550.webp'),
   },
   {
     id: "0551",
@@ -10275,7 +10275,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Kettlebell Turkish Get-Up (Lunge style)",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0551.jpg'),
+    imageUrl: require('../../assets/exercises/img/0551.webp'),
     gifUrl: require('../../assets/exercises/gif/0551.webp'),
   },
   {
@@ -10285,7 +10285,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Kettlebell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0552.jpg'),
+    imageUrl: require('../../assets/exercises/img/0552.webp'),
   },
   {
     id: "0553",
@@ -10295,7 +10295,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Kettlebell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0553.jpg'),
+    imageUrl: require('../../assets/exercises/img/0553.webp'),
   },
   {
     id: "1345",
@@ -10305,7 +10305,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Kettlebell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1345.jpg'),
+    imageUrl: require('../../assets/exercises/img/1345.webp'),
   },
   {
     id: "0554",
@@ -10323,7 +10323,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Pause for a second after reaching the ground and reverse the motion back to the starting position.",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0554.jpg'),
+    imageUrl: require('../../assets/exercises/img/0554.webp'),
     gifUrl: require('../../assets/exercises/gif/0554.webp'),
   },
   {
@@ -10333,7 +10333,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0555.jpg'),
+    imageUrl: require('../../assets/exercises/img/0555.webp'),
   },
   {
     id: "0558",
@@ -10342,7 +10342,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0558.jpg'),
+    imageUrl: require('../../assets/exercises/img/0558.webp'),
   },
   {
     id: "3640",
@@ -10352,7 +10352,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3640.jpg'),
+    imageUrl: require('../../assets/exercises/img/3640.webp'),
   },
   {
     id: "1420",
@@ -10362,7 +10362,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1420.jpg'),
+    imageUrl: require('../../assets/exercises/img/1420.webp'),
   },
   {
     id: "1346",
@@ -10372,7 +10372,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1346.jpg'),
+    imageUrl: require('../../assets/exercises/img/1346.webp'),
   },
   {
     id: "3239",
@@ -10382,7 +10382,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3239.jpg'),
+    imageUrl: require('../../assets/exercises/img/3239.webp'),
   },
   {
     id: "3211",
@@ -10392,7 +10392,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3211.jpg'),
+    imageUrl: require('../../assets/exercises/img/3211.webp'),
   },
   {
     id: "3288",
@@ -10402,7 +10402,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3288.jpg'),
+    imageUrl: require('../../assets/exercises/img/3288.webp'),
   },
   {
     id: "3418",
@@ -10412,7 +10412,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3418.jpg'),
+    imageUrl: require('../../assets/exercises/img/3418.webp'),
   },
   {
     id: "3419",
@@ -10421,7 +10421,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3419.jpg'),
+    imageUrl: require('../../assets/exercises/img/3419.webp'),
   },
   {
     id: "0562",
@@ -10444,7 +10444,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Landmine 180's",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0562.jpg'),
+    imageUrl: require('../../assets/exercises/img/0562.webp'),
     gifUrl: require('../../assets/exercises/gif/0562.webp'),
   },
   {
@@ -10455,7 +10455,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3237.jpg'),
+    imageUrl: require('../../assets/exercises/img/3237.webp'),
   },
   {
     id: "3300",
@@ -10464,7 +10464,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3300.jpg'),
+    imageUrl: require('../../assets/exercises/img/3300.webp'),
   },
   {
     id: "2271",
@@ -10473,7 +10473,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2271.jpg'),
+    imageUrl: require('../../assets/exercises/img/2271.webp'),
   },
   {
     id: "0570",
@@ -10482,7 +10482,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0570.jpg'),
+    imageUrl: require('../../assets/exercises/img/0570.webp'),
   },
   {
     id: "1576",
@@ -10492,7 +10492,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1576.jpg'),
+    imageUrl: require('../../assets/exercises/img/1576.webp'),
   },
   {
     id: "2287",
@@ -10502,7 +10502,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2287.jpg'),
+    imageUrl: require('../../assets/exercises/img/2287.webp'),
   },
   {
     id: "0571",
@@ -10512,7 +10512,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0571.jpg'),
+    imageUrl: require('../../assets/exercises/img/0571.webp'),
   },
   {
     id: "0572",
@@ -10522,7 +10522,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0572.jpg'),
+    imageUrl: require('../../assets/exercises/img/0572.webp'),
   },
   {
     id: "0573",
@@ -10532,7 +10532,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0573.jpg'),
+    imageUrl: require('../../assets/exercises/img/0573.webp'),
   },
   {
     id: "0574",
@@ -10542,7 +10542,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0574.jpg'),
+    imageUrl: require('../../assets/exercises/img/0574.webp'),
   },
   {
     id: "3200",
@@ -10552,7 +10552,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3200.jpg'),
+    imageUrl: require('../../assets/exercises/img/3200.webp'),
   },
   {
     id: "0575",
@@ -10574,7 +10574,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Machine Bicep Curl",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0575.jpg'),
+    imageUrl: require('../../assets/exercises/img/0575.webp'),
     gifUrl: require('../../assets/exercises/gif/0575.webp'),
   },
   {
@@ -10585,7 +10585,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2289.jpg'),
+    imageUrl: require('../../assets/exercises/img/2289.webp'),
   },
   {
     id: "0576",
@@ -10610,7 +10610,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Machine Bench Press",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0576.jpg'),
+    imageUrl: require('../../assets/exercises/img/0576.webp'),
     gifUrl: require('../../assets/exercises/gif/0576.webp'),
   },
   {
@@ -10633,7 +10633,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Leverage Chest Press",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0577.jpg'),
+    imageUrl: require('../../assets/exercises/img/0577.webp'),
     gifUrl: require('../../assets/exercises/gif/0577.webp'),
   },
   {
@@ -10644,7 +10644,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0578.jpg'),
+    imageUrl: require('../../assets/exercises/img/0578.webp'),
   },
   {
     id: "1300",
@@ -10654,7 +10654,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1300.jpg'),
+    imageUrl: require('../../assets/exercises/img/1300.webp'),
   },
   {
     id: "1253",
@@ -10664,7 +10664,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1253.jpg'),
+    imageUrl: require('../../assets/exercises/img/1253.webp'),
   },
   {
     id: "0579",
@@ -10674,7 +10674,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0579.jpg'),
+    imageUrl: require('../../assets/exercises/img/0579.webp'),
   },
   {
     id: "0580",
@@ -10684,7 +10684,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0580.jpg'),
+    imageUrl: require('../../assets/exercises/img/0580.webp'),
   },
   {
     id: "1439",
@@ -10694,7 +10694,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1439.jpg'),
+    imageUrl: require('../../assets/exercises/img/1439.webp'),
   },
   {
     id: "2288",
@@ -10703,7 +10703,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2288.jpg'),
+    imageUrl: require('../../assets/exercises/img/2288.webp'),
   },
   {
     id: "1615",
@@ -10713,7 +10713,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1615.jpg'),
+    imageUrl: require('../../assets/exercises/img/1615.webp'),
   },
   {
     id: "0581",
@@ -10735,7 +10735,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Leverage High Row",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0581.jpg'),
+    imageUrl: require('../../assets/exercises/img/0581.webp'),
     gifUrl: require('../../assets/exercises/gif/0581.webp'),
   },
   {
@@ -10746,7 +10746,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2286.jpg'),
+    imageUrl: require('../../assets/exercises/img/2286.webp'),
   },
   {
     id: "2611",
@@ -10756,7 +10756,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2611.jpg'),
+    imageUrl: require('../../assets/exercises/img/2611.webp'),
   },
   {
     id: "1299",
@@ -10766,7 +10766,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1299.jpg'),
+    imageUrl: require('../../assets/exercises/img/1299.webp'),
   },
   {
     id: "1479",
@@ -10776,7 +10776,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1479.jpg'),
+    imageUrl: require('../../assets/exercises/img/1479.webp'),
   },
   {
     id: "0582",
@@ -10786,7 +10786,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0582.jpg'),
+    imageUrl: require('../../assets/exercises/img/0582.webp'),
   },
   {
     id: "0583",
@@ -10796,7 +10796,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0583.jpg'),
+    imageUrl: require('../../assets/exercises/img/0583.webp'),
   },
   {
     id: "0584",
@@ -10806,7 +10806,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0584.jpg'),
+    imageUrl: require('../../assets/exercises/img/0584.webp'),
   },
   {
     id: "0585",
@@ -10829,7 +10829,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Leg extension",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0585.jpg'),
+    imageUrl: require('../../assets/exercises/img/0585.webp'),
     gifUrl: require('../../assets/exercises/gif/0585.webp'),
   },
   {
@@ -10854,7 +10854,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Lying_Leg_Curl",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0586.jpg'),
+    imageUrl: require('../../assets/exercises/img/0586.webp'),
     gifUrl: require('../../assets/exercises/gif/0586.webp'),
   },
   {
@@ -10865,7 +10865,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3195.jpg'),
+    imageUrl: require('../../assets/exercises/img/3195.webp'),
   },
   {
     id: "0587",
@@ -10888,7 +10888,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Machine Shoulder (Military) Press",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0587.jpg'),
+    imageUrl: require('../../assets/exercises/img/0587.webp'),
     gifUrl: require('../../assets/exercises/gif/0587.webp'),
   },
   {
@@ -10899,7 +10899,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0588.jpg'),
+    imageUrl: require('../../assets/exercises/img/0588.webp'),
   },
   {
     id: "0589",
@@ -10909,7 +10909,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0589.jpg'),
+    imageUrl: require('../../assets/exercises/img/0589.webp'),
   },
   {
     id: "1356",
@@ -10919,7 +10919,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1356.jpg'),
+    imageUrl: require('../../assets/exercises/img/1356.webp'),
   },
   {
     id: "1347",
@@ -10929,7 +10929,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1347.jpg'),
+    imageUrl: require('../../assets/exercises/img/1347.webp'),
   },
   {
     id: "0590",
@@ -10939,7 +10939,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0590.jpg'),
+    imageUrl: require('../../assets/exercises/img/0590.webp'),
   },
   {
     id: "0591",
@@ -10949,7 +10949,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0591.jpg'),
+    imageUrl: require('../../assets/exercises/img/0591.webp'),
   },
   {
     id: "0592",
@@ -10972,7 +10972,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Machine Preacher Curls",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0592.jpg'),
+    imageUrl: require('../../assets/exercises/img/0592.webp'),
     gifUrl: require('../../assets/exercises/gif/0592.webp'),
   },
   {
@@ -10983,7 +10983,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1614.jpg'),
+    imageUrl: require('../../assets/exercises/img/1614.webp'),
   },
   {
     id: "2285",
@@ -10993,7 +10993,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2285.jpg'),
+    imageUrl: require('../../assets/exercises/img/2285.webp'),
   },
   {
     id: "2736",
@@ -11003,7 +11003,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2736.jpg'),
+    imageUrl: require('../../assets/exercises/img/2736.webp'),
   },
   {
     id: "1616",
@@ -11013,7 +11013,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1616.jpg'),
+    imageUrl: require('../../assets/exercises/img/1616.webp'),
   },
   {
     id: "1348",
@@ -11023,7 +11023,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1348.jpg'),
+    imageUrl: require('../../assets/exercises/img/1348.webp'),
   },
   {
     id: "0593",
@@ -11033,7 +11033,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0593.jpg'),
+    imageUrl: require('../../assets/exercises/img/0593.webp'),
   },
   {
     id: "1349",
@@ -11043,7 +11043,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1349.jpg'),
+    imageUrl: require('../../assets/exercises/img/1349.webp'),
   },
   {
     id: "2315",
@@ -11053,7 +11053,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2315.jpg'),
+    imageUrl: require('../../assets/exercises/img/2315.webp'),
   },
   {
     id: "2335",
@@ -11063,7 +11063,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2335.jpg'),
+    imageUrl: require('../../assets/exercises/img/2335.webp'),
   },
   {
     id: "0594",
@@ -11087,7 +11087,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Seated Calf Raise",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0594.jpg'),
+    imageUrl: require('../../assets/exercises/img/0594.webp'),
     gifUrl: require('../../assets/exercises/gif/0594.webp'),
   },
   {
@@ -11110,7 +11110,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Ab Crunch Machine",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/1452.jpg'),
+    imageUrl: require('../../assets/exercises/img/1452.webp'),
     gifUrl: require('../../assets/exercises/gif/1452.webp'),
   },
   {
@@ -11121,7 +11121,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0595.jpg'),
+    imageUrl: require('../../assets/exercises/img/0595.webp'),
   },
   {
     id: "3760",
@@ -11131,7 +11131,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3760.jpg'),
+    imageUrl: require('../../assets/exercises/img/3760.webp'),
   },
   {
     id: "1451",
@@ -11141,7 +11141,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1451.jpg'),
+    imageUrl: require('../../assets/exercises/img/1451.webp'),
   },
   {
     id: "0596",
@@ -11164,7 +11164,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Butterfly",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0596.jpg'),
+    imageUrl: require('../../assets/exercises/img/0596.webp'),
     gifUrl: require('../../assets/exercises/gif/0596.webp'),
   },
   {
@@ -11174,7 +11174,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3759.jpg'),
+    imageUrl: require('../../assets/exercises/img/3759.webp'),
   },
   {
     id: "0597",
@@ -11183,7 +11183,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0597.jpg'),
+    imageUrl: require('../../assets/exercises/img/0597.webp'),
   },
   {
     id: "0598",
@@ -11192,7 +11192,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0598.jpg'),
+    imageUrl: require('../../assets/exercises/img/0598.webp'),
   },
   {
     id: "0599",
@@ -11215,7 +11215,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Seated Leg Curl",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0599.jpg'),
+    imageUrl: require('../../assets/exercises/img/0599.webp'),
     gifUrl: require('../../assets/exercises/gif/0599.webp'),
   },
   {
@@ -11226,7 +11226,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0600.jpg'),
+    imageUrl: require('../../assets/exercises/img/0600.webp'),
   },
   {
     id: "0602",
@@ -11248,7 +11248,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Reverse Machine Flyes",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0602.jpg'),
+    imageUrl: require('../../assets/exercises/img/0602.webp'),
     gifUrl: require('../../assets/exercises/gif/0602.webp'),
   },
   {
@@ -11259,7 +11259,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0601.jpg'),
+    imageUrl: require('../../assets/exercises/img/0601.webp'),
   },
   {
     id: "1350",
@@ -11269,7 +11269,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1350.jpg'),
+    imageUrl: require('../../assets/exercises/img/1350.webp'),
   },
   {
     id: "1385",
@@ -11279,7 +11279,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1385.jpg'),
+    imageUrl: require('../../assets/exercises/img/1385.webp'),
   },
   {
     id: "0603",
@@ -11289,7 +11289,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0603.jpg'),
+    imageUrl: require('../../assets/exercises/img/0603.webp'),
   },
   {
     id: "0869",
@@ -11299,7 +11299,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0869.jpg'),
+    imageUrl: require('../../assets/exercises/img/0869.webp'),
   },
   {
     id: "2318",
@@ -11309,7 +11309,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2318.jpg'),
+    imageUrl: require('../../assets/exercises/img/2318.webp'),
   },
   {
     id: "0604",
@@ -11319,7 +11319,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0604.jpg'),
+    imageUrl: require('../../assets/exercises/img/0604.webp'),
   },
   {
     id: "0605",
@@ -11343,7 +11343,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Calf raise",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0605.jpg'),
+    imageUrl: require('../../assets/exercises/img/0605.webp'),
     gifUrl: require('../../assets/exercises/gif/0605.webp'),
   },
   {
@@ -11354,7 +11354,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3758.jpg'),
+    imageUrl: require('../../assets/exercises/img/3758.webp'),
   },
   {
     id: "0606",
@@ -11377,7 +11377,7 @@ export const LIBRARY: LibraryExercise[] = [
       "T-Bar Row with Handle",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0606.jpg'),
+    imageUrl: require('../../assets/exercises/img/0606.webp'),
     gifUrl: require('../../assets/exercises/gif/0606.webp'),
   },
   {
@@ -11388,7 +11388,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1351.jpg'),
+    imageUrl: require('../../assets/exercises/img/1351.webp'),
   },
   {
     id: "0607",
@@ -11410,7 +11410,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Machine Triceps Extension",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0607.jpg'),
+    imageUrl: require('../../assets/exercises/img/0607.webp'),
     gifUrl: require('../../assets/exercises/gif/0607.webp'),
   },
   {
@@ -11421,7 +11421,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1313.jpg'),
+    imageUrl: require('../../assets/exercises/img/1313.webp'),
   },
   {
     id: "0609",
@@ -11430,7 +11430,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0609.jpg'),
+    imageUrl: require('../../assets/exercises/img/0609.webp'),
   },
   {
     id: "3013",
@@ -11440,7 +11440,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3013.jpg'),
+    imageUrl: require('../../assets/exercises/img/3013.webp'),
   },
   {
     id: "1352",
@@ -11450,7 +11450,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1352.jpg'),
+    imageUrl: require('../../assets/exercises/img/1352.webp'),
   },
   {
     id: "3582",
@@ -11460,7 +11460,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3582.jpg'),
+    imageUrl: require('../../assets/exercises/img/3582.webp'),
   },
   {
     id: "1688",
@@ -11470,7 +11470,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1688.jpg'),
+    imageUrl: require('../../assets/exercises/img/1688.webp'),
   },
   {
     id: "0613",
@@ -11479,7 +11479,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0613.jpg'),
+    imageUrl: require('../../assets/exercises/img/0613.webp'),
   },
   {
     id: "2312",
@@ -11489,7 +11489,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2312.jpg'),
+    imageUrl: require('../../assets/exercises/img/2312.webp'),
   },
   {
     id: "0620",
@@ -11511,7 +11511,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Flat Bench Lying Leg Raise",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0620.jpg'),
+    imageUrl: require('../../assets/exercises/img/0620.webp'),
     gifUrl: require('../../assets/exercises/gif/0620.webp'),
   },
   {
@@ -11522,7 +11522,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0865.jpg'),
+    imageUrl: require('../../assets/exercises/img/0865.webp'),
   },
   {
     id: "1301",
@@ -11532,7 +11532,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1301.jpg'),
+    imageUrl: require('../../assets/exercises/img/1301.webp'),
   },
   {
     id: "0624",
@@ -11541,7 +11541,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0624.jpg'),
+    imageUrl: require('../../assets/exercises/img/0624.webp'),
   },
   {
     id: "1353",
@@ -11550,7 +11550,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Medicine Ball",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1353.jpg'),
+    imageUrl: require('../../assets/exercises/img/1353.webp'),
   },
   {
     id: "1302",
@@ -11570,7 +11570,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Receive the throw with both hands at chest height.",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/1302.jpg'),
+    imageUrl: require('../../assets/exercises/img/1302.webp'),
     gifUrl: require('../../assets/exercises/gif/1302.webp'),
   },
   {
@@ -11581,7 +11581,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Medicine Ball",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1303.jpg'),
+    imageUrl: require('../../assets/exercises/img/1303.webp'),
   },
   {
     id: "1304",
@@ -11591,7 +11591,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Medicine Ball",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1304.jpg'),
+    imageUrl: require('../../assets/exercises/img/1304.webp'),
   },
   {
     id: "1305",
@@ -11601,7 +11601,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Medicine Ball",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1305.jpg'),
+    imageUrl: require('../../assets/exercises/img/1305.webp'),
   },
   {
     id: "1312",
@@ -11611,7 +11611,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Medicine Ball",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1312.jpg'),
+    imageUrl: require('../../assets/exercises/img/1312.webp'),
   },
   {
     id: "1701",
@@ -11621,7 +11621,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Medicine Ball",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1701.jpg'),
+    imageUrl: require('../../assets/exercises/img/1701.webp'),
   },
   {
     id: "1354",
@@ -11630,7 +11630,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Medicine Ball",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1354.jpg'),
+    imageUrl: require('../../assets/exercises/img/1354.webp'),
   },
   {
     id: "1750",
@@ -11640,7 +11640,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Medicine Ball",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1750.jpg'),
+    imageUrl: require('../../assets/exercises/img/1750.webp'),
   },
   {
     id: "0627",
@@ -11650,7 +11650,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0627.jpg'),
+    imageUrl: require('../../assets/exercises/img/0627.webp'),
   },
   {
     id: "3217",
@@ -11660,7 +11660,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3217.jpg'),
+    imageUrl: require('../../assets/exercises/img/3217.webp'),
   },
   {
     id: "1421",
@@ -11670,7 +11670,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1421.jpg'),
+    imageUrl: require('../../assets/exercises/img/1421.webp'),
   },
   {
     id: "0628",
@@ -11679,7 +11679,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0628.jpg'),
+    imageUrl: require('../../assets/exercises/img/0628.webp'),
   },
   {
     id: "0630",
@@ -11688,7 +11688,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0630.jpg'),
+    imageUrl: require('../../assets/exercises/img/0630.webp'),
   },
   {
     id: "0631",
@@ -11697,7 +11697,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0631.jpg'),
+    imageUrl: require('../../assets/exercises/img/0631.webp'),
   },
   {
     id: "1401",
@@ -11706,7 +11706,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1401.jpg'),
+    imageUrl: require('../../assets/exercises/img/1401.webp'),
   },
   {
     id: "2328",
@@ -11716,7 +11716,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2328.jpg'),
+    imageUrl: require('../../assets/exercises/img/2328.webp'),
   },
   {
     id: "1403",
@@ -11725,7 +11725,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1403.jpg'),
+    imageUrl: require('../../assets/exercises/img/1403.webp'),
   },
   {
     id: "0634",
@@ -11735,7 +11735,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0634.jpg'),
+    imageUrl: require('../../assets/exercises/img/0634.webp'),
   },
   {
     id: "1495",
@@ -11745,7 +11745,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1495.jpg'),
+    imageUrl: require('../../assets/exercises/img/1495.webp'),
   },
   {
     id: "0635",
@@ -11755,7 +11755,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0635.jpg'),
+    imageUrl: require('../../assets/exercises/img/0635.webp'),
   },
   {
     id: "0636",
@@ -11765,7 +11765,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0636.jpg'),
+    imageUrl: require('../../assets/exercises/img/0636.webp'),
   },
   {
     id: "0637",
@@ -11775,7 +11775,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Barbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0637.jpg'),
+    imageUrl: require('../../assets/exercises/img/0637.webp'),
   },
   {
     id: "1355",
@@ -11784,7 +11784,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1355.jpg'),
+    imageUrl: require('../../assets/exercises/img/1355.webp'),
   },
   {
     id: "0638",
@@ -11794,7 +11794,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0638.jpg'),
+    imageUrl: require('../../assets/exercises/img/0638.webp'),
   },
   {
     id: "0639",
@@ -11804,7 +11804,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0639.jpg'),
+    imageUrl: require('../../assets/exercises/img/0639.webp'),
   },
   {
     id: "0640",
@@ -11813,7 +11813,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Medicine Ball",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0640.jpg'),
+    imageUrl: require('../../assets/exercises/img/0640.webp'),
   },
   {
     id: "1773",
@@ -11823,7 +11823,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1773.jpg'),
+    imageUrl: require('../../assets/exercises/img/1773.webp'),
   },
   {
     id: "1386",
@@ -11833,7 +11833,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1386.jpg'),
+    imageUrl: require('../../assets/exercises/img/1386.webp'),
   },
   {
     id: "1387",
@@ -11843,7 +11843,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1387.jpg'),
+    imageUrl: require('../../assets/exercises/img/1387.webp'),
   },
   {
     id: "1476",
@@ -11853,7 +11853,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1476.jpg'),
+    imageUrl: require('../../assets/exercises/img/1476.webp'),
   },
   {
     id: "0641",
@@ -11862,7 +11862,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0641.jpg'),
+    imageUrl: require('../../assets/exercises/img/0641.webp'),
   },
   {
     id: "0642",
@@ -11872,7 +11872,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0642.jpg'),
+    imageUrl: require('../../assets/exercises/img/0642.webp'),
   },
   {
     id: "0643",
@@ -11882,7 +11882,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0643.jpg'),
+    imageUrl: require('../../assets/exercises/img/0643.webp'),
   },
   {
     id: "3147",
@@ -11891,7 +11891,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3147.jpg'),
+    imageUrl: require('../../assets/exercises/img/3147.webp'),
   },
   {
     id: "1422",
@@ -11900,7 +11900,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1422.jpg'),
+    imageUrl: require('../../assets/exercises/img/1422.webp'),
   },
   {
     id: "1388",
@@ -11909,7 +11909,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1388.jpg'),
+    imageUrl: require('../../assets/exercises/img/1388.webp'),
   },
   {
     id: "3662",
@@ -11919,7 +11919,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3662.jpg'),
+    imageUrl: require('../../assets/exercises/img/3662.webp'),
   },
   {
     id: "1306",
@@ -11940,7 +11940,7 @@ export const LIBRARY: LibraryExercise[] = [
       "For added difficulty, add claps into the movement while you are air borne.",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/1306.jpg'),
+    imageUrl: require('../../assets/exercises/img/1306.webp'),
     gifUrl: require('../../assets/exercises/gif/1306.webp'),
   },
   {
@@ -11950,7 +11950,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1687.jpg'),
+    imageUrl: require('../../assets/exercises/img/1687.webp'),
   },
   {
     id: "1389",
@@ -11959,7 +11959,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1389.jpg'),
+    imageUrl: require('../../assets/exercises/img/1389.webp'),
   },
   {
     id: "3119",
@@ -11969,7 +11969,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3119.jpg'),
+    imageUrl: require('../../assets/exercises/img/3119.webp'),
   },
   {
     id: "3132",
@@ -11979,7 +11979,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3132.jpg'),
+    imageUrl: require('../../assets/exercises/img/3132.webp'),
   },
   {
     id: "0648",
@@ -12018,7 +12018,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Start over at Phase 1 and repeat for the recommended amount of repetitions.",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0648.jpg'),
+    imageUrl: require('../../assets/exercises/img/0648.webp'),
     gifUrl: require('../../assets/exercises/gif/0648.webp'),
   },
   {
@@ -12029,7 +12029,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3665.jpg'),
+    imageUrl: require('../../assets/exercises/img/3665.webp'),
   },
   {
     id: "3203",
@@ -12039,7 +12039,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3203.jpg'),
+    imageUrl: require('../../assets/exercises/img/3203.webp'),
   },
   {
     id: "1707",
@@ -12049,7 +12049,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1707.jpg'),
+    imageUrl: require('../../assets/exercises/img/1707.webp'),
   },
   {
     id: "0651",
@@ -12059,7 +12059,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0651.jpg'),
+    imageUrl: require('../../assets/exercises/img/0651.webp'),
   },
   {
     id: "0650",
@@ -12068,7 +12068,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0650.jpg'),
+    imageUrl: require('../../assets/exercises/img/0650.webp'),
   },
   {
     id: "0652",
@@ -12091,7 +12091,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Pullups",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0652.jpg'),
+    imageUrl: require('../../assets/exercises/img/0652.webp'),
     gifUrl: require('../../assets/exercises/gif/0652.webp'),
   },
   {
@@ -12101,7 +12101,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1689.jpg'),
+    imageUrl: require('../../assets/exercises/img/1689.webp'),
   },
   {
     id: "3638",
@@ -12110,7 +12110,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3638.jpg'),
+    imageUrl: require('../../assets/exercises/img/3638.webp'),
   },
   {
     id: "1307",
@@ -12120,7 +12120,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Other",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1307.jpg'),
+    imageUrl: require('../../assets/exercises/img/1307.webp'),
   },
   {
     id: "0662",
@@ -12142,7 +12142,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Pushups",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0662.jpg'),
+    imageUrl: require('../../assets/exercises/img/0662.webp'),
     gifUrl: require('../../assets/exercises/gif/0662.webp'),
   },
   {
@@ -12153,7 +12153,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Other",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0653.jpg'),
+    imageUrl: require('../../assets/exercises/img/0653.webp'),
   },
   {
     id: "0655",
@@ -12163,7 +12163,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0655.jpg'),
+    imageUrl: require('../../assets/exercises/img/0655.webp'),
   },
   {
     id: "0656",
@@ -12173,7 +12173,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0656.jpg'),
+    imageUrl: require('../../assets/exercises/img/0656.webp'),
   },
   {
     id: "0659",
@@ -12183,7 +12183,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0659.jpg'),
+    imageUrl: require('../../assets/exercises/img/0659.webp'),
   },
   {
     id: "0658",
@@ -12193,7 +12193,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0658.jpg'),
+    imageUrl: require('../../assets/exercises/img/0658.webp'),
   },
   {
     id: "0660",
@@ -12203,7 +12203,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0660.jpg'),
+    imageUrl: require('../../assets/exercises/img/0660.webp'),
   },
   {
     id: "0661",
@@ -12213,7 +12213,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0661.jpg'),
+    imageUrl: require('../../assets/exercises/img/0661.webp'),
   },
   {
     id: "0663",
@@ -12223,7 +12223,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Medicine Ball",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0663.jpg'),
+    imageUrl: require('../../assets/exercises/img/0663.webp'),
   },
   {
     id: "1467",
@@ -12233,7 +12233,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1467.jpg'),
+    imageUrl: require('../../assets/exercises/img/1467.webp'),
   },
   {
     id: "3145",
@@ -12243,7 +12243,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3145.jpg'),
+    imageUrl: require('../../assets/exercises/img/3145.webp'),
   },
   {
     id: "0664",
@@ -12253,7 +12253,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0664.jpg'),
+    imageUrl: require('../../assets/exercises/img/0664.webp'),
   },
   {
     id: "3533",
@@ -12262,7 +12262,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3533.jpg'),
+    imageUrl: require('../../assets/exercises/img/3533.webp'),
   },
   {
     id: "3201",
@@ -12272,7 +12272,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3201.jpg'),
+    imageUrl: require('../../assets/exercises/img/3201.webp'),
   },
   {
     id: "3552",
@@ -12281,7 +12281,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3552.jpg'),
+    imageUrl: require('../../assets/exercises/img/3552.webp'),
   },
   {
     id: "0666",
@@ -12291,7 +12291,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0666.jpg'),
+    imageUrl: require('../../assets/exercises/img/0666.webp'),
   },
   {
     id: "0668",
@@ -12300,7 +12300,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0668.jpg'),
+    imageUrl: require('../../assets/exercises/img/0668.webp'),
   },
   {
     id: "0669",
@@ -12310,7 +12310,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0669.jpg'),
+    imageUrl: require('../../assets/exercises/img/0669.webp'),
   },
   {
     id: "0670",
@@ -12320,7 +12320,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0670.jpg'),
+    imageUrl: require('../../assets/exercises/img/0670.webp'),
   },
   {
     id: "1582",
@@ -12329,7 +12329,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Other",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1582.jpg'),
+    imageUrl: require('../../assets/exercises/img/1582.webp'),
   },
   {
     id: "3236",
@@ -12338,7 +12338,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3236.jpg'),
+    imageUrl: require('../../assets/exercises/img/3236.webp'),
   },
   {
     id: "3007",
@@ -12348,7 +12348,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3007.jpg'),
+    imageUrl: require('../../assets/exercises/img/3007.webp'),
   },
   {
     id: "3123",
@@ -12358,7 +12358,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3123.jpg'),
+    imageUrl: require('../../assets/exercises/img/3123.webp'),
   },
   {
     id: "3124",
@@ -12368,7 +12368,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3124.jpg'),
+    imageUrl: require('../../assets/exercises/img/3124.webp'),
   },
   {
     id: "3006",
@@ -12377,7 +12377,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3006.jpg'),
+    imageUrl: require('../../assets/exercises/img/3006.webp'),
   },
   {
     id: "3122",
@@ -12387,7 +12387,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3122.jpg'),
+    imageUrl: require('../../assets/exercises/img/3122.webp'),
   },
   {
     id: "3144",
@@ -12397,7 +12397,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bands",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3144.jpg'),
+    imageUrl: require('../../assets/exercises/img/3144.webp'),
   },
   {
     id: "0872",
@@ -12417,7 +12417,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Repeat for the recommended amount of repetitions.",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0872.jpg'),
+    imageUrl: require('../../assets/exercises/img/0872.webp'),
     gifUrl: require('../../assets/exercises/gif/0872.webp'),
   },
   {
@@ -12428,7 +12428,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0672.jpg'),
+    imageUrl: require('../../assets/exercises/img/0672.webp'),
   },
   {
     id: "0673",
@@ -12438,7 +12438,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0673.jpg'),
+    imageUrl: require('../../assets/exercises/img/0673.webp'),
   },
   {
     id: "0674",
@@ -12448,7 +12448,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0674.jpg'),
+    imageUrl: require('../../assets/exercises/img/0674.webp'),
   },
   {
     id: "0675",
@@ -12458,7 +12458,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0675.jpg'),
+    imageUrl: require('../../assets/exercises/img/0675.webp'),
   },
   {
     id: "1423",
@@ -12467,7 +12467,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1423.jpg'),
+    imageUrl: require('../../assets/exercises/img/1423.webp'),
   },
   {
     id: "3663",
@@ -12477,7 +12477,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3663.jpg'),
+    imageUrl: require('../../assets/exercises/img/3663.webp'),
   },
   {
     id: "0677",
@@ -12487,7 +12487,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0677.jpg'),
+    imageUrl: require('../../assets/exercises/img/0677.webp'),
   },
   {
     id: "2571",
@@ -12496,7 +12496,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2571.jpg'),
+    imageUrl: require('../../assets/exercises/img/2571.webp'),
   },
   {
     id: "0678",
@@ -12506,7 +12506,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0678.jpg'),
+    imageUrl: require('../../assets/exercises/img/0678.webp'),
   },
   {
     id: "2208",
@@ -12516,7 +12516,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Other",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2208.jpg'),
+    imageUrl: require('../../assets/exercises/img/2208.webp'),
   },
   {
     id: "2204",
@@ -12526,7 +12526,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Other",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2204.jpg'),
+    imageUrl: require('../../assets/exercises/img/2204.webp'),
   },
   {
     id: "2205",
@@ -12536,7 +12536,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Other",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2205.jpg'),
+    imageUrl: require('../../assets/exercises/img/2205.webp'),
   },
   {
     id: "2202",
@@ -12546,7 +12546,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Other",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2202.jpg'),
+    imageUrl: require('../../assets/exercises/img/2202.webp'),
   },
   {
     id: "2206",
@@ -12556,7 +12556,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Other",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2206.jpg'),
+    imageUrl: require('../../assets/exercises/img/2206.webp'),
   },
   {
     id: "2203",
@@ -12566,7 +12566,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Other",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2203.jpg'),
+    imageUrl: require('../../assets/exercises/img/2203.webp'),
   },
   {
     id: "2209",
@@ -12576,7 +12576,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Other",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2209.jpg'),
+    imageUrl: require('../../assets/exercises/img/2209.webp'),
   },
   {
     id: "2207",
@@ -12586,7 +12586,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Other",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2207.jpg'),
+    imageUrl: require('../../assets/exercises/img/2207.webp'),
   },
   {
     id: "0680",
@@ -12595,7 +12595,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Other",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0680.jpg'),
+    imageUrl: require('../../assets/exercises/img/0680.webp'),
   },
   {
     id: "0685",
@@ -12604,7 +12604,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0685.jpg'),
+    imageUrl: require('../../assets/exercises/img/0685.webp'),
   },
   {
     id: "0684",
@@ -12624,7 +12624,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Running, Treadmill",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0684.jpg'),
+    imageUrl: require('../../assets/exercises/img/0684.webp'),
     gifUrl: require('../../assets/exercises/gif/0684.webp'),
   },
   {
@@ -12634,7 +12634,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1585.jpg'),
+    imageUrl: require('../../assets/exercises/img/1585.webp'),
   },
   {
     id: "0687",
@@ -12654,7 +12654,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Repeat for the recommended amount of repetitions.",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0687.jpg'),
+    imageUrl: require('../../assets/exercises/img/0687.webp'),
     gifUrl: require('../../assets/exercises/gif/0687.webp'),
   },
   {
@@ -12665,7 +12665,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3012.jpg'),
+    imageUrl: require('../../assets/exercises/img/3012.webp'),
   },
   {
     id: "3021",
@@ -12675,7 +12675,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3021.jpg'),
+    imageUrl: require('../../assets/exercises/img/3021.webp'),
   },
   {
     id: "0688",
@@ -12685,7 +12685,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0688.jpg'),
+    imageUrl: require('../../assets/exercises/img/0688.webp'),
   },
   {
     id: "3219",
@@ -12694,7 +12694,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3219.jpg'),
+    imageUrl: require('../../assets/exercises/img/3219.webp'),
   },
   {
     id: "1390",
@@ -12704,7 +12704,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1390.jpg'),
+    imageUrl: require('../../assets/exercises/img/1390.webp'),
   },
   {
     id: "1424",
@@ -12714,7 +12714,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1424.jpg'),
+    imageUrl: require('../../assets/exercises/img/1424.webp'),
   },
   {
     id: "0689",
@@ -12724,7 +12724,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0689.jpg'),
+    imageUrl: require('../../assets/exercises/img/0689.webp'),
   },
   {
     id: "0690",
@@ -12733,7 +12733,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0690.jpg'),
+    imageUrl: require('../../assets/exercises/img/0690.webp'),
   },
   {
     id: "2567",
@@ -12742,7 +12742,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2567.jpg'),
+    imageUrl: require('../../assets/exercises/img/2567.webp'),
   },
   {
     id: "0691",
@@ -12752,7 +12752,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0691.jpg'),
+    imageUrl: require('../../assets/exercises/img/0691.webp'),
   },
   {
     id: "1587",
@@ -12761,7 +12761,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1587.jpg'),
+    imageUrl: require('../../assets/exercises/img/1587.webp'),
   },
   {
     id: "0697",
@@ -12771,7 +12771,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0697.jpg'),
+    imageUrl: require('../../assets/exercises/img/0697.webp'),
   },
   {
     id: "1766",
@@ -12781,7 +12781,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1766.jpg'),
+    imageUrl: require('../../assets/exercises/img/1766.webp'),
   },
   {
     id: "0696",
@@ -12791,7 +12791,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0696.jpg'),
+    imageUrl: require('../../assets/exercises/img/0696.webp'),
   },
   {
     id: "3222",
@@ -12801,7 +12801,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3222.jpg'),
+    imageUrl: require('../../assets/exercises/img/3222.webp'),
   },
   {
     id: "3656",
@@ -12810,7 +12810,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3656.jpg'),
+    imageUrl: require('../../assets/exercises/img/3656.webp'),
   },
   {
     id: "1763",
@@ -12820,7 +12820,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1763.jpg'),
+    imageUrl: require('../../assets/exercises/img/1763.webp'),
   },
   {
     id: "3699",
@@ -12829,7 +12829,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3699.jpg'),
+    imageUrl: require('../../assets/exercises/img/3699.webp'),
   },
   {
     id: "0699",
@@ -12839,7 +12839,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0699.jpg'),
+    imageUrl: require('../../assets/exercises/img/0699.webp'),
   },
   {
     id: "1774",
@@ -12848,7 +12848,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1774.jpg'),
+    imageUrl: require('../../assets/exercises/img/1774.webp'),
   },
   {
     id: "0705",
@@ -12866,7 +12866,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Side plank",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0705.jpg'),
+    imageUrl: require('../../assets/exercises/img/0705.webp'),
     gifUrl: require('../../assets/exercises/gif/0705.webp'),
   },
   {
@@ -12876,7 +12876,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0709.jpg'),
+    imageUrl: require('../../assets/exercises/img/0709.webp'),
   },
   {
     id: "0710",
@@ -12885,7 +12885,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0710.jpg'),
+    imageUrl: require('../../assets/exercises/img/0710.webp'),
   },
   {
     id: "1358",
@@ -12894,7 +12894,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1358.jpg'),
+    imageUrl: require('../../assets/exercises/img/1358.webp'),
   },
   {
     id: "3667",
@@ -12903,7 +12903,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3667.jpg'),
+    imageUrl: require('../../assets/exercises/img/3667.webp'),
   },
   {
     id: "1775",
@@ -12913,7 +12913,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1775.jpg'),
+    imageUrl: require('../../assets/exercises/img/1775.webp'),
   },
   {
     id: "0716",
@@ -12922,7 +12922,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0716.jpg'),
+    imageUrl: require('../../assets/exercises/img/0716.webp'),
   },
   {
     id: "0717",
@@ -12932,7 +12932,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0717.jpg'),
+    imageUrl: require('../../assets/exercises/img/0717.webp'),
   },
   {
     id: "0721",
@@ -12942,7 +12942,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0721.jpg'),
+    imageUrl: require('../../assets/exercises/img/0721.webp'),
   },
   {
     id: "0720",
@@ -12952,7 +12952,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0720.jpg'),
+    imageUrl: require('../../assets/exercises/img/0720.webp'),
   },
   {
     id: "3213",
@@ -12961,7 +12961,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3213.jpg'),
+    imageUrl: require('../../assets/exercises/img/3213.webp'),
   },
   {
     id: "0725",
@@ -12971,7 +12971,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0725.jpg'),
+    imageUrl: require('../../assets/exercises/img/0725.webp'),
   },
   {
     id: "3645",
@@ -12980,7 +12980,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3645.jpg'),
+    imageUrl: require('../../assets/exercises/img/3645.webp'),
   },
   {
     id: "0727",
@@ -12990,7 +12990,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Dumbbell",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0727.jpg'),
+    imageUrl: require('../../assets/exercises/img/0727.webp'),
   },
   {
     id: "0730",
@@ -12999,7 +12999,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0730.jpg'),
+    imageUrl: require('../../assets/exercises/img/0730.webp'),
   },
   {
     id: "1759",
@@ -13009,7 +13009,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1759.jpg'),
+    imageUrl: require('../../assets/exercises/img/1759.webp'),
   },
   {
     id: "1489",
@@ -13019,7 +13019,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1489.jpg'),
+    imageUrl: require('../../assets/exercises/img/1489.webp'),
   },
   {
     id: "0735",
@@ -13042,7 +13042,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Sit-Up",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0735.jpg'),
+    imageUrl: require('../../assets/exercises/img/0735.webp'),
     gifUrl: require('../../assets/exercises/gif/0735.webp'),
   },
   {
@@ -13053,7 +13053,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3679.jpg'),
+    imageUrl: require('../../assets/exercises/img/3679.webp'),
   },
   {
     id: "3361",
@@ -13062,7 +13062,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3361.jpg'),
+    imageUrl: require('../../assets/exercises/img/3361.webp'),
   },
   {
     id: "2142",
@@ -13071,7 +13071,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Other",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2142.jpg'),
+    imageUrl: require('../../assets/exercises/img/2142.webp'),
   },
   {
     id: "3671",
@@ -13080,7 +13080,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3671.jpg'),
+    imageUrl: require('../../assets/exercises/img/3671.webp'),
   },
   {
     id: "3304",
@@ -13089,7 +13089,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3304.jpg'),
+    imageUrl: require('../../assets/exercises/img/3304.webp'),
   },
   {
     id: "1425",
@@ -13099,7 +13099,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1425.jpg'),
+    imageUrl: require('../../assets/exercises/img/1425.webp'),
   },
   {
     id: "0738",
@@ -13109,7 +13109,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0738.jpg'),
+    imageUrl: require('../../assets/exercises/img/0738.webp'),
   },
   {
     id: "0739",
@@ -13132,7 +13132,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Leg Press",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0739.jpg'),
+    imageUrl: require('../../assets/exercises/img/0739.webp'),
     gifUrl: require('../../assets/exercises/gif/0739.webp'),
   },
   {
@@ -13143,7 +13143,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1464.jpg'),
+    imageUrl: require('../../assets/exercises/img/1464.webp'),
   },
   {
     id: "1463",
@@ -13153,7 +13153,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1463.jpg'),
+    imageUrl: require('../../assets/exercises/img/1463.webp'),
   },
   {
     id: "0740",
@@ -13162,7 +13162,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0740.jpg'),
+    imageUrl: require('../../assets/exercises/img/0740.webp'),
   },
   {
     id: "1391",
@@ -13172,7 +13172,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1391.jpg'),
+    imageUrl: require('../../assets/exercises/img/1391.webp'),
   },
   {
     id: "0741",
@@ -13182,7 +13182,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0741.jpg'),
+    imageUrl: require('../../assets/exercises/img/0741.webp'),
   },
   {
     id: "0742",
@@ -13192,7 +13192,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0742.jpg'),
+    imageUrl: require('../../assets/exercises/img/0742.webp'),
   },
   {
     id: "0743",
@@ -13202,7 +13202,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0743.jpg'),
+    imageUrl: require('../../assets/exercises/img/0743.webp'),
   },
   {
     id: "2334",
@@ -13212,7 +13212,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2334.jpg'),
+    imageUrl: require('../../assets/exercises/img/2334.webp'),
   },
   {
     id: "0744",
@@ -13222,7 +13222,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0744.jpg'),
+    imageUrl: require('../../assets/exercises/img/0744.webp'),
   },
   {
     id: "1392",
@@ -13232,7 +13232,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1392.jpg'),
+    imageUrl: require('../../assets/exercises/img/1392.webp'),
   },
   {
     id: "1496",
@@ -13242,7 +13242,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Other",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1496.jpg'),
+    imageUrl: require('../../assets/exercises/img/1496.webp'),
   },
   {
     id: "0746",
@@ -13252,7 +13252,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0746.jpg'),
+    imageUrl: require('../../assets/exercises/img/0746.webp'),
   },
   {
     id: "0747",
@@ -13262,7 +13262,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0747.jpg'),
+    imageUrl: require('../../assets/exercises/img/0747.webp'),
   },
   {
     id: "0748",
@@ -13285,7 +13285,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Smith Machine Bench Press",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0748.jpg'),
+    imageUrl: require('../../assets/exercises/img/0748.webp'),
     gifUrl: require('../../assets/exercises/gif/0748.webp'),
   },
   {
@@ -13295,7 +13295,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0749.jpg'),
+    imageUrl: require('../../assets/exercises/img/0749.webp'),
   },
   {
     id: "1359",
@@ -13319,7 +13319,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Smith Machine Bent Over Row",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/1359.jpg'),
+    imageUrl: require('../../assets/exercises/img/1359.webp'),
     gifUrl: require('../../assets/exercises/gif/1359.webp'),
   },
   {
@@ -13330,7 +13330,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0750.jpg'),
+    imageUrl: require('../../assets/exercises/img/0750.webp'),
   },
   {
     id: "0751",
@@ -13340,7 +13340,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0751.jpg'),
+    imageUrl: require('../../assets/exercises/img/0751.webp'),
   },
   {
     id: "0752",
@@ -13350,7 +13350,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0752.jpg'),
+    imageUrl: require('../../assets/exercises/img/0752.webp'),
   },
   {
     id: "0753",
@@ -13360,7 +13360,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0753.jpg'),
+    imageUrl: require('../../assets/exercises/img/0753.webp'),
   },
   {
     id: "0754",
@@ -13369,7 +13369,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0754.jpg'),
+    imageUrl: require('../../assets/exercises/img/0754.webp'),
   },
   {
     id: "1433",
@@ -13379,7 +13379,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1433.jpg'),
+    imageUrl: require('../../assets/exercises/img/1433.webp'),
   },
   {
     id: "3281",
@@ -13389,7 +13389,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3281.jpg'),
+    imageUrl: require('../../assets/exercises/img/3281.webp'),
   },
   {
     id: "0755",
@@ -13399,7 +13399,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0755.jpg'),
+    imageUrl: require('../../assets/exercises/img/0755.webp'),
   },
   {
     id: "0756",
@@ -13409,7 +13409,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0756.jpg'),
+    imageUrl: require('../../assets/exercises/img/0756.webp'),
   },
   {
     id: "0757",
@@ -13419,7 +13419,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0757.jpg'),
+    imageUrl: require('../../assets/exercises/img/0757.webp'),
   },
   {
     id: "0758",
@@ -13428,7 +13428,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0758.jpg'),
+    imageUrl: require('../../assets/exercises/img/0758.webp'),
   },
   {
     id: "0759",
@@ -13437,7 +13437,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0759.jpg'),
+    imageUrl: require('../../assets/exercises/img/0759.webp'),
   },
   {
     id: "0760",
@@ -13447,7 +13447,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0760.jpg'),
+    imageUrl: require('../../assets/exercises/img/0760.webp'),
   },
   {
     id: "1434",
@@ -13457,7 +13457,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1434.jpg'),
+    imageUrl: require('../../assets/exercises/img/1434.webp'),
   },
   {
     id: "1683",
@@ -13467,7 +13467,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1683.jpg'),
+    imageUrl: require('../../assets/exercises/img/1683.webp'),
   },
   {
     id: "1625",
@@ -13477,7 +13477,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1625.jpg'),
+    imageUrl: require('../../assets/exercises/img/1625.webp'),
   },
   {
     id: "1752",
@@ -13487,7 +13487,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1752.jpg'),
+    imageUrl: require('../../assets/exercises/img/1752.webp'),
   },
   {
     id: "1626",
@@ -13497,7 +13497,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1626.jpg'),
+    imageUrl: require('../../assets/exercises/img/1626.webp'),
   },
   {
     id: "0761",
@@ -13507,7 +13507,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0761.jpg'),
+    imageUrl: require('../../assets/exercises/img/0761.webp'),
   },
   {
     id: "1360",
@@ -13517,7 +13517,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1360.jpg'),
+    imageUrl: require('../../assets/exercises/img/1360.webp'),
   },
   {
     id: "1393",
@@ -13527,7 +13527,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1393.jpg'),
+    imageUrl: require('../../assets/exercises/img/1393.webp'),
   },
   {
     id: "0762",
@@ -13537,7 +13537,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0762.jpg'),
+    imageUrl: require('../../assets/exercises/img/0762.webp'),
   },
   {
     id: "0763",
@@ -13547,7 +13547,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0763.jpg'),
+    imageUrl: require('../../assets/exercises/img/0763.webp'),
   },
   {
     id: "1394",
@@ -13557,7 +13557,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1394.jpg'),
+    imageUrl: require('../../assets/exercises/img/1394.webp'),
   },
   {
     id: "1361",
@@ -13567,7 +13567,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1361.jpg'),
+    imageUrl: require('../../assets/exercises/img/1361.webp'),
   },
   {
     id: "0764",
@@ -13576,7 +13576,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0764.jpg'),
+    imageUrl: require('../../assets/exercises/img/0764.webp'),
   },
   {
     id: "1395",
@@ -13586,7 +13586,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1395.jpg'),
+    imageUrl: require('../../assets/exercises/img/1395.webp'),
   },
   {
     id: "0765",
@@ -13596,7 +13596,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0765.jpg'),
+    imageUrl: require('../../assets/exercises/img/0765.webp'),
   },
   {
     id: "1426",
@@ -13606,7 +13606,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1426.jpg'),
+    imageUrl: require('../../assets/exercises/img/1426.webp'),
   },
   {
     id: "0766",
@@ -13616,7 +13616,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0766.jpg'),
+    imageUrl: require('../../assets/exercises/img/0766.webp'),
   },
   {
     id: "0767",
@@ -13626,7 +13626,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0767.jpg'),
+    imageUrl: require('../../assets/exercises/img/0767.webp'),
   },
   {
     id: "0768",
@@ -13636,7 +13636,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0768.jpg'),
+    imageUrl: require('../../assets/exercises/img/0768.webp'),
   },
   {
     id: "0769",
@@ -13646,7 +13646,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0769.jpg'),
+    imageUrl: require('../../assets/exercises/img/0769.webp'),
   },
   {
     id: "0770",
@@ -13656,7 +13656,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0770.jpg'),
+    imageUrl: require('../../assets/exercises/img/0770.webp'),
   },
   {
     id: "0771",
@@ -13666,7 +13666,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0771.jpg'),
+    imageUrl: require('../../assets/exercises/img/0771.webp'),
   },
   {
     id: "0772",
@@ -13676,7 +13676,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0772.jpg'),
+    imageUrl: require('../../assets/exercises/img/0772.webp'),
   },
   {
     id: "0773",
@@ -13686,7 +13686,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0773.jpg'),
+    imageUrl: require('../../assets/exercises/img/0773.webp'),
   },
   {
     id: "0774",
@@ -13696,7 +13696,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0774.jpg'),
+    imageUrl: require('../../assets/exercises/img/0774.webp'),
   },
   {
     id: "3142",
@@ -13706,7 +13706,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3142.jpg'),
+    imageUrl: require('../../assets/exercises/img/3142.webp'),
   },
   {
     id: "1396",
@@ -13715,7 +13715,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1396.jpg'),
+    imageUrl: require('../../assets/exercises/img/1396.webp'),
   },
   {
     id: "0775",
@@ -13725,7 +13725,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0775.jpg'),
+    imageUrl: require('../../assets/exercises/img/0775.webp'),
   },
   {
     id: "1308",
@@ -13735,7 +13735,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1308.jpg'),
+    imageUrl: require('../../assets/exercises/img/1308.webp'),
   },
   {
     id: "1309",
@@ -13745,7 +13745,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Machine",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1309.jpg'),
+    imageUrl: require('../../assets/exercises/img/1309.webp'),
   },
   {
     id: "0776",
@@ -13754,7 +13754,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0776.jpg'),
+    imageUrl: require('../../assets/exercises/img/0776.webp'),
   },
   {
     id: "0777",
@@ -13763,7 +13763,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0777.jpg'),
+    imageUrl: require('../../assets/exercises/img/0777.webp'),
   },
   {
     id: "1362",
@@ -13772,7 +13772,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1362.jpg'),
+    imageUrl: require('../../assets/exercises/img/1362.webp'),
   },
   {
     id: "0778",
@@ -13782,7 +13782,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0778.jpg'),
+    imageUrl: require('../../assets/exercises/img/0778.webp'),
   },
   {
     id: "1363",
@@ -13791,7 +13791,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1363.jpg'),
+    imageUrl: require('../../assets/exercises/img/1363.webp'),
   },
   {
     id: "2329",
@@ -13801,7 +13801,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2329.jpg'),
+    imageUrl: require('../../assets/exercises/img/2329.webp'),
   },
   {
     id: "2368",
@@ -13821,7 +13821,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Bulgarian split squat",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/2368.jpg'),
+    imageUrl: require('../../assets/exercises/img/2368.webp'),
     gifUrl: require('../../assets/exercises/gif/2368.webp'),
   },
   {
@@ -13832,7 +13832,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0786.jpg'),
+    imageUrl: require('../../assets/exercises/img/0786.webp'),
   },
   {
     id: "1705",
@@ -13842,7 +13842,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Other",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1705.jpg'),
+    imageUrl: require('../../assets/exercises/img/1705.webp'),
   },
   {
     id: "1685",
@@ -13852,7 +13852,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1685.jpg'),
+    imageUrl: require('../../assets/exercises/img/1685.webp'),
   },
   {
     id: "1686",
@@ -13862,7 +13862,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1686.jpg'),
+    imageUrl: require('../../assets/exercises/img/1686.webp'),
   },
   {
     id: "2297",
@@ -13872,7 +13872,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Exercise Ball",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2297.jpg'),
+    imageUrl: require('../../assets/exercises/img/2297.webp'),
   },
   {
     id: "3291",
@@ -13881,7 +13881,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3291.jpg'),
+    imageUrl: require('../../assets/exercises/img/3291.webp'),
   },
   {
     id: "3669",
@@ -13890,7 +13890,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3669.jpg'),
+    imageUrl: require('../../assets/exercises/img/3669.webp'),
   },
   {
     id: "0788",
@@ -13900,7 +13900,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0788.jpg'),
+    imageUrl: require('../../assets/exercises/img/0788.webp'),
   },
   {
     id: "1490",
@@ -13910,7 +13910,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1490.jpg'),
+    imageUrl: require('../../assets/exercises/img/1490.webp'),
   },
   {
     id: "1397",
@@ -13920,7 +13920,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1397.jpg'),
+    imageUrl: require('../../assets/exercises/img/1397.webp'),
   },
   {
     id: "1398",
@@ -13930,7 +13930,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1398.jpg'),
+    imageUrl: require('../../assets/exercises/img/1398.webp'),
   },
   {
     id: "1599",
@@ -13940,7 +13940,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1599.jpg'),
+    imageUrl: require('../../assets/exercises/img/1599.webp'),
   },
   {
     id: "0794",
@@ -13949,7 +13949,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0794.jpg'),
+    imageUrl: require('../../assets/exercises/img/0794.webp'),
   },
   {
     id: "1364",
@@ -13958,7 +13958,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1364.jpg'),
+    imageUrl: require('../../assets/exercises/img/1364.webp'),
   },
   {
     id: "0795",
@@ -13968,7 +13968,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0795.jpg'),
+    imageUrl: require('../../assets/exercises/img/0795.webp'),
   },
   {
     id: "0796",
@@ -13978,7 +13978,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Other",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0796.jpg'),
+    imageUrl: require('../../assets/exercises/img/0796.webp'),
   },
   {
     id: "3223",
@@ -13987,7 +13987,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3223.jpg'),
+    imageUrl: require('../../assets/exercises/img/3223.webp'),
   },
   {
     id: "2138",
@@ -13996,7 +13996,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Other",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2138.jpg'),
+    imageUrl: require('../../assets/exercises/img/2138.webp'),
   },
   {
     id: "0798",
@@ -14016,7 +14016,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Bicycling, Stationary",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0798.jpg'),
+    imageUrl: require('../../assets/exercises/img/0798.webp'),
     gifUrl: require('../../assets/exercises/gif/0798.webp'),
   },
   {
@@ -14026,7 +14026,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3314.jpg'),
+    imageUrl: require('../../assets/exercises/img/3314.webp'),
   },
   {
     id: "3298",
@@ -14035,7 +14035,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3298.jpg'),
+    imageUrl: require('../../assets/exercises/img/3298.webp'),
   },
   {
     id: "1427",
@@ -14044,7 +14044,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1427.jpg'),
+    imageUrl: require('../../assets/exercises/img/1427.webp'),
   },
   {
     id: "0803",
@@ -14054,7 +14054,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0803.jpg'),
+    imageUrl: require('../../assets/exercises/img/0803.webp'),
   },
   {
     id: "0805",
@@ -14064,7 +14064,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0805.jpg'),
+    imageUrl: require('../../assets/exercises/img/0805.webp'),
   },
   {
     id: "0806",
@@ -14074,7 +14074,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0806.jpg'),
+    imageUrl: require('../../assets/exercises/img/0806.webp'),
   },
   {
     id: "0807",
@@ -14084,7 +14084,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0807.jpg'),
+    imageUrl: require('../../assets/exercises/img/0807.webp'),
   },
   {
     id: "0808",
@@ -14094,7 +14094,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0808.jpg'),
+    imageUrl: require('../../assets/exercises/img/0808.webp'),
   },
   {
     id: "0809",
@@ -14104,7 +14104,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0809.jpg'),
+    imageUrl: require('../../assets/exercises/img/0809.webp'),
   },
   {
     id: "3433",
@@ -14113,7 +14113,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3433.jpg'),
+    imageUrl: require('../../assets/exercises/img/3433.webp'),
   },
   {
     id: "3318",
@@ -14122,7 +14122,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3318.jpg'),
+    imageUrl: require('../../assets/exercises/img/3318.webp'),
   },
   {
     id: "1753",
@@ -14132,7 +14132,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1753.jpg'),
+    imageUrl: require('../../assets/exercises/img/1753.webp'),
   },
   {
     id: "2459",
@@ -14150,7 +14150,7 @@ export const LIBRARY: LibraryExercise[] = [
       "As the tire reaches a 45 degree angle, step forward and drive a knee into the tire. As you do so adjust your grip to the upper portion of the tire and push it forward as hard as possible to complete the turn. Repeat as necessary.",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/2459.jpg'),
+    imageUrl: require('../../assets/exercises/img/2459.webp'),
     gifUrl: require('../../assets/exercises/gif/2459.webp'),
   },
   {
@@ -14170,7 +14170,7 @@ export const LIBRARY: LibraryExercise[] = [
       "At the completion of the movement, lower the weight back to the ground under control.",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0811.jpg'),
+    imageUrl: require('../../assets/exercises/img/0811.webp'),
     gifUrl: require('../../assets/exercises/gif/0811.webp'),
   },
   {
@@ -14195,7 +14195,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Dips",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0814.jpg'),
+    imageUrl: require('../../assets/exercises/img/0814.webp'),
     gifUrl: require('../../assets/exercises/gif/0814.webp'),
   },
   {
@@ -14206,7 +14206,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0812.jpg'),
+    imageUrl: require('../../assets/exercises/img/0812.webp'),
   },
   {
     id: "0813",
@@ -14216,7 +14216,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0813.jpg'),
+    imageUrl: require('../../assets/exercises/img/0813.webp'),
   },
   {
     id: "0815",
@@ -14226,7 +14226,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0815.jpg'),
+    imageUrl: require('../../assets/exercises/img/0815.webp'),
   },
   {
     id: "0816",
@@ -14236,7 +14236,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0816.jpg'),
+    imageUrl: require('../../assets/exercises/img/0816.webp'),
   },
   {
     id: "0817",
@@ -14246,7 +14246,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0817.jpg'),
+    imageUrl: require('../../assets/exercises/img/0817.webp'),
   },
   {
     id: "0871",
@@ -14256,7 +14256,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0871.jpg'),
+    imageUrl: require('../../assets/exercises/img/0871.webp'),
   },
   {
     id: "0818",
@@ -14266,7 +14266,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0818.jpg'),
+    imageUrl: require('../../assets/exercises/img/0818.webp'),
   },
   {
     id: "1466",
@@ -14276,7 +14276,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1466.jpg'),
+    imageUrl: require('../../assets/exercises/img/1466.webp'),
   },
   {
     id: "2802",
@@ -14286,7 +14286,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2802.jpg'),
+    imageUrl: require('../../assets/exercises/img/2802.webp'),
   },
   {
     id: "2801",
@@ -14296,7 +14296,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2801.jpg'),
+    imageUrl: require('../../assets/exercises/img/2801.webp'),
   },
   {
     id: "3231",
@@ -14305,7 +14305,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3231.jpg'),
+    imageUrl: require('../../assets/exercises/img/3231.webp'),
   },
   {
     id: "1365",
@@ -14314,7 +14314,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1365.jpg'),
+    imageUrl: require('../../assets/exercises/img/1365.webp'),
   },
   {
     id: "1366",
@@ -14323,7 +14323,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1366.jpg'),
+    imageUrl: require('../../assets/exercises/img/1366.webp'),
   },
   {
     id: "3420",
@@ -14332,7 +14332,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3420.jpg'),
+    imageUrl: require('../../assets/exercises/img/3420.webp'),
   },
   {
     id: "0826",
@@ -14355,7 +14355,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Knee/Hip Raise On Parallel Bars",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0826.jpg'),
+    imageUrl: require('../../assets/exercises/img/0826.webp'),
     gifUrl: require('../../assets/exercises/gif/0826.webp'),
   },
   {
@@ -14365,7 +14365,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Other",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2141.jpg'),
+    imageUrl: require('../../assets/exercises/img/2141.webp'),
   },
   {
     id: "3655",
@@ -14375,7 +14375,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3655.jpg'),
+    imageUrl: require('../../assets/exercises/img/3655.webp'),
   },
   {
     id: "1460",
@@ -14385,7 +14385,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1460.jpg'),
+    imageUrl: require('../../assets/exercises/img/1460.webp'),
   },
   {
     id: "3666",
@@ -14394,7 +14394,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Other",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3666.jpg'),
+    imageUrl: require('../../assets/exercises/img/3666.webp'),
   },
   {
     id: "2311",
@@ -14415,7 +14415,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Stairmaster",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/2311.jpg'),
+    imageUrl: require('../../assets/exercises/img/2311.webp'),
     gifUrl: require('../../assets/exercises/gif/2311.webp'),
   },
   {
@@ -14426,7 +14426,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0830.jpg'),
+    imageUrl: require('../../assets/exercises/img/0830.webp'),
   },
   {
     id: "2987",
@@ -14436,7 +14436,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2987.jpg'),
+    imageUrl: require('../../assets/exercises/img/2987.webp'),
   },
   {
     id: "3643",
@@ -14445,7 +14445,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3643.jpg'),
+    imageUrl: require('../../assets/exercises/img/3643.webp'),
   },
   {
     id: "0832",
@@ -14468,7 +14468,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Weighted Crunches",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0832.jpg'),
+    imageUrl: require('../../assets/exercises/img/0832.webp'),
     gifUrl: require('../../assets/exercises/gif/0832.webp'),
   },
   {
@@ -14479,7 +14479,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3670.jpg'),
+    imageUrl: require('../../assets/exercises/img/3670.webp'),
   },
   {
     id: "0833",
@@ -14489,7 +14489,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0833.jpg'),
+    imageUrl: require('../../assets/exercises/img/0833.webp'),
   },
   {
     id: "1310",
@@ -14499,7 +14499,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1310.jpg'),
+    imageUrl: require('../../assets/exercises/img/1310.webp'),
   },
   {
     id: "2135",
@@ -14519,7 +14519,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Plank",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/2135.jpg'),
+    imageUrl: require('../../assets/exercises/img/2135.webp'),
     gifUrl: require('../../assets/exercises/gif/2135.webp'),
   },
   {
@@ -14542,7 +14542,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Front Plate Raise",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0834.jpg'),
+    imageUrl: require('../../assets/exercises/img/0834.webp'),
     gifUrl: require('../../assets/exercises/gif/0834.webp'),
   },
   {
@@ -14553,7 +14553,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0866.jpg'),
+    imageUrl: require('../../assets/exercises/img/0866.webp'),
   },
   {
     id: "0835",
@@ -14563,7 +14563,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0835.jpg'),
+    imageUrl: require('../../assets/exercises/img/0835.webp'),
   },
   {
     id: "3641",
@@ -14572,7 +14572,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3641.jpg'),
+    imageUrl: require('../../assets/exercises/img/3641.webp'),
   },
   {
     id: "3644",
@@ -14582,7 +14582,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3644.jpg'),
+    imageUrl: require('../../assets/exercises/img/3644.webp'),
   },
   {
     id: "3286",
@@ -14591,7 +14591,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3286.jpg'),
+    imageUrl: require('../../assets/exercises/img/3286.webp'),
   },
   {
     id: "3312",
@@ -14600,7 +14600,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3312.jpg'),
+    imageUrl: require('../../assets/exercises/img/3312.webp'),
   },
   {
     id: "3290",
@@ -14610,7 +14610,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3290.jpg'),
+    imageUrl: require('../../assets/exercises/img/3290.webp'),
   },
   {
     id: "0840",
@@ -14620,7 +14620,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0840.jpg'),
+    imageUrl: require('../../assets/exercises/img/0840.webp'),
   },
   {
     id: "0841",
@@ -14630,7 +14630,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0841.jpg'),
+    imageUrl: require('../../assets/exercises/img/0841.webp'),
   },
   {
     id: "0844",
@@ -14639,7 +14639,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0844.jpg'),
+    imageUrl: require('../../assets/exercises/img/0844.webp'),
   },
   {
     id: "0846",
@@ -14649,7 +14649,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0846.jpg'),
+    imageUrl: require('../../assets/exercises/img/0846.webp'),
   },
   {
     id: "0845",
@@ -14659,7 +14659,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0845.jpg'),
+    imageUrl: require('../../assets/exercises/img/0845.webp'),
   },
   {
     id: "2371",
@@ -14669,7 +14669,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2371.jpg'),
+    imageUrl: require('../../assets/exercises/img/2371.webp'),
   },
   {
     id: "0847",
@@ -14679,7 +14679,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0847.jpg'),
+    imageUrl: require('../../assets/exercises/img/0847.webp'),
   },
   {
     id: "0849",
@@ -14689,7 +14689,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0849.jpg'),
+    imageUrl: require('../../assets/exercises/img/0849.webp'),
   },
   {
     id: "0850",
@@ -14698,7 +14698,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0850.jpg'),
+    imageUrl: require('../../assets/exercises/img/0850.webp'),
   },
   {
     id: "0851",
@@ -14708,7 +14708,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0851.jpg'),
+    imageUrl: require('../../assets/exercises/img/0851.webp'),
   },
   {
     id: "0852",
@@ -14718,7 +14718,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0852.jpg'),
+    imageUrl: require('../../assets/exercises/img/0852.webp'),
   },
   {
     id: "0853",
@@ -14728,7 +14728,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0853.jpg'),
+    imageUrl: require('../../assets/exercises/img/0853.webp'),
   },
   {
     id: "0854",
@@ -14737,7 +14737,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0854.jpg'),
+    imageUrl: require('../../assets/exercises/img/0854.webp'),
   },
   {
     id: "3313",
@@ -14747,7 +14747,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3313.jpg'),
+    imageUrl: require('../../assets/exercises/img/3313.webp'),
   },
   {
     id: "3642",
@@ -14757,7 +14757,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3642.jpg'),
+    imageUrl: require('../../assets/exercises/img/3642.webp'),
   },
   {
     id: "0856",
@@ -14766,7 +14766,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0856.jpg'),
+    imageUrl: require('../../assets/exercises/img/0856.webp'),
   },
   {
     id: "1754",
@@ -14776,7 +14776,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1754.jpg'),
+    imageUrl: require('../../assets/exercises/img/1754.webp'),
   },
   {
     id: "1755",
@@ -14786,7 +14786,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1755.jpg'),
+    imageUrl: require('../../assets/exercises/img/1755.webp'),
   },
   {
     id: "1767",
@@ -14796,7 +14796,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1767.jpg'),
+    imageUrl: require('../../assets/exercises/img/1767.webp'),
   },
   {
     id: "0857",
@@ -14819,7 +14819,7 @@ export const LIBRARY: LibraryExercise[] = [
       "Ab wheel",
     ],
     featured: true,
-    imageUrl: require('../../assets/exercises/img/0857.jpg'),
+    imageUrl: require('../../assets/exercises/img/0857.webp'),
     gifUrl: require('../../assets/exercises/gif/0857.webp'),
   },
   {
@@ -14829,7 +14829,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Other",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/3637.jpg'),
+    imageUrl: require('../../assets/exercises/img/3637.webp'),
   },
   {
     id: "1429",
@@ -14839,7 +14839,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1429.jpg'),
+    imageUrl: require('../../assets/exercises/img/1429.webp'),
   },
   {
     id: "1367",
@@ -14849,7 +14849,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1367.jpg'),
+    imageUrl: require('../../assets/exercises/img/1367.webp'),
   },
   {
     id: "1311",
@@ -14859,7 +14859,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1311.jpg'),
+    imageUrl: require('../../assets/exercises/img/1311.webp'),
   },
   {
     id: "2363",
@@ -14869,7 +14869,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/2363.jpg'),
+    imageUrl: require('../../assets/exercises/img/2363.webp'),
   },
   {
     id: "0858",
@@ -14878,7 +14878,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0858.jpg'),
+    imageUrl: require('../../assets/exercises/img/0858.webp'),
   },
   {
     id: "1604",
@@ -14887,7 +14887,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1604.jpg'),
+    imageUrl: require('../../assets/exercises/img/1604.webp'),
   },
   {
     id: "1428",
@@ -14897,7 +14897,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/1428.jpg'),
+    imageUrl: require('../../assets/exercises/img/1428.webp'),
   },
   {
     id: "0859",
@@ -14907,7 +14907,7 @@ export const LIBRARY: LibraryExercise[] = [
     secondaryMuscles: [],
     equipment: "Bodyweight",
     instructions: [],
-    imageUrl: require('../../assets/exercises/img/0859.jpg'),
+    imageUrl: require('../../assets/exercises/img/0859.webp'),
   },
 ];
 

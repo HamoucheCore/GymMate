@@ -1,0 +1,20 @@
+{
+  "tolerancePct": 2,
+  "platforms": {
+    "web": {
+      "jsBytes": 2808458,
+      "assetBytes": 8690897,
+      "totalBytes": 11840310
+    },
+    "android": {
+      "jsBytes": 4633091,
+      "assetBytes": 9664230,
+      "totalBytes": 14394355
+    },
+    "ios": {
+      "jsBytes": 4434803,
+      "assetBytes": 8693772,
+      "totalBytes": 13225345
+    }
+  }
+}
