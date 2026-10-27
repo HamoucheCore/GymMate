@@ -45,8 +45,7 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "check:catalog": "node scripts/check-catalog.mjs",
-    "size:report": "node scripts/size-report.mjs",
-    "lint": "expo lint"
+    "size:report": "node scripts/size-report.mjs"
   },
   "private": true
 }
