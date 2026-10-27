@@ -40,7 +40,7 @@ Also exported from `constants/GymMateTheme.ts`:
 - `MAX_CONTENT_WIDTH` (640) — caps content columns on tablets and desktop web.
 - `SHEET_MAX_WIDTH` (640) — caps bottom sheets so they never stretch edge-to-edge on large screens.
 
-**Import them; never invent a local width.** Every tab screen applies `MAX_CONTENT_WIDTH`; every bottom sheet (`ExerciseDetailSheet`, `WorkoutSheet`) applies `SHEET_MAX_WIDTH`.
+**Import them; never invent a local width.** Every tab screen applies `MAX_CONTENT_WIDTH`; every bottom sheet (`ExerciseDetailSheet`, `WorkoutSheet`, `AddMealSheet`) applies `SHEET_MAX_WIDTH`.
 
 ## Typography
 
